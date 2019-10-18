@@ -1,0 +1,15 @@
+{
+  "author": "reco_luan",
+  "homepage": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "1.2.0",
+    "vuepress-theme-reco": "1.0.9-alpha.15",
+    "@vuepress/plugin-medium-zoom": "1.0.0-alpha.0",
+    "vuepress-plugin-flowchart": "1.4.3"
+  }
+}
