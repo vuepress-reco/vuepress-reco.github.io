@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vuepress": "1.2.0",
-    "vuepress-theme-reco": "1.0.9-alpha.15",
+    "vuepress-theme-reco": "1.0.9-alpha.16",
     "@vuepress/plugin-medium-zoom": "1.0.0-alpha.0",
     "vuepress-plugin-flowchart": "1.4.3"
   }
