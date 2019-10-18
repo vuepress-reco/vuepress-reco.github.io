@@ -140,10 +140,10 @@ module.exports = {
     vssueConfig: {
       title: 'vuepress-theme-reco',
       platform: 'github',
-      owner: 'recoluan',
-      repo: 'AGStore-comments',
-      clientId: '09037a4ffddaeef6652e',
-      clientSecret: 'db1f7582492fb52487b4a935cbddb683272507ef',
+      owner: 'vuepress-reco',
+      repo: 'vuepress-reco.github.io',
+      clientId: '4d81cea3b3d8aac8e88e',
+      clientSecret: 'd23e8556b6d3c85abffbf4b8d853afb2ea08875a',
     },
     GAID: 'UA-149716079-1'
   },
