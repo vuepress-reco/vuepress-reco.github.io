@@ -10,6 +10,8 @@ deploy:
   github-token: $GITHUB_TOKEN # 这里这个变量就是刚才配置 token 时填写的那个变量
   target-branch: master
   keep-history: true
+  on:
+    branch: gh-pages-source
 branches:
   only:
     - gh-pages-source
