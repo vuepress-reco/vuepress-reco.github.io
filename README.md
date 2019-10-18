@@ -1,2 +1,2 @@
 # vuepress-reco.github.io
-Doc of vuepress-reco 
+Doc of vuepress-reco
