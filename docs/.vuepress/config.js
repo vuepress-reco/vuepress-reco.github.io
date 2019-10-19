@@ -138,7 +138,7 @@ module.exports = {
     //   recordIP: true
     // },
     vssueConfig: {
-      title: 'vuepress-theme-reco',
+      admins: ['recoluan'],
       platform: 'github',
       owner: 'vuepress-reco',
       repo: 'vuepress-reco.github.io',
