@@ -58,7 +58,6 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     vssueConfig: {
-      title: 'vuepress-theme-reco',
       platform: 'github',
       owner: 'OWNER_OF_REPO',
       repo: 'NAME_OF_REPO',

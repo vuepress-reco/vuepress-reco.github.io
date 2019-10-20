@@ -18,7 +18,9 @@ module.exports = Object.assign({}, {
         'password',
         'configJs',
         'home',
-        'themePicker'
+        'themePicker',
+        'ga',
+        '404'
       ]
     },
     {

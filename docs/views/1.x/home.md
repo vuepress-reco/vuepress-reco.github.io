@@ -3,21 +3,16 @@ title: 首页配置
 date: 2019-04-09
 ---
 
+## Introduce
+
 :::tip
 主题的主页的默认风格偏文档，并不像一个博客，所以从 `vuepress-theme-reco@1.0.0-alpha.25` 开始，增加博客风格首页布局。
 :::
 
-## 对比
+## Option API
 
 ### Home
 ![home.png](../images/1.png)
-
-### Home-Blog
-![home.png](../images/home-blog.png)
-
-## 默认首页配置
-
-### heroImage
 
 1. 如果您的heroImage具有您的网站标题，则可能需要设置值 `isShowTitleInHome` `false` 以使标题不显示。
 
@@ -49,7 +44,9 @@ heroImageStyle: {
 ---
 ```
 
-## 博客风格首页设置
+### Home-Blog
+![home.png](../images/home-blog.png)
+
 
 1. 指定 `type: 'blog'`
 
@@ -77,4 +74,20 @@ bgImageStyle: {
 }
 faceImage: '/head.png'
 ---
+```
+
+### custome home page <Badge type="tip" text="Beta" />
+
+> 首页会自动添加 `header` 和 `footer`，自定义部分无需考虑添加头部和脚部内容。
+
+将你希望首页样式封装成 `vue` 组件，封装成插件或者 `@vuepress/plugin-register-components` 插件全局注册，然后配置 `type`：
+
+
+```js
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    type: 'your vue component name'
+  }  
+}  
 ```

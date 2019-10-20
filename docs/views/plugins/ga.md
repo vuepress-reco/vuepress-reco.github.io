@@ -14,7 +14,9 @@ Google Analytics plugin for vuepress-theme-reco or other vuepress theme.
 
 ## Option API
 
-### GAID
+> 可以在 `themeConfig` 中配置，也可以在 `plugins` 参数中配置。
+
+### GAID 
 
 - description: Google Analytics 项目生成后生成的 ID 值
 - type: `String`

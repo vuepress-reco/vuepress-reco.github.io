@@ -1,15 +1,20 @@
 module.exports = [
   { text: 'Home', link: '/', icon: 'reco-home'},
-  { text: 'API', 
+  { text: 'Document', 
     icon: 'reco-api',
     items: [
-      { text: '1.x', link: '/views/1.x/' },
-      { text: '0.x', link: '/views/0.x/' }
+      { 
+        text: 'Theme', items: [
+          { text: '1.x', link: '/views/1.x/' },
+          { text: '0.x', link: '/views/0.x/' }
+        ],
+      },
+      {
+        text: 'Plugin', items: [
+          { text: 'plugin', link: '/views/plugins/' }
+        ]
+      }
     ]
-  },
-  { text: 'Plugins', 
-    icon: 'reco-three',
-    link: '/views/plugins/'
   },
   { text: 'Blog', link: '/categories/blog/', icon: 'reco-blog'},
   { text: 'Examples', link: '/views/other/theme-example.html', icon: 'reco-category'},
