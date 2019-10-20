@@ -21,6 +21,7 @@ features:
   details: I hope more fans can get involved and help this theme grow better.
 ---
 
+::: tip
 **[2019-10-20]** 更新 `1.1.0`
 
 1. 【增加】首页右侧信息栏悬浮 [@橘子](https://github.com/smallsunnyfox)
@@ -40,6 +41,7 @@ features:
 15. 【插件】封装加载页插件
 16. 【插件】封装封装全屏功能插件
 17. 【插件】封装看板娘插件 [@橘子](https://github.com/smallsunnyfox)
+:::
 
 ## Quick start
 
