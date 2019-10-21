@@ -6,7 +6,8 @@ module.exports = Object.assign({}, {
       children: [
         '',
         'installUse',
-        'blog'
+        'blog',
+        'frontMatter'
       ]
     },
     {

@@ -29,18 +29,19 @@ features:
 3. 【增加】首页和标签页的标签列表增加全部按钮
 4. 【增加】增加腾讯 404 公益页面 [文档](/views/1.x/404.md)
 5. 【增加】自定义首页 [文档](/views/1.x/home.md#option-api)
-6. 【修复】文章时间可以填写 `时分秒` [@TankRyze](https://github.com/TankRyze)
-7. 【修复】修复回到顶部按钮动画
-8. 【修复】修复博客风格首页的信息栏的宽度问题
-9. 【修复】修复第一次进入某篇加密文章，加密失效的 bug
-10. 【重构】使用最新（重构）的 `@vuepress-reco/plugin-blog` 实现分类和标签
-11. 【重构】重构时间轴，精简用户配置 [文档](/views/1.x/timeline.md)
-12. 【插件】封装评论插件
-13. 【插件】封装 `Google Analytic` 插件
-14. 【插件】封装分页插件
-15. 【插件】封装加载页插件
-16. 【插件】封装封装全屏功能插件
-17. 【插件】封装看板娘插件 [@橘子](https://github.com/smallsunnyfox)
+6. 【增加】文章发布状态 [文档](/views/1.x/frontMatter.md#publish)
+7. 【修复】文章时间可以填写 `时分秒` [@TankRyze](https://github.com/TankRyze)
+8. 【修复】修复回到顶部按钮动画
+9. 【修复】修复博客风格首页的信息栏的宽度问题
+10. 【修复】修复第一次进入某篇加密文章，加密失效的 bug [@TankRyze](https://github.com/TankRyze)
+11. 【重构】使用最新（重构）的 `@vuepress-reco/plugin-blog` 实现分类和标签
+12. 【重构】重构时间轴，精简用户配置 [文档](/views/1.x/timeline.md)
+13. 【插件】封装评论插件
+14. 【插件】封装 `Google Analytic` 插件
+15. 【插件】封装分页插件
+16. 【插件】封装加载页插件
+17. 【插件】封装封装全屏功能插件
+18. 【插件】封装看板娘插件 [@橘子](https://github.com/smallsunnyfox)
 :::
 
 ## Quick start
