@@ -4,7 +4,7 @@ date: 2019-10-17
 author: 橘子
 ---
 
-## Introduce
+## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-kan-ban-niang/"/>
 
 ![demo.png](./images/kanbannaing_1.png)
 

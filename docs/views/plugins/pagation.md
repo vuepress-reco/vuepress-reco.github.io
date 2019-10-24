@@ -3,7 +3,7 @@ title: pagation
 date: 2019-09-30
 ---
 
-## Introduce
+## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-pagation/"/>
 
 ![demo.png](./images/pagation.png)
 

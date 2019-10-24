@@ -3,7 +3,7 @@ title: back-to-top
 date: 2019-09-30
 ---
 
-## Introduce
+## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-back-to-top/"/>
 
 ![demo.png](./images/backToTop.png)
 

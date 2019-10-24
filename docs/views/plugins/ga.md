@@ -3,7 +3,7 @@ title: ga
 date: 2019-09-30
 ---
 
-## Introduce
+## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-ga/"/>
 
 Google Analytics plugin for vuepress-theme-reco or other vuepress theme.
 
