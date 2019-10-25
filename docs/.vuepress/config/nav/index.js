@@ -20,7 +20,7 @@ module.exports = [
   { text: 'Examples', link: '/views/other/theme-example.html', icon: 'reco-category'},
   { text: 'Suggestion', link: '/views/other/question', icon: 'reco-suggestion' },
   { text: 'Notice', link: '/views/other/notice', icon: 'reco-tongzhi' },
-  { text: 'Conntect', 
+  { text: 'Contact', 
     icon: 'reco-message',
     items: [
       { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github' },
