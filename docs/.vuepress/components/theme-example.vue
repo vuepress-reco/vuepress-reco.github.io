@@ -107,6 +107,18 @@ export default {
           desc: '源于生活而高于生活',
           link: 'https://vxhly.gitee.io/blog/', 
           thumbnail: '/blogImages/14.png' 
+        },
+        { 
+          name: '烟雨江畔', 
+          desc: 'I’m ready for any challenge...',
+          link: 'https://www.zengchulin.cn/', 
+          thumbnail: '/blogImages/15.png' 
+        },
+        { 
+          name: 'SigureMo', 
+          desc: '一个小透明的透明世界',
+          link: 'https://www.sigure.xyz/', 
+          thumbnail: '/blogImages/16.png' 
         }
       ]
     }

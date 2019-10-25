@@ -33,7 +33,7 @@ features:
 7. 【修复】文章时间可以填写 `时分秒` [@TankRyze](https://github.com/TankRyze)
 8. 【修复】修复回到顶部按钮动画
 9. 【修复】修复博客风格首页的信息栏的宽度问题
-10. 【修复】修复第一次进入某篇加密文章，加密失效的 bug [@TankRyze](https://github.com/TankRyze)
+10. 【修复】修复第一次进入某篇加密文章，加密失效的 bug [@橘子](https://github.com/smallsunnyfox)
 11. 【重构】使用最新（重构）的 `@vuepress-reco/plugin-blog` 实现分类和标签
 12. 【重构】重构时间轴，精简用户配置 [文档](/views/1.x/timeline.md)
 13. 【插件】封装评论插件
