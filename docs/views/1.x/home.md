@@ -102,3 +102,5 @@ module.exports = {
   }  
 }  
 ```
+
+如果你的首页风格并不希望显示 `navbar`，你可以在首页文件里设置 `front-matter`，`navbar: false`。
