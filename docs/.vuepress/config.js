@@ -2,7 +2,7 @@ const themeConfig = require('./config/theme/')
 
 module.exports = {
   title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme.',
+  description: 'A simple and beautiful vuepress Blog & Doc theme.',
   dest: 'public',
   // base: '/vuepress-theme-reco-doc/',
   head: [
