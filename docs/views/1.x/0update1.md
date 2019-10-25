@@ -22,7 +22,7 @@ isComment: false
 
 ### 通过 `config.js` 来配置分类和标签
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {

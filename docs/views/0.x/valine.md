@@ -5,7 +5,7 @@ date: 2019-04-09
 
 带有内置了valine评论功能，如果要打开此功能，只需配置你的 `config.js`
 
-```javscript
+```javascript
 // 更改 /docs/.vuepress/config.js
 
 module.exports = {

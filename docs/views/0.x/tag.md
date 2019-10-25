@@ -5,7 +5,7 @@ date: 2019-04-09
 
 ## 在顶部导航中添加一个按钮
     
-```javscript
+```javascript
 // change /docs/.vuepress/config.js
 
 module.exports = {

@@ -15,7 +15,7 @@ date: 2019-04-09
 
 ### Valine
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {
@@ -34,7 +34,7 @@ module.exports = {
 
 ### Vssue
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {

@@ -7,7 +7,7 @@ date: 2019-04-09
 
 ## 添加导航按钮
     
-```javscript
+```javascript
 // change /docs/.vuepress/config.js
 
 module.exports = {

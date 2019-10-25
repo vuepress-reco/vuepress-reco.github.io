@@ -8,6 +8,7 @@ date: 2019-04-09
 在移动端，搜索框在获得焦点时会放大，并且在失去焦点后可以左右滚动，这可以通过设置元来优化。
 
 ```javascript
+// .vuepress/config.js
 module.exports = {
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -17,19 +18,20 @@ module.exports = {
 
 ## 图标
 
-您可以在导航菜单中添加图标，如下所示：
+您可以在导航菜单中使用主题的内置图标，如下所示：
 
 ```javascript
 { text: 'Tags', link: '/tags/', icon: 'reco-tag' }
 ```
 
-该项目有内置图标供您选择
+本主题有以下内置图标供您选择
 
 <icon-example></icon-example>
 
 ## 备案信息和项目开始时间
 
 ```javascript
+// .vuepress/config.js
 module.exports = {
   themeConfig: {
     // 备案号
@@ -45,6 +47,7 @@ module.exports = {
 1. 设置全局作者姓名
 
 ```javascript
+// .vuepress/config.js
 module.exports = {
   themeConfig: {
     // author
@@ -69,9 +72,23 @@ author: 渡渡
 首页可以显示 “华为” 文案，需要以下配置。
 
 ```javascript
+// .vuepress/config.js
 module.exports = {
   themeConfig: {
     huawei: true
+  }
+}
+```
+
+## Logo
+
+导航栏左侧可以显示logo, 需要以下配置。
+
+```javascript
+// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    logo: '/head.png'
   }
 }
 ```

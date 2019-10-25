@@ -15,7 +15,7 @@ yarn add vuepress-theme-reco@0.3.11
 
 ## 使用
 
-```javscript
+```javascript
 // 修改 /docs/.vuepress/config.js
 
 module.exports = {

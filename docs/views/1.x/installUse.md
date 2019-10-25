@@ -15,8 +15,8 @@ yarn add vuepress-theme-reco
 
 ## Usage
 
-```javscript
-// 修改 /docs/.vuepress/config.js
+```javascript
+// .vuepress/config.js
 
 module.exports = {
   theme: 'reco'

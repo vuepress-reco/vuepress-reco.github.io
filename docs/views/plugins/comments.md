@@ -22,7 +22,7 @@ Comments plugin for vuepress-theme-reco or other vuepress theme.
 
 ---
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {
@@ -36,7 +36,7 @@ module.exports = {
 
 或者：
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   plugins: [['@vuepress-reco/comments', {
@@ -53,7 +53,7 @@ module.exports = {
 
 ---
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {
@@ -70,7 +70,7 @@ module.exports = {
 
 或者：
 
-```javscript
+```javascript
 module.exports = {
   theme: 'reco',
   plugins: [['@vuepress-reco/comments', {

@@ -5,7 +5,8 @@ date: 2019-08-23
 
 ## 禁用
 
-```javscript
+```javascript
+// .vuepress/config.js
 module.exports = {
   theme: 'reco',
   themeConfig: {
@@ -16,7 +17,8 @@ module.exports = {
 
 ## 自定义颜色
 
-```javscript
+```javascript
+// .vuepress/config.js
 module.exports = {
   theme: 'reco',
   themeConfig: {

@@ -9,8 +9,8 @@ date: 2019-04-09
 
 ## 添加导航按钮
     
-```javscript
-// change /docs/.vuepress/config.js
+```javascript
+// .vuepress/config.js
 
 module.exports = {
   theme: 'reco',
@@ -26,7 +26,7 @@ module.exports = {
 
 **`/docs/timeLine/README.md`**
 
-```
+```yaml
 ---
 isTimeLine: true
 sidebar: false
@@ -42,7 +42,7 @@ isComment: false
 日期是可以填写 `时分秒` 的，格式为 `2019-10-20 00:00:00`。
 :::
    
-```
+```yaml
 ---
 title: 【vue】跨域解决方案之proxyTable  
 date: 2017-12-28
