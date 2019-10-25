@@ -29,7 +29,8 @@ module.exports = {
 
 其他参数参考 [Valine 官网](https://valine.js.org/configuration.html)。
 
-> 如果 valine 的获取评论的接口报 `404` 错误的话，不用担心，这是因为你还没有添加评论，只要存在1条评论，就不会报错了，这是 `leanCloud` 的请求处理操作而已。
+> 1. 如果 valine 的获取评论的接口报 `404` 错误的话，不用担心，这是因为你还没有添加评论，只要存在1条评论，就不会报错了，这是 `leanCloud` 的请求处理操作而已；
+> 2. 如果仅是某篇文章不想设置开启评论功能，可以在 `front-matter` 设置 `isShowComments: false`。
 
 ### Vssue
 
