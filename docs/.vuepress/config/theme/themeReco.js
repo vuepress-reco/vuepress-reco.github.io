@@ -1,5 +1,6 @@
 module.exports = {
-  logo: '/head.png',
+  type: 'HomePageOne',
+  logo: '/icon_vuepress_reco.png',
   // 搜索设置
   search: true,
   searchMaxSuggestions: 10,

@@ -1,3 +1,4 @@
+const path = require('path')
 const themeConfig = require('./config/theme/')
 
 module.exports = {
@@ -31,6 +32,17 @@ module.exports = {
           message: "发现新内容可用",
           buttonText: "刷新"
         }
+      }
+    ],
+    [
+      '@vuepress/plugin-register-components',
+      {
+        components: [
+          {
+            name: 'reco-home-page-one',
+            path: path.resolve(__dirname, './components/HomePageOne.vue')
+          }
+        ]
       }
     ]
   ]
