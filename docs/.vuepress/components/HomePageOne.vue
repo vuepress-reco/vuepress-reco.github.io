@@ -1,8 +1,8 @@
 <template>
   <article class="home-page-one-wrapper">
     <section class="description">
-      <h1>vuePress-theme-reco</h1>
-      <p class="description">A simple and beautiful vuepress Blog & Doc theme.</p>
+      <h1>{{ $frontmatter.heroText || $title }}</h1>
+      <p class="description">{{ $description }}</p>
       <img src="./images/blog.svg" alt="">
     </section>
     <section class="wish yesterday">
@@ -11,16 +11,16 @@
           <img src="./images/yesterday.svg" alt="">
         </div>
         <div class="text-wrapper">
-          <h1>Yesterday</h1>
-          <p class="description">Develop a vuepress blog theme that looks happy and writes smoothly.</p>
+          <h1>{{ features[0].title }}</h1>
+          <p class="description">{{ features[0].details }}</p>
         </div>
       </div>
     </section>
     <section class="wish today">
       <div class="wish-inner">
         <div class="text-wrapper">
-          <h1>Today</h1>
-          <p class="description">Help more people spend more time on content creation than on blogging.</p>
+          <h1>{{ features[1].title }}</h1>
+          <p class="description">{{ features[1].details }}</p>
         </div>
         <div class="img-wrapper">
           <img src="./images/today.svg" alt="">
@@ -33,8 +33,8 @@
           <img src="./images/tomorrow.svg" alt="">
         </div>
         <div class="text-wrapper">
-          <h1>Tomorrow</h1>
-          <p class="description">I hope more fans can get involved and help this theme grow better.</p>
+          <h1>{{ features[2].title }}</h1>
+          <p class="description">{{ features[2].details }}</p>
         </div>
       </div>
       
@@ -44,6 +44,17 @@
     </section>
   </article>
 </template>
+
+<script>
+export default {
+  computed: {
+    features () {
+      return this.$frontmatter.features
+    }
+  }
+}
+</script>
+
 
 <style lang="stylus" scoped>
 .home-page-one-wrapper
