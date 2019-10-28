@@ -21,6 +21,8 @@ features:
   details: I hope more fans can get involved and help this theme grow better.
 ---
 
+## [Update Record](/views/other/notice)
+
 ::: tip
 **[2019-10-20]** 更新 `1.1.0`
 

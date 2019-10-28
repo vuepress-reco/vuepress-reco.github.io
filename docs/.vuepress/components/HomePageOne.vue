@@ -3,6 +3,7 @@
     <section class="description">
       <h1>{{ $frontmatter.heroText || $title }}</h1>
       <p class="description">{{ $description }}</p>
+      <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
       <img src="./images/blog.svg" alt="">
     </section>
     <section class="wish yesterday">
@@ -69,7 +70,14 @@ export default {
       h1
         margin-top 8rem
       p
-        margin-bottom 4rem  
+        margin-bottom 2rem
+      .btn-about
+        margin-bottom 2rem
+        display inline-block
+        padding 1rem 3rem
+        border-radius .25rem
+        background $accentColor
+        color #fff
       img
         display block
         width 100%
