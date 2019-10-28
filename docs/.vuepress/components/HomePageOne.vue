@@ -39,7 +39,7 @@
       </div>
       
     </section>
-    <section>
+    <section class="md-content-wrapper">
       <Content />
     </section>
   </article>
@@ -100,19 +100,26 @@ export default {
   .home-page-one-wrapper
     section
       padding 0 2rem
+      &.md-content-wrapper
+        padding 0
       &.wish
         .wish-inner
           display block
+          padding 2rem 0
           .img-wrapper
-            margin 0 auto
+            margin 0 auto 
 
 @media (max-width: $MQMobileNarrow)
   .home-page-one-wrapper
     section
       padding 0 2rem
+      &.md-content-wrapper
+        padding 0
       &.wish
         .wish-inner
           display block
+          padding 2rem 0
           .img-wrapper
             margin 0 auto
+
 </style>
