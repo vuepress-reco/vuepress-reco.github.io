@@ -62,14 +62,14 @@ export default {
   section
     &.description
       box-sizing border-box
-      margin 20px auto 100px
-      max-width 640px
+      margin 0 auto 6rem
+      max-width 46rem
       width 100%
       text-align center
       h1
-        margin-top 70px
+        margin-top 8rem
       p
-        margin-bottom 60px  
+        margin-bottom 4rem  
       img
         display block
         width 100%
@@ -78,17 +78,17 @@ export default {
         background #f2f2f2
       .wish-inner
         box-sizing border-box
-        margin 20px auto
-        padding 20px
-        max-width 840px
+        margin 4rem auto
+        padding 2rem
+        max-width 56rem
         width 100%
-        min-height 400px
+        min-height 25rem
         display flex
         align-items center
         > div
           flex: auto
           &.img-wrapper
-            max-width 360px
+            max-width 22rem
             img
               display block
               width 100%
@@ -100,6 +100,9 @@ export default {
   .home-page-one-wrapper
     section
       padding 0 2rem
+      &.description
+        h1
+          margin-top 5rem
       &.md-content-wrapper
         padding 0
       &.wish
@@ -107,12 +110,15 @@ export default {
           display block
           padding 2rem 0
           .img-wrapper
-            margin 0 auto 
+            margin 0 auto        
 
 @media (max-width: $MQMobileNarrow)
   .home-page-one-wrapper
     section
       padding 0 2rem
+      &.description
+        h1
+          margin-top 5rem
       &.md-content-wrapper
         padding 0
       &.wish
