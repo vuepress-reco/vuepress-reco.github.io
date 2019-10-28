@@ -39,16 +39,11 @@
       </div>
       
     </section>
+    <section>
+      <Content />
+    </section>
   </article>
 </template>
-
-<script>
-export default {
-  data () {
-    return {}
-  }
-}
-</script>
 
 <style lang="stylus" scoped>
 .home-page-one-wrapper
@@ -56,8 +51,8 @@ export default {
   section
     &.description
       box-sizing border-box
-      margin 20px auto
-      max-width 740px
+      margin 20px auto 100px
+      max-width 640px
       width 100%
       text-align center
       h1
@@ -73,38 +68,40 @@ export default {
       .wish-inner
         box-sizing border-box
         margin 20px auto
-        max-width 740px
-        width 100%
-        display flex
         padding 20px
-        height 300px
-        overflow hidden
+        max-width 840px
+        width 100%
+        min-height 400px
+        display flex
+        align-items center
         > div
           flex: auto
           &.img-wrapper
             max-width 360px
             img
               display block
-              margin-top 50%
-              transform translateY(-50%)
               width 100%
           &.text-wrapper
             box-sizing border-box
             padding 0 2rem
-            h1
-              margin-top 20%
 
 @media (max-width: $MQMobile)
   .home-page-one-wrapper
     section
       padding 0 2rem
+      &.wish
+        .wish-inner
+          display block
+          .img-wrapper
+            margin 0 auto
 
 @media (max-width: $MQMobileNarrow)
   .home-page-one-wrapper
     section
       padding 0 2rem
-
-
-.footer-wrapper footer
-  border-top none!important
+      &.wish
+        .wish-inner
+          display block
+          .img-wrapper
+            margin 0 auto
 </style>
