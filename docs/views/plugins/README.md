@@ -7,15 +7,15 @@ date: 2019-09-30
 主题从 `vuepress-theme-reco@1.1.0` 版本之后，开始进行插件化，将能够独立的功能或组件封装成插件，精简核心代码，方便维护和扩展。
 :::
 
-### 插件是什么
+## 插件是什么
 
-#### 插件分两种：
+### 插件分两种：
 - **`vuepress-theme-reco` 独占**：因为和主题存在某种耦合，仅适合本主题使用；
 - **`vuepress` 主题公用**：可以在所有 `vuepress` 主题使用。
 
-### 插件怎么用
+## 插件怎么用
 
-#### 使用插件
+### 使用插件
 
 在下载插件后，你可以通过在 `.vuepress/config.js` 中做一些配置来使用插件
 ```javascript
@@ -24,9 +24,9 @@ module.exports = {
 }
 ```
 
-#### 配置插件的选项
+### 配置插件的选项
 
-##### Babel式
+#### Babel式
 
 ```javascript
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
 }
 ```
 
-##### 对象式
+#### 对象式
 
 ```javascript
 module.exports = {
@@ -49,9 +49,9 @@ module.exports = {
 }
 ```
 
-#### 禁用插件
+### 禁用插件
 
-##### Babel式
+#### Babel式
 
 ```javascript
 module.exports = {
@@ -61,7 +61,7 @@ module.exports = {
 }
 ```
 
-##### 对象式
+#### 对象式
 
 ```javascript
 module.exports = {
