@@ -22,92 +22,92 @@ export default {
           name: '午后南杂', 
           desc: 'Enjoy when you can, and endure when you must.',
           link: 'https://www.recoluan.com', 
-          thumbnail: '/blogImages/0.png' 
+          thumbnail: '/blogImages/午后南杂.png' 
         },
         { 
           name: '刘晓北', 
           desc: '一个前端狗记录的一点小事情',
           link: 'https://tankryze.github.io/', 
-          thumbnail: '/blogImages/1.png' 
+          thumbnail: '/blogImages/刘晓北.png' 
         },
         { 
           name: 'latte and cat', 
           desc: 'study programs and record life',
           link: 'http://blog.smallsunnyfox.com', 
-          thumbnail: '/blogImages/2.png' 
-        },
-        { 
-          name: '会走路的三百块', 
-          desc: '年轻人的博客',
-          link: 'https://castleeee.github.io/', 
-          thumbnail: '/blogImages/3.png' 
-        },
-        { 
-          name: 'originalxzx', 
-          desc: 'Do your best, listen to your destiny.',
-          link: 'http://www.originalxzx.top/', 
-          thumbnail: '/blogImages/4.png' 
-        },
-        { 
-          name: 'Sumind\'s Blog', 
-          desc: '做一个有灵魂的前端工程师',
-          link: 'https://sumind.cn/', 
-          thumbnail: '/blogImages/5.png' 
-        },
-        { 
-          name: 'Black House', 
-          desc: '代码千万行, 注释第一行, 编码不规范, 同事两行泪.',
-          link: 'https://dong4j.github.io/', 
-          thumbnail: '/blogImages/8.png' 
-        },
-        { 
-          name: 'goozyshi的博客', 
-          desc: 'Easy Come, Easy Go',
-          link: 'https://goozyshi.github.io/', 
-          thumbnail: '/blogImages/9.png' 
-        },
-        { 
-          name: '学海无涯', 
-          desc: '暂无',
-          link: 'https://www.xuminhua.com/', 
-          thumbnail: '/blogImages/11.png' 
-        },
-        { 
-          name: 'znote', 
-          desc: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
-          link: 'https://zpj80231.github.io/znote/', 
-          thumbnail: '/blogImages/12.png' 
-        },
-        { 
-          name: '凯小默的博客', 
-          desc: 'THE PHILOSOPHERS HAVE ONLY INTERPRETED THE WORLD IN VARIOUS WAYS;THE POINT HOWEVER IS TO CHANGE IT.',
-          link: 'https://kaimo313.github.io/kxm_blog/', 
-          thumbnail: '/blogImages/13.png' 
-        },
-        { 
-          name: 'Coding and Fixing', 
-          desc: '源于生活而高于生活',
-          link: 'https://vxhly.gitee.io/blog/', 
-          thumbnail: '/blogImages/14.png' 
-        },
-        { 
-          name: '烟雨江畔', 
-          desc: 'I’m ready for any challenge...',
-          link: 'https://www.zengchulin.cn/', 
-          thumbnail: '/blogImages/15.png' 
+          thumbnail: '/blogImages/latteandcat.png' 
         },
         { 
           name: 'SigureMo', 
           desc: '一个小透明的透明世界',
           link: 'https://www.sigure.xyz/', 
-          thumbnail: '/blogImages/16.png' 
+          thumbnail: '/blogImages/SigureMo.png' 
         },
         { 
           name: '月上秦少', 
           desc: '每一个不曾起舞的日子，都是对生命的辜负！',
-          link: 'https://www.sigure.xyz/', 
-          thumbnail: '/blogImages/17.png' 
-        }
+          link: 'https://docs.zkkysqs.top/', 
+          thumbnail: '/blogImages/月上秦少.png' 
+        },
+        { 
+          name: 'LINUX48', 
+          desc: '🖖快应用UI组件库，简洁，易用，高效',
+          link: 'https://sumind.cn/', 
+          thumbnail: '/blogImages/LINUX48.png' 
+        },
+        { 
+          name: 'originalxzx', 
+          desc: 'Do your best, listen to your destiny.',
+          link: 'http://www.originalxzx.top/', 
+          thumbnail: '/blogImages/originalxzx.png' 
+        },
+        { 
+          name: 'Black House', 
+          desc: '代码千万行, 注释第一行, 编码不规范, 同事两行泪.',
+          link: 'https://dong4j.github.io/', 
+          thumbnail: '/blogImages/BlackHouse.png' 
+        },
+        { 
+          name: 'goozyshi的博客', 
+          desc: 'Easy Come, Easy Go',
+          link: 'https://goozyshi.github.io/', 
+          thumbnail: '/blogImages/goozyshi的博客.png' 
+        },
+        { 
+          name: '学海无涯', 
+          desc: '暂无',
+          link: 'https://www.xuminhua.com/', 
+          thumbnail: '/blogImages/学海无涯.png' 
+        },
+        { 
+          name: 'znote', 
+          desc: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
+          link: 'https://zpj80231.github.io/znote/', 
+          thumbnail: '/blogImages/znote.png' 
+        },
+        { 
+          name: '凯小默的博客', 
+          desc: 'THE PHILOSOPHERS HAVE ONLY INTERPRETED THE WORLD IN VARIOUS WAYS;THE POINT HOWEVER IS TO CHANGE IT.',
+          link: 'https://kaimo313.github.io/kxm_blog/', 
+          thumbnail: '/blogImages/凯小默的博客.png' 
+        },
+        { 
+          name: 'Coding and Fixing', 
+          desc: '源于生活而高于生活',
+          link: 'https://vxhly.gitee.io/blog/', 
+          thumbnail: '/blogImages/CodingandFixing.png' 
+        },
+        { 
+          name: '烟雨江畔', 
+          desc: 'I’m ready for any challenge...',
+          link: 'https://www.zengchulin.cn/', 
+          thumbnail: '/blogImages/烟雨江畔.png' 
+        },
+        { 
+          name: '会走路的三百块', 
+          desc: '年轻人的博客',
+          link: 'https://castleeee.github.io/', 
+          thumbnail: '/blogImages/会走路的三百块.png' 
+        },
       ]
     }
   }
