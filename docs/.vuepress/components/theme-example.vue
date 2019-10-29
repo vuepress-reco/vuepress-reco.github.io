@@ -55,18 +55,6 @@ export default {
           thumbnail: '/blogImages/5.png' 
         },
         { 
-          name: 'ZacToy', 
-          desc: 'Welcome',
-          link: 'https://zactony.github.io', 
-          thumbnail: '/blogImages/6.png' 
-        },
-        { 
-          name: 'Bajins', 
-          desc: '个人笔记',
-          link: 'https://woytu.github.io/', 
-          thumbnail: '/blogImages/7.png' 
-        },
-        { 
           name: 'Black House', 
           desc: '代码千万行, 注释第一行, 编码不规范, 同事两行泪.',
           link: 'https://dong4j.github.io/', 
@@ -77,12 +65,6 @@ export default {
           desc: 'Easy Come, Easy Go',
           link: 'https://goozyshi.github.io/', 
           thumbnail: '/blogImages/9.png' 
-        },
-        { 
-          name: '其乐的博客', 
-          desc: '我的心路历程',
-          link: 'http://theshy98.top/', 
-          thumbnail: '/blogImages/10.png' 
         },
         { 
           name: '学海无涯', 
@@ -119,6 +101,12 @@ export default {
           desc: '一个小透明的透明世界',
           link: 'https://www.sigure.xyz/', 
           thumbnail: '/blogImages/16.png' 
+        },
+        { 
+          name: '月上秦少', 
+          desc: '每一个不曾起舞的日子，都是对生命的辜负！',
+          link: 'https://www.sigure.xyz/', 
+          thumbnail: '/blogImages/17.png' 
         }
       ]
     }
