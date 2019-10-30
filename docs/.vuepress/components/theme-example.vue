@@ -51,7 +51,7 @@ export default {
         { 
           name: 'LINUX48', 
           desc: '🖖快应用UI组件库，简洁，易用，高效',
-          link: 'https://sumind.cn/', 
+          link: 'https://linux48.com/', 
           thumbnail: '/blogImages/LINUX48.png' 
         },
         { 
@@ -65,12 +65,6 @@ export default {
           desc: '代码千万行, 注释第一行, 编码不规范, 同事两行泪.',
           link: 'https://dong4j.github.io/', 
           thumbnail: '/blogImages/BlackHouse.png' 
-        },
-        { 
-          name: 'goozyshi的博客', 
-          desc: 'Easy Come, Easy Go',
-          link: 'https://goozyshi.github.io/', 
-          thumbnail: '/blogImages/goozyshi的博客.png' 
         },
         { 
           name: '学海无涯', 
