@@ -5,7 +5,7 @@ date: 2019-09-30
 
 ## 插件是什么
 
-`VuePress` 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅可以应用一个喜欢的主题，而且可以自己去选择一些插件来丰富你的博客或者文档内容，搭建一个属于你自己的静态网站。
+VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅可以应用一个喜欢的主题，而且可以自己去选择一些插件来丰富你的博客或者文档内容，搭建一个属于你自己的静态网站。
 
 主题也自 `vuepress-theme-reco@1.1.0` 版本开始进行插件化，将能够独立的功能或组件封装成插件，精简核心代码，方便维护和扩展。
 
@@ -49,11 +49,11 @@ date: 2019-09-30
 |                                             [loading-page](./loadingPage.md)                                             |    ✔     |                              作为组件，无需配置                              | ...                              |
 |                                                [pagation](./pagation.md)                                                 |    ✔     |                              作为组件，无需配置                              | ...                              |
 |                                              [screenfull](./screenfull.md)                                               |    ✔     |                              作为组件，无需配置                              | ...                              |
-| [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html) |    ✔     |                                      -                                       | 页面滚动时自动激活侧边栏链接插件 |
+| [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html) |    ✖     |                                      -                                       | 页面滚动时自动激活侧边栏链接插件 |
 |         [@vuepress/plugin-medium-zoom](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html)         |    ✖     |              `{selector: '.theme-reco-content :not(a) > img'}`               | 图片缩放插件                     |
-|           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✔     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
+|           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
 |              [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html)              |    ✔     |                                      -                                       | 基于 Headers 的搜索插件          |
-|                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✔     |                本插件是博客系统的基础，请不要禁用或者覆盖配置                | 博客插件                         |
+|                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✖     |                本插件是博客系统的基础，请不要禁用或者覆盖配置                | 博客插件                         |
 
 ::: tip 什么是必需插件
 
@@ -91,7 +91,7 @@ module.exports = {
 };
 ```
 
-你甚至可以省略掉 `vuepress-plugin-` ，就像这样
+你甚至可以省略掉 `vuepress-plugin-`
 
 ```javascript
 module.exports = {
@@ -102,8 +102,6 @@ module.exports = {
 ### 为插件配置选项
 
 如果你选择的插件支持 Options ，那么你可以通过以下两种方式添加
-
-你可以通过这种方式来对主题内置插件的配置进行覆盖，甚至禁用一个内置插件。
 
 #### Babel 式
 
@@ -157,7 +155,9 @@ module.exports = {
 
 ::: tip
 
-你只需将 Options 设置成 `false` 便可禁用该插件
+你可以通过这种方式来对主题内置插件的配置进行覆盖，甚至禁用一个内置插件
+
+只需将 Options 设置成 `false` 便可禁用该插件
 
 就像这样
 
