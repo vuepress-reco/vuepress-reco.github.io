@@ -76,7 +76,8 @@ module.exports = Object.assign({}, {
         'loadingPage',
         'ga',
         'kanbanniang',
-        'comments'
+        'comments',
+        'extractCode'
       ]
     }
   ]

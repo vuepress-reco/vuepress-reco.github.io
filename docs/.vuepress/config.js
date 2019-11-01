@@ -42,8 +42,10 @@ module.exports = {
             name: 'reco-home-page-one',
             path: path.resolve(__dirname, './components/HomePageOne.vue')
           }
-        ]
+        ],
+        componentsDir: path.resolve(__dirname, './demo')
       }
-    ]
+    ],
+    '@vuepress-reco/extract-code',
   ]
 }  
