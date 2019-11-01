@@ -15,4 +15,4 @@ date: 2019-04-13
 
 现在需要考虑的东西越来越多，伴随着工作也越来越忙，导致有很多想法想去尝试，但是又没有精力去专注。
 
-现在我已经将更新计划简单整理到 `GitHub` 的 [Projects](https://github.com/vuepress-reco/vuepress-theme-reco/projects/1)，还有很多地方需要改善，希望大家能够贡献代码，多体验多提意见。
+现在我已经将更新计划简单整理到 [Trello](https://trello.com/b/LCNUFRsS/vuepress-theme-reco)，还有很多地方需要改善，希望大家能够贡献代码，多体验多提意见。
