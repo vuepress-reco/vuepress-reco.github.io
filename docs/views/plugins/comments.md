@@ -3,8 +3,6 @@ title: comments
 date: 2019-10-17
 ---
 
-# @vuepress-reco/vuepress-plugin-comments
-
 ## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-comments/"/>
 
 Comments plugin for vuepress-theme-reco or other vuepress theme.
