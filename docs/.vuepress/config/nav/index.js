@@ -25,5 +25,6 @@ module.exports = [
       { text: '午后南杂', link: 'https://www.recoluan.com', icon: 'reco-other' },
       { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' }
     ]
-  }
+  },
+  { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'},
 ]

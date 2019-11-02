@@ -3,3 +3,20 @@
 
 .color-picker, .fullscreen-wrapper
   display: none
+
+.nav-links .repo-link
+  display: none!important
+
+#valine
+  position relative
+  margin-top: 90px
+  &::before
+    position: absolute
+    top: -95px
+    left 0
+    display: block
+    content '【注意】评论暂时关闭，请点击右上角 GitHub 按钮提交 issue。'
+    color: #3eaf7c
+    font-size: 20px
+  .vwrap
+    display: none
