@@ -1,18 +1,28 @@
 ---
-title: Your Suggestion
+title: FAQ
 date: 2019-04-13
+sidebar: 'auto'
 ---
 
-:::tip 留下你的 👣👣👣
-1. 如果你有好的意见和建议，请一定给我留言 🎉🎉🎉
-2. 如果你可以贡献代码，那是最好不过的了 🥳🥳🥳
-3. 如果你希望成为开发伙伴，非常欢迎 👻👻👻
+::: tip
+该主题几乎继承 `VuePress` 默认主题的一切功能，所以本文档只负责介绍该主题扩展的功能，如果你发现某些功能本网站没有相关文档，或者想要了解默认主题的一些功能，请移步 [官方文档](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)。
 :::
 
-**2019-09-03**
+## 1. 如何添加 `icon-font` ？
 
-最近因为测试得不规范，导致中间跨过了几个版本。
+1. 将字体文件放在 `public` 文件夹下，然后在 `enhanceApp.js` 中引入字体文件中的css文件既可生效;
+2. 如果你的 `icon` 完整的 `className` 是 `class="iconfont icon-myIcon"`，设置 `icon-font` 时应设置为 `{ text: '首页', link: '/', icon: 'iconfont icon-myIcon' }`。
 
-现在需要考虑的东西越来越多，伴随着工作也越来越忙，导致有很多想法想去尝试，但是又没有精力去专注。
+## 2. 如何显示摘要？
 
-现在我已经将更新计划简单整理到 [Trello](https://trello.com/b/LCNUFRsS/vuepress-theme-reco)，还有很多地方需要改善，希望大家能够贡献代码，多体验多提意见。
+文档中 `<!-- more -->` 以上部分会被当作摘要。
+
+<RecoDemo :collapse="true">
+<template slot="code-markdown">
+  <<< @/docs/.vuepress/demo/abstract.md
+</template>
+</RecoDemo>
+
+## 3. 首页页脚是否可以自定义？
+
+不可以。

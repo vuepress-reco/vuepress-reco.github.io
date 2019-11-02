@@ -1,6 +1,5 @@
 module.exports = [
-  { text: 'Home', link: '/', icon: 'reco-home'},
-  { text: 'Document', 
+  { text: 'Documents', 
     icon: 'reco-api',
     items: [
       { 
@@ -16,15 +15,9 @@ module.exports = [
       }
     ]
   },
+  { text: 'FAQ', link: '/views/other/question', icon: 'reco-suggestion' },
   { text: 'Blog', link: '/categories/blog/', icon: 'reco-blog'},
   { text: 'Examples', link: '/views/other/theme-example.html', icon: 'reco-category'},
-  { text: 'Question', link: '/views/other/question', icon: 'reco-suggestion' },
-  { text: 'Contact', 
-    icon: 'reco-message',
-    items: [
-      { text: '午后南杂', link: 'https://www.recoluan.com', icon: 'reco-other' },
-      { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' }
-    ]
-  },
+  { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' },
   { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'},
 ]
