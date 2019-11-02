@@ -3,6 +3,12 @@
     <section class="description">
       <h1>{{ $frontmatter.heroText || $title }}</h1>
       <p class="description">{{ $description }}</p>
+      <div>
+        <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        <!-- <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="20px"></iframe> -->
+      </div>
+      
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
       <img src="./images/blog.svg" alt="">
     </section>
@@ -72,7 +78,7 @@ export default {
       p
         margin-bottom 2rem
       .btn-about
-        margin-bottom 2rem
+        margin 2rem 0
         display inline-block
         padding 1rem 3rem
         border-radius .25rem
@@ -82,11 +88,12 @@ export default {
         display block
         width 100%
     &.wish
+      overflow hidden
       &.yesterday, &.tomorrow
         background #f2f2f2
       .wish-inner
         box-sizing border-box
-        margin 4rem auto
+        margin 0 auto
         padding 2rem
         max-width 56rem
         width 100%

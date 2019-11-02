@@ -82,4 +82,8 @@ theme-cli init my-blog
 # install
 cd my-blog
 yarn install
+```
 
+## Contributors
+
+<Contributors></Contributors>
