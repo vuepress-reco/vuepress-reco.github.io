@@ -77,4 +77,4 @@ sidebarDepth: 2
 ---
 ```
 
-### [更多侧边栏配置]('https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F')
+### [更多侧边栏配置](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F)

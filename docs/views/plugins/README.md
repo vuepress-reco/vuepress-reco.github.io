@@ -21,15 +21,94 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 
 :::
 
-|               名称                |                             版本                              | 是否内置 | 描述                                          |
-| :-------------------------------: | :-----------------------------------------------------------: | :------: | :-------------------------------------------- |
-|   [back-to-top](./backToTop.md)   |  <NpmLink pkg="@vuepress-reco/vuepress-plugin-back-to-top"/>  |    ✔     | 返回顶部插件                                  |
-|     [pagation](./pagation.md)     |   <NpmLink pkg="@vuepress-reco/vuepress-plugin-pagation"/>    |    ✔     | 分页插件，帮助你快速跳转到任意页面            |
-|   [screenfull](./screenfull.md)   |  <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>   |    ✔     | 全屏按钮插件                                  |
-| [loading-page](./loadingPage.md)  | <NpmLink pkg="@vuepress-reco/vuepress-plugin-loading-page"/>  |    ✔     | 页面加载时过渡动画插件                        |
-|           [ga](./ga.md)           |      <NpmLink pkg="@vuepress-reco/vuepress-plugin-ga"/>       |    ✔     | 谷歌分析（Google Analytics）插件              |
-| [kan-ban-niang](./kanbannaing.md) | <NpmLink pkg="@vuepress-reco/vuepress-plugin-kan-ban-niang"/> |    ✖     | 看板娘插件，为你的网站添加一个萌萌哒看板娘~   |
-|     [comments](./comments.md)     |   <NpmLink pkg="@vuepress-reco/vuepress-plugin-comments"/>    |    ✔     | 评论插件，集成了 Valine 与 Vssue 两种评论系统 |
+<table>
+  <tr>
+    <th style="width:100px">名称</th>
+    <th style="width:60px">版本</th>
+    <th style="width:20px">是否内置</th>
+    <th style="width:100px">描述</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="backToTop.html">back-to-top</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-back-to-top"/>
+    </td>
+    <td>✔</td>
+    <td>返回顶部插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="pagation.html">pagation</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-pagation"/>
+    </td>
+    <td>✔</td>
+    <td>分页插件，帮助你快速跳转到任意页面</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="screenfull.html">screenfull</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>
+    </td>
+    <td>✔</td>
+    <td>全屏按钮插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="loadingPage.html">loading-page</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-loading-page"/>
+    </td>
+    <td>✔</td>
+    <td>页面加载时过渡动画插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="ga.html">ga</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-ga"/>
+    </td>
+    <td>✔</td>
+    <td>谷歌分析（Google Analytics）插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="kanbanniang.html">kan-ban-niang</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-kan-ban-niang"/>
+    </td>
+    <td>✖</td>
+    <td>看板娘插件，为你的网站添加一个萌萌哒看板娘~</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="comments.html">comments</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-comments"/>
+    </td>
+    <td>✔</td>
+    <td>评论插件，集成了 Valine 与 Vssue 两种评论系统</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="extractCode.html">extract-code</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-extract-code"/>
+    </td>
+    <td>✖</td>
+    <td>代码展示插件，可以方便地帮你展示多种代码组合</td>
+  </tr>
+</table>
 
 ### npm 中的 VuePress 插件生态
 
