@@ -3,9 +3,24 @@ title: Notice
 date: 2019-04-21
 ---
 
+**[2019-11-03]** 更新 `1.1.1`
+
+1. 【增加】首页右侧信息栏悬浮 [文档](/views/1.x/frontMatter.html#publish)
+2. 【修复】首页出现评论框
+3. 【修复】文章列表出现无用数据
+4. 【修复】修复文章加密页小 bug
+5. 【修复】修复 IOS 时间显示不正确的 bug
+6. 【修复】修复 `publish: false` 的文章在标签页显示的 bug [@SigureMo](https://github.com/SigureMo)
+7. 【修复】修复 `@vuepress/plugin-medium-zoom` 无效的 bug [@SigureMo](https://github.com/SigureMo)
+8. 【修复】修复 `vssue` 在切换页面时不刷新的 bug [@SigureMo](https://github.com/SigureMo)
+9.  【插件】板娘插件优化 [@橘子](https://github.com/smallsunnyfox)
+10. 【插件】增加代码分栏插件 [文档](/views/plugins/extractCode.md)
+
+---
+
 **[2019-10-20]** 更新 `1.1.0`
 
-1. 【增加】首页右侧信息栏悬浮 [@橘子](https://github.com/smallsunnyfox)
+1. 【增加】增加发布状态 [@橘子](https://github.com/smallsunnyfox)
 2. 【增加】首页增加分页
 3. 【增加】首页和标签页的标签列表增加全部按钮
 4. 【增加】增加腾讯 404 公益页面 [文档](/views/1.x/404.md)

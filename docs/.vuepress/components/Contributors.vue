@@ -8,7 +8,7 @@
     <ul class="contributors-list">
       <li class="contributors-item" v-for="(contributor, subIndex) in item.list" :key="subIndex">
         <a :href="contributor.html_url">
-          <img class="avatar" :src="contributor.avatar_url" :alt="contributor.login"><br/>
+          <img class="avatar" :src="contributor.avatar_url" :alt="contributor.login">
           <a class="name">{{ contributor.login }}</a>
         </a>
       </li>
@@ -67,19 +67,27 @@ export default {
     width 100%
     margin 30px 0 60px
     .contributors-item
-      flex 0 0 20%
+      flex 0 0 80px
       margin-bottom 10px
       text-align center
-      .avatar
+      > a
         display inline-block
-        width 60px
-        height 60px
-        border-radius 50%
-      .name
-        margin 0 auto
-        width 90%
-        display block
-        overflow: hidden;
-        text-overflow:ellipsis;
-        white-space: nowrap;  
+        width 100%
+        .avatar
+          display inline-block
+          width 36px
+          height 36px
+          border-radius 6px
+          border 2px solid rgba(62, 175, 124, .3)
+          img 
+            width 100%
+            height 100%
+        .name
+          margin 0 auto
+          width 90%
+          display block
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          font-size 12px
 </style>
