@@ -21,15 +21,94 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 
 :::
 
-|               名称                |                             版本                              | 是否内置 | 描述                                          |
-| :-------------------------------: | :-----------------------------------------------------------: | :------: | :-------------------------------------------- |
-|   [back-to-top](./backToTop.md)   |  <NpmLink pkg="@vuepress-reco/vuepress-plugin-back-to-top"/>  |    ✔     | 返回顶部插件                                  |
-|     [pagation](./pagation.md)     |   <NpmLink pkg="@vuepress-reco/vuepress-plugin-pagation"/>    |    ✔     | 分页插件，帮助你快速跳转到任意页面            |
-|   [screenfull](./screenfull.md)   |  <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>   |    ✔     | 全屏按钮插件                                  |
-| [loading-page](./loadingPage.md)  | <NpmLink pkg="@vuepress-reco/vuepress-plugin-loading-page"/>  |    ✔     | 页面加载时过渡动画插件                        |
-|           [ga](./ga.md)           |      <NpmLink pkg="@vuepress-reco/vuepress-plugin-ga"/>       |    ✔     | 谷歌分析（Google Analytics）插件              |
-| [kan-ban-niang](./kanbannaing.md) | <NpmLink pkg="@vuepress-reco/vuepress-plugin-kan-ban-niang"/> |    ✖     | 看板娘插件，为你的网站添加一个萌萌哒看板娘~   |
-|     [comments](./comments.md)     |   <NpmLink pkg="@vuepress-reco/vuepress-plugin-comments"/>    |    ✔     | 评论插件，集成了 Valine 与 Vssue 两种评论系统 |
+<table>
+  <tr>
+    <th style="width:100px">名称</th>
+    <th style="width:60px">版本</th>
+    <th style="width:20px">是否内置</th>
+    <th style="width:100px">描述</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="backToTop.html">back-to-top</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-back-to-top"/>
+    </td>
+    <td>✔</td>
+    <td>返回顶部插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="pagation.html">pagation</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-pagation"/>
+    </td>
+    <td>✔</td>
+    <td>分页插件，帮助你快速跳转到任意页面</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="screenfull.html">screenfull</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>
+    </td>
+    <td>✔</td>
+    <td>全屏按钮插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="loadingPage.html">loading-page</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-loading-page"/>
+    </td>
+    <td>✔</td>
+    <td>页面加载时过渡动画插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="ga.html">ga</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-ga"/>
+    </td>
+    <td>✔</td>
+    <td>谷歌分析（Google Analytics）插件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="kanbanniang.html">kan-ban-niang</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-kan-ban-niang"/>
+    </td>
+    <td>✖</td>
+    <td>看板娘插件，为你的网站添加一个萌萌哒看板娘~</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="comments.html">comments</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-comments"/>
+    </td>
+    <td>✔</td>
+    <td>评论插件，集成了 Valine 与 Vssue 两种评论系统</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="extractCode.html">extract-code</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-extract-code"/>
+    </td>
+    <td>✖</td>
+    <td>代码展示插件，可以方便地帮你展示多种代码组合</td>
+  </tr>
+</table>
 
 ### npm 中的 VuePress 插件生态
 
@@ -54,6 +133,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 |           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
 |              [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html)              |    ✔     |                                      -                                       | 基于 Headers 的搜索插件          |
 |                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✖     |                本插件是博客系统的基础，请不要禁用或者覆盖配置                | 博客插件                         |
+|[vuepress-plugin-container](https://vuepress.github.io/zh/plugins/container/)|✖| 使用默认主题的配置，效果见[在 Markdown 中使用容器](../1.x/syntax.md#container)|在你的文档中注册新的 Markdown 容器，可同时注册多个容器|
 
 ::: tip 什么是必需插件
 
