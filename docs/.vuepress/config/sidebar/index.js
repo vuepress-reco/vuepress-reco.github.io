@@ -25,10 +25,18 @@ module.exports = Object.assign({}, {
       ]
     },
     {
-      title: '其他',
+      title: '默认主题',
       collapsable: false,
       children: [
         'abstract',
+        'syntax',
+        'sidebar'
+      ]
+    },
+    {
+      title: '其他',
+      collapsable: false,
+      children: [
         '0update1',
         'recommend'
       ]
