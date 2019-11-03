@@ -133,6 +133,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 |           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
 |              [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html)              |    ✔     |                                      -                                       | 基于 Headers 的搜索插件          |
 |                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✖     |                本插件是博客系统的基础，请不要禁用或者覆盖配置                | 博客插件                         |
+|[vuepress-plugin-container](https://vuepress.github.io/zh/plugins/container/)|✖| 使用默认主题的配置，效果见[在 Markdown 中使用容器](../1.x/syntax.md#container)|在你的文档中注册新的 Markdown 容器，可同时注册多个容器|
 
 ::: tip 什么是必需插件
 
