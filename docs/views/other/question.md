@@ -52,13 +52,11 @@ module.exports = {
 
 ## 5. 文章的存放位置有规定吗？
 
-你可以将你的文章存放在任意位置，但是你需要保证它是 VuePress 可以解析的位置，比如你使用的命令是 `vuepress dev docs` ，那么请将所有文章存放在 `docs/` 中，但是主题并不会强制你放在哪个子目录，这个按照你的喜好来即可
-
-> [详细的 VuePress 目录结构配置](https://vuepress.vuejs.org/zh/guide/directory-structure.html)
+你可以将你的文章存放在任意位置，但是你需要保证它是 VuePress 可以解析的位置，比如你使用的命令是 `vuepress dev docs` ，那么请将所有文章存放在 `docs/` 中，但是主题并不会强制你放在哪个子目录，这个按照你的喜好来即可，详情见 [详细的 VuePress 目录结构配置](https://vuepress.vuejs.org/zh/guide/directory-structure.html)。
 
 ## 6. 侧边栏为什么不显示一级标题？
 
-因为一级标题按照语义化就是文章的题目，按理说一篇文章只能存在一个题目，所以不会显示在侧边栏里，如果是写文章，请从二级标题开始
+在 `vuepress-theme-reco` 中，请摒弃一级标题，使用 `front-matter` 生成标题以及其他文章信息，正文从二级标题开始。
 
 ## 7. `1.1.0` 版本会在首页出现评论怎么解决？
 
@@ -66,12 +64,8 @@ module.exports = {
 
 ## 8. 如何自定义评论区样式？
 
-你可以通过样式覆盖来对评论区样式进行修改
-
-不仅如此，VuePress 允许你在 `.vuepress/styles/index.styl` 为你的网站添加样式，你可以通过这个方式来修改主题内基本所有样式
-
-> [VuePress 添加样式](https://vuepress.vuejs.org/zh/config/#index-styl)
+`VuePress` 允许你在 `.vuepress/styles/index.styl` 为你的网站添加样式，你可以通过这个方式来修改主题（包括评论区）内的基本所有样式，详情请见 [VuePress 添加样式](https://vuepress.vuejs.org/zh/config/#index-styl)。
 
 ## 9. 是否支持图片点击放大功能？
 
-主题在 `1.1.1-alpha.2` 中已经将 `@vuepress/medium-zoom` 作为内置插件，支持文章内容中的图片点击放大功能，详情见[主题内置插件](../plugins/README.md#主题内置插件)
+主题在 `1.1.1` 中已经将 `@vuepress/medium-zoom` 作为内置插件，支持文章内容中的图片点击放大功能，详情见 [主题内置插件](../plugins/README.md#主题内置插件)。
