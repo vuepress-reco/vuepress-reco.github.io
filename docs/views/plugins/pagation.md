@@ -39,3 +39,6 @@ Pagation plugin for vuepress-theme-reco or other vuepress theme.
 - description: 当前是第几页
 - type: `Function`
 
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-pagation"></Contributors>

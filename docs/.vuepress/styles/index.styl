@@ -1,22 +1,20 @@
-// .footer-wrapper
-//   border-top none!important
-
 .color-picker, .fullscreen-wrapper
   display: none
 
 .nav-links .repo-link
   display: none!important
 
-#valine
+#valine:last-child
   position relative
   margin-top: 90px
-  &::before
+  &:last-child::before
     position: absolute
     top: -95px
     left 0
     display: block
-    content '【注意】评论暂时关闭，请点击右上角 GitHub 按钮提交 issue。'
+    content 'NOTE: 评论暂时关闭，如有疑问或 bug，请点击右上角 GitHub 按钮提交 issue。'
     color: #3eaf7c
-    font-size: 20px
+    font-size: 18px
+    line-height: 30px
   .vwrap
     display: none

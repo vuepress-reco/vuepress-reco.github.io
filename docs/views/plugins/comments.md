@@ -120,3 +120,7 @@ module.exports = {
 
 - description: 文章标题
 - type: `String`
+
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-comments"></Contributors>

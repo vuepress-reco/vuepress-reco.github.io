@@ -45,3 +45,6 @@ Back-to-top plugin for vuepress-theme-reco or other vuepress theme.
     backgroundColor: 'rgba(231, 234, 241,.5)'
   }
   ```
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-back-to-top"></Contributors>

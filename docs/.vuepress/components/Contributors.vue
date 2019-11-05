@@ -1,25 +1,37 @@
 <template>
 <div class="contributors-wrapper">
-  <div v-for="(item, index) in contributors" :key="index">
-    <h3 class="contributors-title">
-      {{ item.title }}
-      <GitHubLink :repo="`vuepress-reco/${item.title}`"/>
-    </h3>
-    <ul class="contributors-list">
-      <li class="contributors-item" v-for="(contributor, subIndex) in item.list" :key="subIndex">
-        <a :href="contributor.html_url">
-          <img class="avatar" :src="contributor.avatar_url" :alt="contributor.login">
-          <a class="name">{{ contributor.login }}</a>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <h3 class="contributors-title" v-if="showTitle">
+    {{ repo }}
+    <GitHubLink :repo="`${user}/${repo}`"/>
+  </h3>
+  <ul class="contributors-list">
+    <li class="contributors-item" v-for="(contributor, index) in contributors" :key="index">
+      <a :href="contributor.html_url">
+        <img class="avatar" :src="contributor.avatar_url" :alt="contributor.login">
+        <a class="name">{{ contributor.login }}</a>
+      </a>
+    </li>
+  </ul>
 </div>
 </template>
 
 <script>
 import recoFetch from 'reco-fetch'
 export default {
+  props: {
+    showTitle: {
+      type: Boolean,
+      default: false
+    },
+    user: {
+      type: String,
+      require: true
+    },
+    repo: {
+      type: String,
+      require: true
+    }
+  },
   data () {
     return {
       contributors: []
@@ -30,17 +42,11 @@ export default {
   },
   methods: {
     getContributors () {
-      const titleArr = ['vuepress-theme-reco', 'vuepress-reco.github.io']
-      const p1 = recoFetch('https://api.github.com/repos/vuepress-reco/vuepress-theme-reco/contributors')
-      const p2 = recoFetch('https://api.github.com/repos/vuepress-reco/vuepress-reco.github.io/contributors')
+      const { user, repo } = this
+      const uri = `https://api.github.com/repos/${user}/${repo}/contributors`
 
-      Promise.all([p1, p2]).then(values => { 
-        const newValues = values.map((item, index) => ({
-          title: titleArr[index],
-          list: item
-        }))
-
-        this.contributors = newValues
+      recoFetch(uri).then(res => { 
+        this.contributors = res
       })
     }
   }
@@ -54,9 +60,6 @@ export default {
   max-width 46rem
   width 100%
   text-align cent
-  > div:last-child
-    .contributors-list
-      margin 30px 0 0
   .contributors-title
     margin-top 20px
   .contributors-list
@@ -65,7 +68,7 @@ export default {
     flex-wrap wrap
     padding-left 0
     width 100%
-    margin 30px 0 60px
+    margin 30px 0
     .contributors-item
       flex 0 0 80px
       margin-bottom 10px

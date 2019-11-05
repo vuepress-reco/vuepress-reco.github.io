@@ -11,3 +11,7 @@ Loading page plugin for vuepress-theme-reco or other vuepress theme.
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-loading-page`
 - **As component**: `LoadingPage（主题开发时使用）`
+
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-loading-page"></Contributors>

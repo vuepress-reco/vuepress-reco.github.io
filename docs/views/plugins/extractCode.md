@@ -178,3 +178,7 @@ a.b = 1
   <some-demo slot="demo"></some-demo>
 </RecoDemo>
 ```
+
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-extract-code"></Contributors>

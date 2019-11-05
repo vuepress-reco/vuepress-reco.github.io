@@ -62,20 +62,7 @@ module.exports = {
 
 ## 7. `1.1.0` 版本会在首页出现评论怎么解决？
 
-该问题可以通过显式固定评论插件版本为 `1.0.4` 以解决
-
-``` json
-// packages.json
-{
-  "dependencies": {
-    "@vuepress-reco/vuepress-plugin-comments": "1.0.4",
-    "vuepress-theme-reco": "1.1.0"
-  }
-}
-
-```
-
-之后更新依赖即可
+该问题已经在 `1.1.1` 版本中得到解决。
 
 ## 8. 如何自定义评论区样式？
 

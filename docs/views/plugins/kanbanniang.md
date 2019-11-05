@@ -114,3 +114,7 @@ kan-ban-niang plugin for vuepress-theme-reco or other vuepress theme.
 - 模型加载失败时会自动隐藏
 - 加载静态资源速度不稳定
 - 想使用本插件之外的其他模型可以将插件下载到本地引入更换模型url
+
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-kan-ban-niang"></Contributors>

@@ -21,3 +21,7 @@ Google Analytics plugin for vuepress-theme-reco or other vuepress theme.
 - description: Google Analytics 项目生成后生成的 ID 值
 - type: `String`
 - default: `undefined`
+
+## Contributors
+
+<Contributors user="vuepress-reco" repo="vuepress-plugin-ga"></Contributors>

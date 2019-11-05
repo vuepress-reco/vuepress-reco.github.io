@@ -77,4 +77,5 @@ yarn install
 
 ## Contributors
 
-<Contributors></Contributors>
+<Contributors user="vuepress-reco" repo="vuepress-theme-reco" :show-title="true"></Contributors>
+<Contributors user="vuepress-reco" repo="vuepress-reco.github.io" :show-title="true"></Contributors>
