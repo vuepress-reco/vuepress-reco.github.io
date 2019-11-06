@@ -19,5 +19,6 @@ module.exports = [
   { text: 'Blog', link: '/categories/blog/', icon: 'reco-blog'},
   { text: 'Examples', link: '/views/other/theme-example.html', icon: 'reco-category'},
   { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' },
+  { text: 'RSS', link: 'https://vuepress-theme-reco.recoluan.com/rss.xml'},
   { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'},
 ]

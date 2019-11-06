@@ -85,7 +85,8 @@ module.exports = Object.assign({}, {
         'ga',
         'kanbanniang',
         'comments',
-        'extractCode'
+        'extractCode',
+        'rss'
       ]
     }
   ]
