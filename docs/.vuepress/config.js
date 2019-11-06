@@ -48,5 +48,8 @@ module.exports = {
     ],
     '@vuepress-reco/extract-code',
     'flowchart',
+    ['sitemap', {
+      hostname: 'https://vuepress-theme-reco.recoluan.com'
+    }]
   ]
 }  

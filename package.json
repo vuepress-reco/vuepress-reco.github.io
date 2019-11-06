@@ -12,6 +12,7 @@
     "reco-fetch": "1.0.9",
     "@vuepress/plugin-pwa": "1.2.0",
     "@vuepress/plugin-register-components": "1.2.0",
-    "vuepress-plugin-flowchart": "1.4.3"
+    "vuepress-plugin-flowchart": "1.4.3",
+    "vuepress-plugin-sitemap": "2.3.0"
   }
 }
