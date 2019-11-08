@@ -1,2 +1,4 @@
 node_modules/
 yarn-error.log
+docs/.vuepress/plugins
+docs/.vuepress/theme
