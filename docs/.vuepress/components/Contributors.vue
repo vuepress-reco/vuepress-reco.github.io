@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import recoFetch from 'reco-fetch'
 export default {
   props: {
     showTitle: {
@@ -37,15 +36,20 @@ export default {
       contributors: []
     }
   },
-  created () {
+  mounted () {
     this.getContributors()
   },
   methods: {
     getContributors () {
+      require('whatwg-fetch')
       const { user, repo } = this
       const uri = `https://api.github.com/repos/${user}/${repo}/contributors`
 
-      recoFetch(uri).then(res => { 
+      fetch(uri)
+      .then(function(response) {
+        return response.json()
+      })
+      .then(res => {
         this.contributors = res
       })
     }
