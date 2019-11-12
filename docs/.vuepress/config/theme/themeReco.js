@@ -14,6 +14,13 @@ module.exports = {
   record: '京ICP备17067634号-1',
   // 项目开始时间
   startYear: '2017',
+  algolia: {
+    apiKey: '97357e58cac743c6de62036cb152f18b',
+    indexName: 'vuepress-theme-reco'
+    // inputSelector: '### REPLACE ME ####',
+    // algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
+    // debug: false // Set debug to true if you want to inspect the dropdown
+  },
   // valine 设置
   valineConfig: {
     appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
