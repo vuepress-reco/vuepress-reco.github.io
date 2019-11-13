@@ -35,6 +35,12 @@ module.exports = {
       }
     ],
     [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-149716079-1'
+      }
+    ],
+    [
       '@vuepress/plugin-register-components',
       {
         components: [
