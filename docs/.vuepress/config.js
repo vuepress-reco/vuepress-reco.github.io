@@ -60,6 +60,7 @@ module.exports = {
     ['@vuepress-reco/rss', {
       site_url: 'https://vuepress-theme-reco.recoluan.com',
       copyright: ''
-    }]
+    }],
+    require('./plugins/notification/index')
   ]
 }  

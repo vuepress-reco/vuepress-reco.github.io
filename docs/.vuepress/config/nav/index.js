@@ -18,7 +18,6 @@ module.exports = [
   { text: 'FAQ', link: '/views/other/question', icon: 'reco-suggestion' },
   { text: 'Blog', link: '/categories/blog/', icon: 'reco-blog'},
   { text: 'Examples', link: '/views/other/theme-example.html', icon: 'reco-category'},
-  { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' },
   { text: 'RSS', link: 'https://vuepress-theme-reco.recoluan.com/rss.xml', icon: 'reco-rss'},
   { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'},
 ]
