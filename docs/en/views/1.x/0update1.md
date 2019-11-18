@@ -1,11 +1,11 @@
 ---
-title: 0.x 迁移 1.x
+title: update 1.x from 0.x
 date: 2019-04-09
 ---
 
-## 分类和标签
+## Category And Tag
 
-### 删除分类和标签所需的文件
+### Delete files needed for category and tag
 
 ```
 --- 
@@ -18,30 +18,30 @@ isComment: false
 ## FrontEnd
 ```
 
-`1.x` 的分类和标签 是基于 `@vuepress/plugin-blog` 来做的，所以不再需要借助这些文件了。
+The category and tag routes and tagging of '1. X' is based on '@vuepress/plugin-blog', so these files are no longer needed.
 
-### 通过 `config.js` 来配置分类和标签
+### Configure category and tag through `config.js`
 
 ```javascript
 module.exports = {
   theme: 'reco',
   themeConfig: {
-     // 博客设置
+     // blog config
     blogConfig: {
       category: {
-        location: 2,     // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认文案 “分类”
+        location: 2,     // Position in the navigation bar menu, default 2
+        text: 'Category' // Default "Category"
       },
       tag: {
-        location: 3,     // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag'      // 默认文案 “标签”
+        location: 3,     // Position in the navigation bar menu, default 2
+        text: 'Tag'      // Default "Tag"
       }
     }
   }  
 }  
 ```
 
-### 修改 YAML front matter 
+### Edit YAML front matter 
 
 **0.x**
 
@@ -70,4 +70,4 @@ tags:
 ---
 ```
 
-差别只是分类改用数组的方式。
+The difference is simply that the categories is changed to an array.

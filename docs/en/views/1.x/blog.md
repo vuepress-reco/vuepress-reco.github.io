@@ -1,9 +1,9 @@
 ---
-title: 分类和标签
+title: Category and tag
 date: 2019-04-09
 ---
 
-## 添加博客配置
+## Addblog configuration
     
 ```javascript
 // .vuepress/config.js
@@ -11,22 +11,22 @@ date: 2019-04-09
 module.exports = {
   theme: 'reco',
   themeConfig: {
-     // 博客配置
+     // Blog configuration
     blogConfig: {
       category: {
-        location: 2,     // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认文案 “分类”
+        location: 2,     // The position occupied in the navigation bar menu, default 2
+        text: 'Category' // Default copy "Category"
       },
       tag: {
-        location: 3,     // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag'      // 默认文案 “标签”
+        location: 3,     // The position occupied in the navigation bar menu, default 3
+        text: 'Tag'      // Default copy "Tag"
       }
     }
   }  
 }  
 ```
 
-## 写文章时添加分类和标签
+## Add categories and tags when writing articles
 
 ```yaml
 --- 
@@ -39,4 +39,4 @@ tags:
 ---
 ```
 
-> 请注意， `categories` 和 `tags` 要以数组的方式填写。
+> Note: `categories` and `tags` are to be filled in as an array.

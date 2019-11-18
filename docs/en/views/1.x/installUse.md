@@ -1,5 +1,5 @@
 ---
-title: 安装和引用
+title: Installation and reference
 date: 2019-04-09
 ---
 

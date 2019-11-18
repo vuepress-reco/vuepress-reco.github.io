@@ -1,6 +1,7 @@
 ---
 title: Pages 部署
 date: 2019-05-14
+lang: 'zh-CN'
 sidebar: 'auto'
 categories:
  - blog

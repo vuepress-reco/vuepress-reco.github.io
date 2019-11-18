@@ -1,4 +1,5 @@
 const nav = require('../nav/')
+const sidebar = require('../sidebar/')
 module.exports = {
   // 键名是该语言所属的子路径
   // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -17,22 +18,15 @@ module.exports = {
       }
     },
     // 当前 locale 的 algolia docsearch 选项
-    // algolia: {
-    //   start_urls: [
-    //     {
-    //       "url": "http://www.example.com/docs/(?P<lang>.*?)/(?P<version>.*?)/",
-    //       "variables": {
-    //         "lang": ["en", "fr"],
-    //         "version": ["latest", "3.3", "3.2"]
-    //       }
-    //     }
-    //   ]
-    // },
+    algolia: {
+      start_urls: [
+        {
+          "url": "https://vuepress-theme-reco.recoluan.com/"
+        }
+      ]
+    },
     nav: nav.zh,
-    // sidebar: {
-    //   '/zh/': [/* ... */],
-    //   '/zh/nested/': [/* ... */]
-    // }
+    sidebar: sidebar.zh
   },
   '/en/': {
     selectText: 'Languages',
@@ -44,13 +38,14 @@ module.exports = {
         buttonText: "Refresh"
       }
     },
-    // algolia: {
-    //   lang: "en"
-    // },
+    algolia: {
+      start_urls: [
+        {
+          "url": "https://vuepress-theme-reco.recoluan.com/en/"
+        }
+      ]
+    },
     nav: nav.en,
-    // sidebar: {
-    //   '/': [/* ... */],
-    //   '/nested/': [/* ... */]
-    // }
+    sidebar: sidebar.en
   }
 }

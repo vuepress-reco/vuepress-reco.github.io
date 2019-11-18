@@ -3,18 +3,19 @@ title: Front Matter
 date: 2019-10-21
 ---
 
-一个完整的 `Front Matter` 案例：
+A complete `Front Matter` case:
+
 ```yaml
 ---
-title: 烤鸭的做法
+title: The practice of roast duck
 date: 2019-08-08
 sidebar: 'auto'
 categories:
- - 烹饪
- - 爱好
+ - cooking
+ - hobbies
 tags:
- - 烤
- - 鸭子
+ - barbecue
+ - duck
 keys:
  - '123456' 
 publish: false
@@ -23,28 +24,28 @@ publish: false
 
 ### title
 
-- description: 文章标题，放弃通过一级目录定义标题的方式，改在 `Front Matter` 中定义。
+- description: The title of the article, abandoning the way to define the title through the first level directory, changed in `Front Matter`.
 
 ### date
 
-- description: 文章创建日期，格式 `2019-08-08` 或 `2019-08-08 08:08:08`。
+- description: The date the article was created, in the format `2019-08-08` or `2019-08-08 08:08:08`.
 
 ### sidebar
 
-- description: 是否开启侧边栏。
+- description: Whether to open the sidebar.
 
 ### categories
 
-- description: 所属分类。
+- description: The category to which it belongs.
 
 ### tags
 
-- description: 所属标签。
+- description: The tag to which it belongs.
 
 ### keys
 
-- description: 文章加密密码。
+- description: Article access password.
 
 ### publish
 
-- description: 文章是否发布。
+- description: Whether the article is published.

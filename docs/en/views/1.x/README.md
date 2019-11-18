@@ -1,10 +1,10 @@
 ---
-title: 介绍
+title: Introduction
 date: 2019-04-09
 ---
 
-Welcome `vuepress-theme-reco@1.x`，如果你正在使用 `vuepress@0.x`，请移步 [vuepress-theme-reco@0.x](/views/0.x/)。
+Welcome `vuepress-theme-reco@1.x`, if you are using `vuepress@0.x`, please move to [vuepress-theme-reco@0.x](/en/views/0.x/).
 
 ::: warning
-该主题几乎继承 `VuePress` 默认主题的一切功能，所以本文档只负责介绍该主题扩展的功能，如果你发现某些功能本网站没有相关文档，或者想要了解默认主题的一些功能，请移步 [官方文档](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)。
+This theme almost inherits all the features of the `VuePress` default theme, so this document is only responsible for the features of the theme extension. If you find that some features of this site do not have related documentation, or if you want to know some features of the default theme, please move on [Official documentation] (https://v1.vuepress.vuejs.org/en/theme/default-theme-config.html).
 :::

@@ -40,7 +40,6 @@ module.exports = {
       ]
     },
     { text: 'FAQ', link: '/en/views/other/question', icon: 'reco-suggestion' },
-    { text: 'Blog', link: '/en/categories/blog/', icon: 'reco-blog'},
     { text: 'Examples', link: '/en/views/other/theme-example.html', icon: 'reco-category'},
     { text: 'RSS', link: 'https://vuepress-theme-reco.recoluan.com/rss.xml', icon: 'reco-rss'},
     { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'},

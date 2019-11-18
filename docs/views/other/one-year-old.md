@@ -1,6 +1,7 @@
 ---
 title: vuepress-theme-reco 一周岁
 date: 2019-10-26
+lang: 'zh-CN'
 categories:
  - blog
 ---

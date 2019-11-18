@@ -16,7 +16,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icon_vuepress_reco.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  theme: 'reco',
+  // theme: 'reco',
   themeConfig,
   locales: {
     '/': {
