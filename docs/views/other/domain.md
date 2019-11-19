@@ -1,6 +1,7 @@
 ---
 title: Pages 自定义域名
 date: 2019-05-06
+lang: 'zh-CN'
 categories:
  - blog
 ---

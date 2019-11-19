@@ -13,15 +13,15 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 features:
-- title: 过去
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题。
-- title: 当下
-  details: 帮助更多的朋友节省时间去用心书写内容，而不是仅仅配置一个博客去孤芳自赏。
-- title: 未来
-  details: 吸引更多的朋友参与到开发中来，继续强大功能。
+- title: Yesterday
+  details: Develop a vuepress blog theme that looks happy and writes smoothly.
+- title: Today
+  details: Help more people spend more time on content creation than on blogging.
+- title: Tomorrow
+  details: I hope more fans can get involved and help this theme grow better.
 ---
 
-## 更新记录 [更多+](/views/other/notice)
+## Update Record [more+](/views/other/notice)
 
 ::: tip
 **[2019-11-03]** 更新 `1.1.1`
@@ -37,7 +37,7 @@ features:
 9.  【插件】增加代码分栏插件 [文档](/views/plugins/extractCode.md)
 :::
 
-## 快速开始
+## Quick start
 
 **npx**
 
@@ -48,34 +48,34 @@ npx @vuepress-reco/theme-cli init my-blog
 **npm**
 
 ```bash
-# 初始化
+# init
 npm install @vuepress-reco/theme-cli -g
 theme-cli init my-blog
 
-# 安装
+# install
 cd my-blog
 npm install
 
-# 运行
+# run
 npm run dev
 
-# 编译
+# build
 npm run build
 ```
 
 **yarn**
 
 ```bash
-# 初始化
+# init
 yarn global add @vuepress-reco/theme-cli
 theme-cli init my-blog
 
-# 安装
+# install
 cd my-blog
 yarn install
 ```
 
-## 贡献者
+## Contributors
 
 <Contributors user="vuepress-reco" repo="vuepress-theme-reco" :show-title="true"></Contributors>
 <Contributors user="vuepress-reco" repo="vuepress-reco.github.io" :show-title="true"></Contributors>

@@ -1,6 +1,7 @@
 ---
 title: 开发者规范
 date: 2019-09-30
+lang: 'zh-CN'
 sidebar: 'auto'
 categories:
  - blog

@@ -1,8 +1,9 @@
 const themeReco = require('./themeReco.js')
-const nav = require('../nav/')
+
 const sidebar = require('../sidebar/')
+const locales = require('../locales/')
 
 module.exports = Object.assign({}, themeReco, {
-  nav,
-  sidebar
+  sidebar,
+  locales
 })

@@ -2,8 +2,6 @@ const path = require('path')
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress Blog & Doc theme.',
   dest: 'public',
   // base: '/vuepress-theme-reco-doc/',
   head: [
@@ -20,6 +18,18 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig,
+  locales: {
+    '/': {
+      lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+      title: "vuepress-theme-reco",
+      description: '一款简洁而优雅的 博客 & 文档 主题。'
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: "vuepress-theme-reco",
+      description: 'A simple and beautiful vuepress Blog & Doc theme.'
+    }    
+  },
   markdown: {
     lineNumbers: true
   },
