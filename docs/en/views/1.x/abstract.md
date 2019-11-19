@@ -1,5 +1,5 @@
 ---
-title: 添加摘要
+title: Add a summary
 date: 2019-04-09
 ---
 
@@ -11,4 +11,4 @@ date: 2019-04-09
 
 ![1.png](../images/12.png)
 
-在markdown代码中，您将看到注释，注释前面的代码将显示在列表页面上的文章摘要中。
+In the markdown code, you will see the comment `<!-- more -->`, and the code in front of the comment will appear in the article summary on the list page.

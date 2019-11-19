@@ -1,9 +1,9 @@
 ---
-title: 主题颜色选择器
+title: Theme Picker
 date: 2019-08-23
 ---
 
-## 禁用
+## Disable
 
 ```javascript
 // .vuepress/config.js
@@ -15,7 +15,7 @@ module.exports = {
 }  
 ```
 
-## 自定义颜色
+## Custom color
 
 ```javascript
 // .vuepress/config.js

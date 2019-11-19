@@ -1,13 +1,13 @@
 ---
-title: 添加时间轴
+title: Add timeline
 date: 2019-04-09
 ---
 
 ::: tip
-在 `1.1.0` 版本之后，对时间轴进行了重构，优化配置，用户无需额外添加相关文件，其他配置不变。
+After the `1.1.0` version, the timeline has been refactored, the user does not need to add additional files, and the other configurations are unchanged.
 :::
 
-## 添加导航按钮
+## Add navigation button
     
 ```javascript
 // .vuepress/config.js
@@ -22,7 +22,7 @@ module.exports = {
 }  
 ```
 
-## 添加所需的文件 <Badge type="warning" text="1.1.0+ 无需要配置此项" />
+## Add the required file <Badge type="warning" text="1.1.0+ Not required" />
 
 **`/docs/timeLine/README.md`**
 
@@ -36,15 +36,15 @@ isComment: false
 ## Time Line
 ``` 
 
-## 写文章时添加日期
+## Add date when writing articles
 
 ::: warning
-日期是可以填写 `时分秒` 的，格式为 `2019-10-20 00:00:00`。
+The date can be filled in `2019-10-20` or  `2019-10-20 12:23:11`.
 :::
    
 ```yaml
 ---
-title: 【vue】跨域解决方案之proxyTable  
+title: [vue]proxyTable for cross-domain solutions
 date: 2017-12-28
 tags:
 - vue

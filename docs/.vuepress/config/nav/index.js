@@ -28,8 +28,7 @@ module.exports = {
       items: [
         { 
           text: 'Theme', items: [
-            { text: '1.x', link: '/en/views/1.x/' },
-            { text: '0.x', link: '/en/views/0.x/' }
+            { text: '1.x', link: '/en/views/1.x/' }
           ],
         },
         {

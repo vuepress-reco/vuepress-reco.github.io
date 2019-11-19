@@ -41,7 +41,7 @@ export default {
   position fixed
   top 80px
   right 20px
-  z-index 100
+  z-index 19
   width 260px
   box-sizing border-box
   background #fff

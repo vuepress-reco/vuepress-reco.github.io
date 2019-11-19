@@ -1,11 +1,11 @@
 ---
-title: Config.js 配置
+title: Config.js configuration
 date: 2019-04-09
 ---
 
-## 移动端优化
+## Mobile optimization
 
-在移动端，搜索框在获得焦点时会放大，并且在失去焦点后可以左右滚动，这可以通过设置元来优化。
+On the mobile side, the search box zooms in when it gets focus, and can scroll left and right after losing focus, which can be optimized by setting the meta.
 
 ```javascript
 // .vuepress/config.js
@@ -16,9 +16,9 @@ module.exports = {
 }  
 ```
 
-## 图标
+## Icon
 
-您可以在导航菜单中使用主题的内置图标，如下所示：
+You can use the theme's built-in icons in the navigation menu as follows:
 
 ```javascript
 { text: 'Tags', link: '/tags/', icon: 'reco-tag' }
@@ -28,23 +28,23 @@ module.exports = {
 
 <icon-example></icon-example>
 
-## 备案信息和项目开始时间
+## Recording information and project start time
 
 ```javascript
 // .vuepress/config.js
 module.exports = {
   themeConfig: {
-    // 备案号
+    // record number
     record: '京ICP备17067634号-1',
-    // 项目开始时间，只填写年份
+    // project start time, only fill in the year
     startYear: '2017'
   }
 }
 ```
 
-## 设置作者姓名
+## Set author name
 
-1. 设置全局作者姓名
+1. Set the global author name
 
 ```javascript
 // .vuepress/config.js
@@ -56,20 +56,20 @@ module.exports = {
 }
 ```
 
-2. 为单篇文章设置作者姓名
+2. Set the author's name for a single article
 
 ```bash
 ---
-title: 你还没真的努力过，就轻易输给了懒惰
+title: You have not really worked hard, you easily lose to laziness
 date: 2015-04-23
 categories: article
 author: 渡渡
 ---
 ```
 
-## 华为文案
+## Support Huawei
 
-首页可以显示 “华为” 文案，需要以下配置。
+The home page can display `华为，为中华而为之！`.
 
 ```javascript
 // .vuepress/config.js
@@ -82,7 +82,7 @@ module.exports = {
 
 ## Logo
 
-导航栏左侧可以显示logo, 需要以下配置。
+The logo can be displayed on the left side of the navigation bar, and the following configuration is required.
 
 ```javascript
 // .vuepress/config.js

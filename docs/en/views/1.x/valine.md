@@ -1,14 +1,14 @@
 ---
-title: 评论
+title: Comments
 date: 2019-04-09
 ---
 
 ## Introduce
 
-主题内置评论插件 [@vuepress-reco/vuepress-plugin-comments](/views/plugins/)，可以根据自己的喜好选择 `Valine` 或者 `Vssue`。
+The theme built-in comment plugin [@vuepress-reco/vuepress-plugin-comments](/views/plugins/), you can choose `Valine` or `Vssue` according to your preferences.
 
 ::: warning
-**浏览量** 仅在使用 `Valine` 时显示。
+**Pageview** Displayed only when using `Valine`.
 :::
 
 ## Option API
@@ -27,10 +27,10 @@ module.exports = {
 }
 ```
 
-其他参数参考 [Valine 官网](https://valine.js.org/configuration.html)。
+Other parameters are referenced [Valine official website](https://valine.js.org/configuration.html).
 
-> 1. 如果 valine 的获取评论的接口报 `404` 错误的话，不用担心，这是因为你还没有添加评论，只要存在1条评论，就不会报错了，这是 `leanCloud` 的请求处理操作而已；
-> 2. 如果仅是某篇文章不想设置开启评论功能，可以在 `front-matter` 设置 `isShowComments: false`。
+> 1. If valine's comment commenting interface is `404` error, don't worry, this is because you haven't added a comment yet, as long as there is 1 comment, you will not get an error. This is the request processing operation of `leanCloud`.
+> 2. If only an article does not want to open comment, you can set `isShowComments: false` in `front-matter`.
 
 ### Vssue
 
@@ -49,4 +49,4 @@ module.exports = {
 }
 ```
 
-其他参数参考 [Vssue 官网](https://vssue.js.org/zh/options/)。
+Other parameters refer to [Vssue official website](https://vssue.js.org/en/options/).

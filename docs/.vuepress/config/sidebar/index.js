@@ -136,36 +136,6 @@ module.exports = {
         ]
       }
     ],
-    '/en/views/0.x/': [
-      {
-        title: 'Basic',
-        collapsable: false,
-        children: [
-          '',
-          'installUse',
-          'category',
-          'tag',
-        ]
-      },
-      {
-        title: 'Advanced',
-        collapsable: false,
-        children: [
-          'timeline',
-          'valine',
-          'password',
-          'configJs',
-          'home'
-        ]
-      },
-      {
-        title: 'Other',
-        collapsable: false,
-        children: [
-          'abstract',
-        ]
-      }
-    ],
     '/en/views/plugins/': [
       {
         title: 'Plugins',

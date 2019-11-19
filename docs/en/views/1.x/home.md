@@ -1,12 +1,12 @@
 ---
-title: 首页配置
+title: Home configuration
 date: 2019-04-09
 ---
 
 ## Introduce
 
 :::tip
-主题的主页的默认风格偏文档，并不像一个博客，所以从 `vuepress-theme-reco@1.0.0-alpha.25` 开始，增加博客风格首页布局。
+The default style of the theme's homepage is not like a blog, so start with `vuepress-theme-reco@1.0.0-alpha.25` and add a blog style homepage layout.
 :::
 
 ## Option API
@@ -14,7 +14,7 @@ date: 2019-04-09
 ### Home
 ![home.png](../images/1.png)
 
-1. 如果您的heroImage具有您的网站标题，则可能需要设置 `isShowTitleInHome: false` 以使标题不显示。
+1. If your heroImage has your website title, you may need to set `isShowTitleInHome: false` so that the title is not displayed.
 
 ```yaml
 # 这是你的主页 
@@ -26,11 +26,9 @@ isShowTitleInHome: false
 ---
 ```
 
-2. 如果你想改变heroImage的风格，你可以设置值 `heroImageStyle` 来实现你想要的效果
+2. If you want to change the style of heroImage, you can set the value `heroImageStyle` to achieve the effect you want.
 
 ```yaml
-# 这是你的主页 
-
 ---
 home: true
 heroImage: /hero.png
@@ -61,11 +59,9 @@ module.exports = {
 }  
 ```
 
-2. 设置首页的背景图片，如果你想改变 bgImage 的风格，你可以设置值 `bgImageStyle` 来实现你想要的效果
+2. Set the background image of the home page. If you want to change the style of bgImage, you can set the value `bgImageStyle` to achieve the effect you want.
 
 ```yaml
-# 这是你的主页 
-
 ---
 home: true
 bgImage: '/bg.png'
@@ -75,21 +71,19 @@ bgImageStyle: {
 ---
 ```
 
-3. 设置首页右侧信息栏头像
+1. Set the avatar of the information bar on the right side of the homepage
 
 ```yaml
-# 这是你的主页 
-
 ---
 faceImage: '/head.png'
 ---
 ```
 
-### customize your home page <Badge type="tip" text="Beta" />
+### Customize your home page <Badge type="tip" text="Beta" />
 
-> 首页会自动添加 `header` 和 `footer`，自定义部分无需考虑添加头部和脚部内容。
+> The home page will automatically add `header` and `footer`, and the custom part does not need to consider adding header and foot content.
 
-将你希望首页样式封装成 `vue` 组件，封装成插件或者 `@vuepress/plugin-register-components` 插件全局注册，然后配置 `type`：
+Write your desired home page style as a `vue` component, package it as a plugin or globally with the `@vuepress/plugin-register-components` plugin, then configure `type`:
 
 
 ```javascript
@@ -103,4 +97,4 @@ module.exports = {
 }  
 ```
 
-如果你的首页风格并不希望显示 `navbar`，你可以在首页文件里设置 `front-matter`，`navbar: false`。
+If your homepage style doesn't want to show `navbar`, you can set `front-matter`,`navbar: false` in the home page file.
