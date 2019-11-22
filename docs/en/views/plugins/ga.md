@@ -5,6 +5,12 @@ date: 2019-09-30
 
 ## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-ga/"/>
 
+::: warning
+
+本插件自主题 `1.1.2` 版本起取消内置并不再维护，如果你希望继续使用该功能，请移步官方插件[Google Analytics](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-google-analytics.html)。
+
+:::
+
 Google Analytics plugin for vuepress-theme-reco or other vuepress theme.
 
 ### Name

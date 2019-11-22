@@ -31,6 +31,7 @@ module.exports = {
         children: [
           'abstract',
           'syntax',
+          'customStyleAndScript',
           'sidebar'
         ]
       },
@@ -124,6 +125,7 @@ module.exports = {
         children: [
           'abstract',
           'syntax',
+          'customStyleAndScript',
           'sidebar'
         ]
       },
