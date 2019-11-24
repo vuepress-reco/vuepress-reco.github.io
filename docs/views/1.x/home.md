@@ -85,6 +85,38 @@ faceImage: '/head.png'
 ---
 ```
 
+4. 添加友链 <Badge text="1.1.2+" />
+
+```js
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    type: 'blog',
+    friendLink: [
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: 'recoluan@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      // ...
+    ]
+  }
+}  
+```
+
+- title 友链标题
+- desc 友链描述
+- logo 友链 LOGO（本地图片或网络图片）
+- email 如果没有设置 `logo`，将通过 Email获取到的 `Gravatar` 头像来设置 LOGO
+- link 友链地址
+
 ### customize your home page <Badge type="tip" text="Beta" />
 
 > 首页会自动添加 `header` 和 `footer`，自定义部分无需考虑添加头部和脚部内容。

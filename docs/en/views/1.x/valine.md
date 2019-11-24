@@ -7,8 +7,11 @@ date: 2019-04-09
 
 The theme built-in comment plugin [@vuepress-reco/vuepress-plugin-comments](/views/plugins/), you can choose `Valine` or `Vssue` according to your preferences.
 
+If only an article does not want to open comment, you can set `isShowComments: false` in `front-matter`.
+
 ::: warning
-**Pageview** Displayed only when using `Valine`.
+1. **Pageview** Displayed only when using `Valine`.  
+2. Because **Pageview** needs to call the relevant interface when the page is loaded, all the data of the list page will be loaded together. If the number of articles will affect the loading speed, you can set `hideListAccessNumber: true under `valineConfig`. `, implement asynchronous loading of the list page. <Badge text="1.1.2+" />
 :::
 
 ## Option API
@@ -29,8 +32,7 @@ module.exports = {
 
 Other parameters are referenced [Valine official website](https://valine.js.org/configuration.html).
 
-> 1. If valine's comment commenting interface is `404` error, don't worry, this is because you haven't added a comment yet, as long as there is 1 comment, you will not get an error. This is the request processing operation of `leanCloud`.
-> 2. If only an article does not want to open comment, you can set `isShowComments: false` in `front-matter`.
+> If valine's comment commenting interface is `404` error, don't worry, this is because you haven't added a comment yet, as long as there is 1 comment, you will not get an error. This is the request processing operation of `leanCloud`.
 
 ### Vssue
 

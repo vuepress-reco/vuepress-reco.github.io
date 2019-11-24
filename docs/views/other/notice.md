@@ -3,6 +3,18 @@ title: Notice
 date: 2019-04-21
 ---
 
+**[2019-11-30]** 更新 `1.1.2`
+
+1. 【修复】修复 html 代码没有当前页面文字内容的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
+2. 【修复】修复通过 URL 访问某个页面，锚点无法跳转的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
+3. 【修复】修复标签页切换标签时，阅读数量消失的 bug
+4. 【增加】信息栏增加友链配置 [文档](/views/plugins/extractCode.md)
+5. 【增加】增加列表的加载配置，默认异步加载 [文档](/views/plugins/extractCode.md)
+6. 【增加】增加加密方式的配置 [文档](/views/plugins/extractCode.md)
+7. 【优化】优化 `@vuepress-reco/vuepress-plugin-rss` 插件 [@SigureMo](https://github.com/SigureMo)
+
+---
+
 **[2019-11-03]** 更新 `1.1.1`
 
 1. 【修复】首页出现评论框
