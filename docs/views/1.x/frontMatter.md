@@ -48,3 +48,7 @@ publish: false
 ### publish
 
 - description: 文章是否发布。
+
+### sticky <Badge text="1.1.2+" />
+
+- description: 文章置顶。

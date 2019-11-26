@@ -14,7 +14,7 @@ export default {
     return {
       iconArr: [
         { iconClass: 'reco-faq', iconName: 'FAQ' },
-        { iconClass: 'reco-place-to-top', iconName: '置顶' },
+        { iconClass: 'reco-sticky', iconName: '置顶' },
         { iconClass: 'reco-lock', iconName: '加密' },
         { iconClass: 'reco-mail', iconName: 'Email' },
         { iconClass: 'reco-douban', iconName: '豆瓣' },

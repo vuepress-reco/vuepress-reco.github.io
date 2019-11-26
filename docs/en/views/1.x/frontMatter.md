@@ -49,3 +49,7 @@ publish: false
 ### publish
 
 - description: Whether the article is published.
+
+### sticky <Badge text="1.1.2+" />
+
+- description: Article sticky.
