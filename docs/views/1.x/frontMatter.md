@@ -52,3 +52,5 @@ publish: false
 ### sticky <Badge text="1.1.2+" />
 
 - description: 文章置顶。
+- type: `number`
+- sort type: 降序，可以按照 `1, 2, 3, ...` 来降低置顶文章的排列优先级

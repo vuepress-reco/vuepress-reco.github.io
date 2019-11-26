@@ -53,3 +53,6 @@ publish: false
 ### sticky <Badge text="1.1.2+" />
 
 - description: Article sticky.
+- type: `number`
+- sort type: Descending order, you can lower the priority of the top posts according to `1, 2, 3, ...`.
+
