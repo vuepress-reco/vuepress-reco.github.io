@@ -4,13 +4,14 @@
       <h1>{{ $frontmatter.heroText || $title }}</h1>
       <p class="description">{{ $description }}</p>
       <div>
-        <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=star&count=true&q=GitHub+Octocat+in:readme+user:defunkt" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        <img :src="`https://img.shields.io/badge/download-${`11,052`}-orange.svg?style=social&logo=npm`" alt="">
         <!-- <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
         <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="20px"></iframe> -->
       </div>
       
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
-      <img src="./images/blog.svg" alt="">
+      <img class="banner" src="./images/blog.svg" alt="">
     </section>
     <section class="wish yesterday">
       <div class="wish-inner">
@@ -84,7 +85,7 @@ export default {
         border-radius .25rem
         background $accentColor
         color #fff
-      img
+      .banner
         display block
         width 100%
     &.wish
