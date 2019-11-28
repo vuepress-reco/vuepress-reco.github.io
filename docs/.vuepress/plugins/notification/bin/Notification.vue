@@ -11,6 +11,11 @@
       <div class="notification-content">
         <img :src="require('./rvcode.png')" alt="">
       </div>
+      <div style="padding: 0 16px">
+        <h4>通知</h4>
+        <h5>1.1.2 发版，此版本中解决许多不友好的 bug，已经是一个相对比较稳定的版本；</h5>
+        <h5>同时发布 1.2.0-alpha.1，主题将在 1.2.0 开始适配系统的暗色模式和亮色模式，喜欢尝鲜的朋友可以开始尝试了。</h5>
+      </div>
     </div>
   </transition>
 </template>
