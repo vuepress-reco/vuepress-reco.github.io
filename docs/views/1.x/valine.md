@@ -5,10 +5,13 @@ date: 2019-04-09
 
 ## Introduce
 
-主题内置评论插件 [@vuepress-reco/vuepress-plugin-comments](/views/plugins/)，可以根据自己的喜好选择 `Valine` 或者 `Vssue`。
+主题内置评论插件 [@vuepress-reco/vuepress-plugin-comments](/views/plugins/)，可以根据自己的喜好选择 `Valine` 或者 `Vssue`；
 
-::: warning
-**浏览量** 仅在使用 `Valine` 时显示。
+如果仅是某篇文章不想设置开启评论功能，可以在 `front-matter` 设置 `isShowComments: false`。
+
+::: warning 浏览量
+1. **浏览量** 仅在使用 `Valine` 时显示；
+2. 因为 **浏览量** 需要在页面加载时去调用相关接口，所以列表页的所有数据会一起加载下来，如果文章数量很多会影响加载速度，这时可以在 `valineConfig` 下设置 `hideListAccessNumber: true`，实现列表页的异步加载。 <Badge text="1.1.2+" />
 :::
 
 ## Option API
@@ -29,8 +32,7 @@ module.exports = {
 
 其他参数参考 [Valine 官网](https://valine.js.org/configuration.html)。
 
-> 1. 如果 valine 的获取评论的接口报 `404` 错误的话，不用担心，这是因为你还没有添加评论，只要存在1条评论，就不会报错了，这是 `leanCloud` 的请求处理操作而已；
-> 2. 如果仅是某篇文章不想设置开启评论功能，可以在 `front-matter` 设置 `isShowComments: false`。
+> 如果 valine 的获取评论的接口报 `404` 错误的话，不用担心，这是因为你还没有添加评论，只要存在1条评论，就不会报错了，这是 `leanCloud` 的请求处理操作而已；
 
 ### Vssue
 

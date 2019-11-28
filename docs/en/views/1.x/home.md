@@ -71,13 +71,45 @@ bgImageStyle: {
 ---
 ```
 
-1. Set the avatar of the information bar on the right side of the homepage
+3. Set the avatar of the information bar on the right side of the homepage
 
 ```yaml
 ---
 faceImage: '/head.png'
 ---
 ```
+
+1. Add friend-link <Badge text="1.1.2+" />
+
+```js
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    type: 'blog',
+    friendLink: [
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: 'recoluan@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      // ...
+    ]
+  }
+}  
+```
+
+- title: friend-link title
+- desc: friend-link description
+- logo: friend-link logo
+- email: If `logo` is not set, the logo will be set by the `Gravatar` avatar obtained by Email.
+- link: friend-link website
 
 ### Customize your home page <Badge type="tip" text="Beta" />
 

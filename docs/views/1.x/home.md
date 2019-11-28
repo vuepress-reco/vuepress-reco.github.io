@@ -14,7 +14,7 @@ date: 2019-04-09
 ### Home
 ![home.png](../images/1.png)
 
-1. 如果您的heroImage具有您的网站标题，则可能需要设置 `isShowTitleInHome: false` 以使标题不显示。
+#### 1. 如果您的heroImage具有您的网站标题，则可能需要设置 `isShowTitleInHome: false` 以使标题不显示。
 
 ```yaml
 # 这是你的主页 
@@ -26,7 +26,7 @@ isShowTitleInHome: false
 ---
 ```
 
-2. 如果你想改变heroImage的风格，你可以设置值 `heroImageStyle` 来实现你想要的效果
+#### 2. 如果你想改变heroImage的风格，你可以设置值 `heroImageStyle` 来实现你想要的效果
 
 ```yaml
 # 这是你的主页 
@@ -48,7 +48,7 @@ heroImageStyle: {
 ![home.png](../images/home-blog.png)
 
 
-1. 指定 `type: 'blog'`
+#### 1. 指定 `type: 'blog'`
 
 ```javascript
 // .vuepress/config.js
@@ -61,7 +61,7 @@ module.exports = {
 }  
 ```
 
-2. 设置首页的背景图片，如果你想改变 bgImage 的风格，你可以设置值 `bgImageStyle` 来实现你想要的效果
+#### 2. 设置首页的背景图片，如果你想改变 bgImage 的风格，你可以设置值 `bgImageStyle` 来实现你想要的效果
 
 ```yaml
 # 这是你的主页 
@@ -75,7 +75,7 @@ bgImageStyle: {
 ---
 ```
 
-3. 设置首页右侧信息栏头像
+#### 3. 设置首页右侧信息栏头像
 
 ```yaml
 # 这是你的主页 
@@ -84,6 +84,38 @@ bgImageStyle: {
 faceImage: '/head.png'
 ---
 ```
+
+#### 4. 添加友链 <Badge text="1.1.2+" />
+
+```js
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    type: 'blog',
+    friendLink: [
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: 'recoluan@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      // ...
+    ]
+  }
+}  
+```
+
+- title 友链标题
+- desc 友链描述
+- logo 友链 LOGO（本地图片或网络图片）
+- email 如果没有设置 `logo`，将通过 Email获取到的 `Gravatar` 头像来设置 LOGO
+- link 友链地址
 
 ### customize your home page <Badge type="tip" text="Beta" />
 

@@ -24,17 +24,18 @@ features:
 ## 更新记录 [更多+](/views/other/notice)
 
 ::: tip
-**[2019-11-03]** 更新 `1.1.1`
+**[2019-11-28]** 更新 `1.1.2`
 
-1. 【修复】首页出现评论框
-2. 【修复】文章列表出现无用数据
-3. 【修复】修复文章加密页小 bug
-4. 【修复】修复 IOS 时间显示不正确的 bug
-5. 【修复】修复 `publish: false` 的文章在标签页显示的 bug [@SigureMo](https://github.com/SigureMo)
-6. 【修复】修复 `@vuepress/plugin-medium-zoom` 无效的 bug [@SigureMo](https://github.com/SigureMo)
-7. 【修复】修复 `vssue` 在切换页面时不刷新的 bug [@SigureMo](https://github.com/SigureMo)
-8.  【插件】板娘插件优化 [@橘子](https://github.com/smallsunnyfox)
-9.  【插件】增加代码分栏插件 [文档](/views/plugins/extractCode.md)
+1. 【修复】修复 html 代码没有当前页面文字内容的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
+2. 【修复】修复通过 URL 访问某个页面，锚点无法跳转的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
+3. 【修复】修复标签页切换标签时，阅读数量消失的 bug
+4. 【增加】信息栏增加友链配置 [文档](/views/1.x/home.md#_4-添加友链)
+5. 【增加】增加列表的加载配置，默认异步加载 [文档](/views/1.x/valine.md)
+6. 【增加】增加加密方式的配置 [文档](/views/1.x/password.md#绝对加密)
+7. 【增加】增加文章置顶功能 [文档](/views/1.x/frontMatter.md#sticky)
+8. 【增加】增加了几个图标 [文档](/views/1.x/configJs.md#图标)
+9. 【优化】优化 `@vuepress-reco/vuepress-plugin-rss` 插件 [@SigureMo](https://github.com/SigureMo)
+10. 【删除】`@vuepress-reco/vuepress-plugin-ga` 废弃，已经从主题移除，如需 GA 功能，请使用官方插件
 :::
 
 ## 快速开始

@@ -5,6 +5,8 @@ date: 2019-04-09
 
 ## Project Encryption
 
+### Introduce
+
 If the project is private and does not want to be made public, the content page can only be accessed after the key is logged in (the login is disabled after closing the browser tab). You can set multiple passwords by setting `keys` in the format of the array. The value of the array must be a string.
 
 ```javascript
@@ -22,6 +24,14 @@ module.exports = {
   }  
 }  
 ```
+
+### Absolute encryption <Badge text="1.1.2+" />
+
+The default encryption method for the project is to locate the encrypted page above the actual content, so this encryption function itself has no real effect.
+
+If you need absolute encryption, you need to set `absoluteEncryption: true`, but this will affect two things:
+1. SSR rendering of the page;
+2. The jump of the anchor point.
 
 ## Article Encryption
 

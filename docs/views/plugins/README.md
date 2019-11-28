@@ -1,5 +1,5 @@
 ---
-title: Introduce
+title: 介绍
 date: 2019-09-30
 ---
 
@@ -26,6 +26,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <th style="width:100px">名称</th>
     <th style="width:60px">版本</th>
     <th style="width:20px">是否内置</th>
+    <th style="width:20px">是否主题独占</th>
     <th style="width:100px">描述</th>
   </tr>
   <tr>
@@ -36,6 +37,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-back-to-top"/>
     </td>
     <td>✔</td>
+    <td>✖</td>
     <td>返回顶部插件</td>
   </tr>
   <tr>
@@ -46,6 +48,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-pagation"/>
     </td>
     <td>✔</td>
+    <td>✖</td>
     <td>分页插件，帮助你快速跳转到任意页面</td>
   </tr>
   <tr>
@@ -56,6 +59,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>
     </td>
     <td>✔</td>
+    <td>✖</td>
     <td>全屏按钮插件</td>
   </tr>
   <tr>
@@ -66,17 +70,8 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-loading-page"/>
     </td>
     <td>✔</td>
+    <td>✖</td>
     <td>页面加载时过渡动画插件</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="ga.html">ga</a>
-    </td>
-    <td>
-      <NpmLink pkg="@vuepress-reco/vuepress-plugin-ga"/>
-    </td>
-    <td>✔</td>
-    <td>谷歌分析（Google Analytics）插件</td>
   </tr>
   <tr>
     <td>
@@ -85,6 +80,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <td>
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-kan-ban-niang"/>
     </td>
+    <td>✖</td>
     <td>✖</td>
     <td>看板娘插件，为你的网站添加一个萌萌哒看板娘~</td>
   </tr>
@@ -96,6 +92,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-comments"/>
     </td>
     <td>✔</td>
+    <td>✖</td>
     <td>评论插件，集成了 Valine 与 Vssue 两种评论系统</td>
   </tr>
   <tr>
@@ -105,10 +102,29 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <td>
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-extract-code"/>
     </td>
+    <td>✔</td>
     <td>✖</td>
     <td>代码展示插件，可以方便地帮你展示多种代码组合</td>
   </tr>
+  <tr>
+    <td>
+      <a href="rss.html">rss</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-rss"/>
+    </td>
+    <td>✖</td>
+    <td>✔</td>
+    <td>RSS 生成插件</td>
+  </tr>
 </table>
+
+::: warning 注意
+
+- 只有**内置插件**是在安装主题时安装并配置好的，非内置插件（比如 kan-ban-niang 插件）需要你自行安装并配置。
+- 为了使得主题更加定制化，我们开发了一些本**主题独占**的插件（比如 rss 插件），由于和主题之间存在强耦合，所以这些插件**在其他主题可能不会正常工作**。
+
+:::
 
 ### npm 中的 VuePress 插件生态
 
@@ -124,10 +140,10 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 | :----------------------------------------------------------------------------------------------------------------------: | :------: | :--------------------------------------------------------------------------: | :------------------------------- |
 |                                              [back-to-top](./backToTop.md)                                               |    ✖     |                                      -                                       | ...                              |
 |                                                [comments](./comments.md)                                                 |    ✔     | 需主题配置内配置 `$themeConfig.vssueConfig` 或者 `$themeConfig.valineConfig` | ...                              |
-|                                                      [ga](./ga.md)                                                       |    ✔     |                  需主题配置内配置 `this.$themeConfig.GAID`                   | ...                              |
 |                                             [loading-page](./loadingPage.md)                                             |    ✔     |                              作为组件，无需配置                              | ...                              |
 |                                                [pagation](./pagation.md)                                                 |    ✔     |                              作为组件，无需配置                              | ...                              |
 |                                              [screenfull](./screenfull.md)                                               |    ✔     |                              作为组件，无需配置                              | ...                              |
+|                                                      [extractCode](./extractCode.md)                                                       |    ✖     |                  -                   | ...                              |
 | [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html) |    ✖     |                                      -                                       | 页面滚动时自动激活侧边栏链接插件 |
 |         [@vuepress/plugin-medium-zoom](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html)         |    ✖     |              `{selector: '.theme-reco-content :not(a) > img'}`               | 图片缩放插件                     |
 |           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
