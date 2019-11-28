@@ -70,9 +70,8 @@ kan-ban-niang plugin for vuepress-theme-reco or other vuepress theme.
 - default: 
     ```json
     { 
-      position: 'fixed', 
-      right: '80px', 
-      bottom: '195px'
+      right: '68px', 
+      bottom: '190px'
     }
     ```
 
@@ -83,10 +82,21 @@ kan-ban-niang plugin for vuepress-theme-reco or other vuepress theme.
 - default: 
     ```json
     { 
-      position: 'fixed', 
       right: '90px', 
       bottom: '-20px', 
       opacity: '0.9'
+    }
+    ```
+
+### btnStyle
+
+- description: 自定义按钮样式
+- type: `Object`
+- default: 
+    ```json
+    { 
+      right: '90px', 
+      bottom: '40px', 
     }
     ```
 
