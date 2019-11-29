@@ -24,7 +24,7 @@ features:
 ## Update Record [more+](/views/other/notice)
 
 ::: tip
-**[2019-11-28]** 更新 `1.1.3`
+**[2019-11-28]** 更新 `1.1.4`
 
 1. 【修复】修复 html 代码没有当前页面文字内容的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
 2. 【修复】修复通过 URL 访问某个页面，锚点无法跳转的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)

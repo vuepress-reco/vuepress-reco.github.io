@@ -25,16 +25,28 @@ export default {
           thumbnail: '/blogImages/午后南杂.png' 
         },
         { 
-          name: '刘晓北', 
-          desc: '一个前端狗记录的一点小事情',
-          link: 'https://tankryze.github.io/', 
-          thumbnail: '/blogImages/刘晓北.png' 
-        },
-        { 
           name: 'latte and cat', 
           desc: 'study programs and record life',
           link: 'http://blog.smallsunnyfox.com', 
           thumbnail: '/blogImages/latteandcat.png' 
+        },
+        { 
+          name: '有梦想的咸鱼', 
+          desc: '我不能克制我记几',
+          link: 'https://blog.liudongyang.top/', 
+          thumbnail: '/blogImages/有梦想的咸鱼.png' 
+        },
+        { 
+          name: 'Vm Blog', 
+          desc: '淡然Vm的个人博客',
+          link: 'https://blog.danran.site/', 
+          thumbnail: '/blogImages/vmblog.png' 
+        },
+        { 
+          name: '刘晓北', 
+          desc: '一个前端狗记录的一点小事情',
+          link: 'https://tankryze.github.io/', 
+          thumbnail: '/blogImages/刘晓北.png' 
         },
         { 
           name: 'SigureMo', 
