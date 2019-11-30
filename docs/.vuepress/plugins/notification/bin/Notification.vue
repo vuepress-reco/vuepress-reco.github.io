@@ -52,7 +52,8 @@ export default {
   background #fff
   border 1px solid #3eaf7c
   border-radius .25rem
-  box-shadow 0 1px 6px 0 rgba(0, 0, 0, 0.2)
+  background var(--background-color)
+  box-shadow var(--box-shadow)
   .notification-title
     position relative
     box-sizing border-box

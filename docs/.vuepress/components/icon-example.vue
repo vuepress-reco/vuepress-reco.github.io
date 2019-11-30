@@ -75,7 +75,7 @@ export default {
   li
     display inline-block
     width 119px
-    border-bottom 1px solid $textColor
+    border-bottom 1px solid var(--border-color)
     text-align center
     .iconfont
       font-size 26px

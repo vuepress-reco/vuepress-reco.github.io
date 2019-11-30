@@ -91,7 +91,7 @@ export default {
     &.wish
       overflow hidden
       &.yesterday, &.tomorrow
-        background #f2f2f2
+        background var(--code-color)
       .wish-inner
         box-sizing border-box
         margin 0 auto

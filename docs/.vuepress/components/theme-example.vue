@@ -130,7 +130,7 @@ export default {
     .blog-item
       margin-bottom 4rem
       width 48%
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2)
+      box-shadow: var(--box-shadow)
       transition: all .5s
       .info
         margin 2.5rem  0 1.5rem
