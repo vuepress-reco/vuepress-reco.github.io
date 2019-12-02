@@ -88,7 +88,8 @@ module.exports = {
           'kanbanniang',
           'comments',
           'extractCode',
-          'rss'
+          'rss',
+          'bgmPlayer'
         ]
       }
     ]
@@ -152,7 +153,8 @@ module.exports = {
           'kanbanniang',
           'comments',
           'extractCode',
-          'rss'
+          'rss',
+          'bgmPlayer'
         ]
       }
     ]
