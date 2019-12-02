@@ -117,6 +117,17 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <td>✔</td>
     <td>RSS 生成插件</td>
   </tr>
+  <tr>
+    <td>
+      <a href="bgmPlayer.html">bgm-player</a>
+    </td>
+    <td>
+      <NpmLink pkg="@vuepress-reco/vuepress-plugin-bgm-player"/>
+    </td>
+    <td>✖</td>
+    <td>✖</td>
+    <td>背景音乐播放器</td>
+  </tr>
 </table>
 
 ::: warning 注意
