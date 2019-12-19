@@ -16,7 +16,7 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' }
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
     ]
   }    
 }  
