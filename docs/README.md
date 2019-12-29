@@ -24,19 +24,18 @@ features:
 ## 更新记录 [更多+](/views/other/notice)
 
 ::: tip
-**[2019-11-28]** 更新 `1.1.4`
+**[2020-01-01]** 更新 `1.2.0`
 
-1. 【修复】修复 html 代码没有当前页面文字内容的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
-2. 【修复】修复通过 URL 访问某个页面，锚点无法跳转的 bug [@橘子](https://github.com/smallsunnyfox) [@SigureMo](https://github.com/SigureMo)
-3. 【修复】修复标签页切换标签时，阅读数量消失的 bug
-4. 【修复】修复文章页退回列表页不能保分页记录的 bug
-5. 【增加】信息栏增加友链配置 [文档](/views/1.x/home.md#_4-添加友链)
-6. 【增加】增加列表的加载配置，默认异步加载 [文档](/views/1.x/valine.md)
-7. 【增加】增加加密方式的配置 [文档](/views/1.x/password.md#绝对加密)
-8. 【增加】增加文章置顶功能 [文档](/views/1.x/frontMatter.md#sticky)
-9. 【增加】增加了几个图标 [文档](/views/1.x/configJs.md#图标)
-10. 【优化】优化 `@vuepress-reco/vuepress-plugin-rss` 插件 [@SigureMo](https://github.com/SigureMo)
-11. 【删除】`@vuepress-reco/vuepress-plugin-ga` 废弃，已经从主题移除，如需 GA 功能，请使用官方插件
+1. 【修复】文章列表页跳转详情页，返回时无法记录列表当前的页码
+2. 【修复】修复代码段过长导致博客首页布局错乱的 bug
+3. 【增加】适配系统的暗色主题，首次加载默认自适应系统主题色，并可以通过原本自定义主题色按钮来。切换自己喜欢的模式 [文档](/views/1.x/mode.md)
+4. 【增加】`heroImage` 在 `type: 'blog'` 时仍然有效
+5. 【增加】增加 ICP 备案链接和公安部备案配置 [文档](/views/1.x/configJs.md#备案信息和项目开始时间)
+6. 【优化】将博文列表数据的处理逻辑，增加加载速度
+7. 【修改】修改指定博客首页的信息栏头像的配置 [文档](/views/1.x/home.md#设置首页右侧信息栏头像)
+8. 【删除】删除自定义主题色功能
+9. 【删除】暂时删除全屏按钮
+10. 【删除】删除文章列表页的浏览量，异步加载博客列表 [文档](/views/1.x/valine.md)
 :::
 
 ## 快速开始

@@ -22,7 +22,8 @@ module.exports = {
           'home',
           'themePicker',
           'ga',
-          '404'
+          '404',
+          'mode'
         ]
       },
       {
@@ -117,7 +118,8 @@ module.exports = {
           'home',
           'themePicker',
           'ga',
-          '404'
+          '404',
+          'mode'
         ]
       },
       {

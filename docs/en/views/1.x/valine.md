@@ -11,7 +11,7 @@ If only an article does not want to open comment, you can set `isShowComments: f
 
 ::: warning
 1. **Pageview** Displayed only when using `Valine`.  
-2. Because **Pageview** needs to call the relevant interface when the page is loaded, all the data of the list page will be loaded together. If the number of articles will affect the loading speed, you can set `hideListAccessNumber: true under `valineConfig`. `, implement asynchronous loading of the list page. <Badge text="1.1.2+" />
+2. Because ** views ** need to call the relevant interface when the page loads, all the data of the list page will be loaded together. If the number of articles is large, it will affect the loading speed, so remove the article list after `1.2.0` Page views.
 :::
 
 ## Option API

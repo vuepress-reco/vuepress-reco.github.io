@@ -30,14 +30,19 @@ You can use the theme's built-in icons in the navigation menu as follows:
 
 ## Recording information and project start time
 
+> The ICP record link and the Ministry of Public Security record will become effective after `1.2.0`.
+
 ```javascript
 // .vuepress/config.js
 module.exports = {
   themeConfig: {
-    // record number
-    record: '京ICP备17067634号-1',
-    // project start time, only fill in the year
-    startYear: '2017'
+     // record
+     record: 'ICP Filing Copy',
+     recordLink: 'ICP record link',
+     cyberSecurityRecord: 'Recorded by the Ministry of Public Security',
+     cyberSecurityLink: 'The Ministry of Public Security record link',
+     // Project start time, only year
+     startYear: '2017'
   }
 }
 ```

@@ -28,14 +28,19 @@ module.exports = {
 
 <icon-example></icon-example>
 
-## 备案信息和项目开始时间
+## 备案信息和项目开始时间 
+
+> `ICP 备案指向链接` 和 `公安部备案` 在 `1.2.0` 后生效。
 
 ```javascript
 // .vuepress/config.js
 module.exports = {
   themeConfig: {
-    // 备案号
-    record: '京ICP备17067634号-1',
+    // 备案
+    record: 'ICP 备案文案',
+    recordLink: 'ICP 备案指向链接',
+    cyberSecurityRecord: '公安部备案文案',
+    cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
     startYear: '2017'
   }
@@ -91,4 +96,21 @@ module.exports = {
     logo: '/head.png'
   }
 }
+```
+
+## 头像
+
+::: warning
+`1.2.0` 后使用 `themeConfig.authAvatar` 替换首页的 `faceImage` 来设置头像
+::: 
+
+```javascript
+// .vuepress/config.js
+
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    authAvatar: 'avatar.png'
+  }  
+}  
 ```

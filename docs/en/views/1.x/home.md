@@ -45,8 +45,10 @@ heroImageStyle: {
 ### Home-Blog
 ![home.png](../images/home-blog.png)
 
+ > `heroImage` is still valid in this mode.
 
-1. 指定 `type: 'blog'`
+
+1. Specify `type: 'blog'`
 
 ```javascript
 // .vuepress/config.js
@@ -73,10 +75,19 @@ bgImageStyle: {
 
 3. Set the avatar of the information bar on the right side of the homepage
 
-```yaml
----
-faceImage: '/head.png'
----
+::: warning
+After `1.2.0` use` themeConfig.authAvatar` instead of `faceImage` on the homepage to set the avatar
+:::
+
+```javascript
+// .vuepress / config.js
+
+module.exports = {
+   theme: 'reco',
+   themeConfig: {
+     authAvatar: 'avatar.png'
+   }
+}
 ```
 
 1. Add friend-link <Badge text="1.1.2+" />

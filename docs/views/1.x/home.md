@@ -47,6 +47,8 @@ heroImageStyle: {
 ### Home-Blog
 ![home.png](../images/home-blog.png)
 
+> `heroImage` 在此模式下仍然有效。
+
 
 #### 1. 指定 `type: 'blog'`
 
@@ -77,12 +79,19 @@ bgImageStyle: {
 
 #### 3. 设置首页右侧信息栏头像
 
-```yaml
-# 这是你的主页 
+::: warning
+`1.2.0` 后使用 `themeConfig.authAvatar` 替换首页的 `faceImage` 来设置头像
+::: 
 
----
-faceImage: '/head.png'
----
+```javascript
+// .vuepress/config.js
+
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    authAvatar: 'avatar.png'
+  }  
+}  
 ```
 
 #### 4. 添加友链 <Badge text="1.1.2+" />
@@ -117,7 +126,7 @@ module.exports = {
 - email 如果没有设置 `logo`，将通过 Email获取到的 `Gravatar` 头像来设置 LOGO
 - link 友链地址
 
-### customize your home page <Badge type="tip" text="Beta" />
+### 自定义首页 <Badge type="tip" text="Beta" />
 
 > 首页会自动添加 `header` 和 `footer`，自定义部分无需考虑添加头部和脚部内容。
 
