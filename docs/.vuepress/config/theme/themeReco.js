@@ -10,6 +10,7 @@ module.exports = {
   lastUpdated: 'Last Updated', // string | boolean
   // 作者
   author: 'reco_luan',
+  authorAvatar: '/head.png',
   // 备案号
   // record: '京ICP备17067634号-1',
   // 项目开始时间
