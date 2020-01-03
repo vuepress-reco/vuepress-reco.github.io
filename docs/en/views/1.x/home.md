@@ -76,7 +76,7 @@ bgImageStyle: {
 3. Set the avatar of the information bar on the right side of the homepage
 
 ::: warning
-After `1.2.0` use` themeConfig.authAvatar` instead of `faceImage` on the homepage to set the avatar
+After `1.2.0` use` themeConfig.authorAvatar` instead of `faceImage` on the homepage to set the avatar
 :::
 
 ```javascript
@@ -85,7 +85,7 @@ After `1.2.0` use` themeConfig.authAvatar` instead of `faceImage` on the homepag
 module.exports = {
    theme: 'reco',
    themeConfig: {
-     authAvatar: 'avatar.png'
+     authorAvatar: 'avatar.png'
    }
 }
 ```

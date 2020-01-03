@@ -101,7 +101,7 @@ module.exports = {
 ## 头像
 
 ::: warning
-`1.2.0` 后使用 `themeConfig.authAvatar` 替换首页的 `faceImage` 来设置头像
+`1.2.0` 后使用 `themeConfig.authorAvatar` 替换首页的 `faceImage` 来设置头像
 ::: 
 
 ```javascript
@@ -110,7 +110,7 @@ module.exports = {
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    authAvatar: 'avatar.png'
+    authorAvatar: 'avatar.png'
   }  
 }  
 ```
