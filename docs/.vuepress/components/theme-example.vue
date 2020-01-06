@@ -43,6 +43,18 @@ export default {
           thumbnail: '/blogImages/vmblog.png' 
         },
         { 
+          name: '404 NOT FOUND', 
+          desc: '前端杂货铺',
+          link: 'https://wang.icey.cc/', 
+          thumbnail: '/blogImages/404notfound.png' 
+        },
+        { 
+          name: 'X · M', 
+          desc: 'Valar Morghulis ,Valar Dohaeris .',
+          link: 'http://yvonnecheung.cn/', 
+          thumbnail: '/blogImages/xm.png' 
+        },
+        { 
           name: '刘晓北', 
           desc: '一个前端狗记录的一点小事情',
           link: 'https://tankryze.github.io/', 
