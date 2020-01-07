@@ -31,12 +31,15 @@ sidebar: 'auto'
 
 ## 4. 首页右侧信息栏头像和导航栏左侧的图片分别怎么设置？
 
-首页右侧信息栏头像可以通过在首页 `README.md` 文件中的 `front-matter` 中的 `faceImage` 来设置
+首页右侧信息栏头像需要通过配置 `.vuepress/config.js` 中的 `themeConfig.authorAvatar`
 
-``` yaml
----
-heroImage: /hero.png
----
+``` javascript
+// .vuepress/config.js
+module.exports = {
+  themeConfig: {
+    authorAvatar: '/avatar.png'
+  }
+}
 ```
 
 导航栏左侧的图片需要通过配置 `.vuepress/config.js` 中的 `themeConfig.logo`

@@ -85,7 +85,7 @@ After `1.2.0` use` themeConfig.authorAvatar` instead of `faceImage` on the homep
 module.exports = {
    theme: 'reco',
    themeConfig: {
-     authorAvatar: 'avatar.png'
+     authorAvatar: '/avatar.png'
    }
 }
 ```

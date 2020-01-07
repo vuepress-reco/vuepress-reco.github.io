@@ -89,7 +89,7 @@ bgImageStyle: {
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    authorAvatar: 'avatar.png'
+    authorAvatar: '/avatar.png'
   }  
 }  
 ```
