@@ -61,7 +61,6 @@
 </template>
 
 <script>
-const npmPackageDownloads = require('npm-package-downloads')
 export default {
   data () {
     return {
@@ -75,17 +74,29 @@ export default {
     }
   },
 
-  mounted () {
+  created () {
     const date = new Date()
     const year = date.getFullYear()
     const mounth = date.getMonth() + 1
     const day = date.getDate()
     this.npmPackageDownloads('vuepress-theme-reco', `2018-09-12:${year}-${mounth}-${day}`).then(res => {
-      this.downloads = res
+      this.downloads = this.toThousandslsFilter(res)
     })
   },
 
   methods: {
+    toThousandslsFilter (num) {
+      const numStr = String(num)
+      if (numStr === '' || numStr == undefined) {
+        return ''
+      }
+      const IntPart = /\./g.test(numStr) ? numStr.slice(0, numStr.indexOf('.')) : numStr
+      const FloatPart = /\./g.test(numStr) ? numStr.substring(numStr.indexOf('.')) : ''
+
+      const orderPrice2 = (+IntPart || 0).toString().replace(/^-?\d+/g, m => m.replace(/(?=(?!\b)(\d{3})+$)/g, ',')) + FloatPart
+      return orderPrice2
+    },
+
     npmPackageDownloads (packages, dateRange) {
       packages = this._handlePackages(packages)
       dateRange = this._handleDateRange(dateRange)
@@ -99,7 +110,7 @@ export default {
         dateRange.map(item => {
           fetchPromise.push(this._fetch(packages, item))
         })
-        const result = await this._promiseAll(fetchPromise)
+        const result = await Promise.all(fetchPromise)
         downloads = result.reduce((all, next) => {
           return all + next.downloads
         }, 0)
@@ -160,28 +171,6 @@ export default {
         return `-,${packages.join(',')}`
       }
       return packages
-    },
-
-    _promiseAll (promises) {
-      return new Promise((resolve, reject) => {
-        // 用来存储每个promise的返回值
-        let values = new Array(promises.length);
-        // 当前已经完成了几个promise
-        let finishCount = 0
-
-        for (let i = 0; i < promises.length; ++i) {
-          let promise = promises[i]
-          promise.then(val => {
-            values[i] = val
-            ++finishCount
-            if (finishCount === promises.length) {
-              resolve(values)
-            }
-          }).catch(err => {
-            reject(err)
-          })
-        }
-      })
     }
   }
 }
