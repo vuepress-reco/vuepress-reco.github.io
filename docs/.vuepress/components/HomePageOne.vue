@@ -5,7 +5,7 @@
       <p class="description">{{ $description }}</p>
       <div>
         <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=star&count=true&q=GitHub+Octocat+in:readme+user:defunkt" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-        <img :src="`https://img.shields.io/badge/download-${`12,292`}-orange.svg?style=social&logo=npm`" alt="">
+        <img :src="`https://img.shields.io/badge/download-${downloads}-orange.svg?style=social&logo=npm`" alt="">
         <!-- <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
         <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="20px"></iframe> -->
       </div>
@@ -54,10 +54,105 @@
 </template>
 
 <script>
+const npmPackageDownloads = require('npm-package-downloads')
 export default {
+  data () {
+    return {
+      downloads: 0
+    }
+  },
+
   computed: {
     features () {
       return this.$frontmatter.features
+    }
+  },
+
+  created () {
+    const date = new Date()
+    const year = date.getFullYear()
+    const mounth = date.getMonth() + 1
+    const day = date.getDate()
+    this.npmPackageDownloads('vuepress-theme-reco', `2018-09-12:${year}-${mounth}-${day}`).then(res => {
+      this.downloads = res
+    })
+  },
+
+  methods: {
+    npmPackageDownloads (packages, dateRange) {
+      packages = this._handlePackages(packages)
+      dateRange = this._handleDateRange(dateRange)
+      return this._getDownloadsOfDateRange(packages, dateRange)
+    },
+
+    async _getDownloadsOfDateRange (packages, dateRange) {
+      let downloads = 0
+      if (Array.isArray(dateRange)) {
+        let fetchPromise = []
+        await dateRange.map(item => {
+          fetchPromise.push(this._fetch(packages, item))
+        })
+        const result = await Promise.all(fetchPromise)
+        downloads = result.reduce((all, next) => {
+          return all + next.downloads
+        }, 0)
+        return downloads
+      }
+      const result = await this._fetch(packages, dateRange)
+      downloads = result.downloads
+      return downloads
+    },
+
+    _fetch (packages, dateRange) {
+      const BASE_URI = 'https://api.npmjs.org/downloads/point/'
+      return new Promise ((resolve, reject) => {
+        fetch(`${BASE_URI}${dateRange}/${packages}`).then(this._parseJSON).then(res => {
+          resolve(res)
+        }).catch(err => {
+          reject(err)
+        })
+      })
+    },
+
+    _parseJSON (response) {
+      return response.json()
+    },
+
+    _handleDateRange (dateRange) {
+      const index = dateRange.indexOf(':')
+      if (index> -1) {
+        const dr = dateRange.split(':')
+        const newDateRange = dr
+        const YEAR = 365 * 24 * 60 * 60 * 1000
+        const DATE_RANGE = new Date(dr[1]).getTime() - new Date(dr[0]).getTime()
+        const year = parseInt(DATE_RANGE / YEAR)
+        if (year > 0) {
+          for (let i = 0; i < year; i++) {
+            const date = this._getDate(newDateRange[i])
+            newDateRange.splice(i + 1, 0, date)
+          }
+          for (let i = 0, length = newDateRange.length; i < length - 1; i++) {
+            newDateRange[i] = `${newDateRange[i]}:${newDateRange[i + 1]}`
+          }
+          newDateRange.length = year + 1
+          return newDateRange
+        }
+        return dateRange
+      }
+      return dateRange
+    },
+
+    _getDate (date) {
+      const dateArr = date.split('-')
+      dateArr[0] = Number(dateArr[0]) + 1
+      return dateArr.join('-')
+    },
+
+    _handlePackages (packages) {
+      if (Array.isArray(packages)) {
+        return `-,${packages.join(',')}`
+      }
+      return packages
     }
   }
 }
