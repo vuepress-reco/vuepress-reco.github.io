@@ -68,7 +68,7 @@ export default {
     }
   },
 
-  created () {
+  mounted () {
     const date = new Date()
     const year = date.getFullYear()
     const mounth = date.getMonth() + 1
