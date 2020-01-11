@@ -190,5 +190,8 @@ export default {
     .plugin-list-wrapper
       .plugin-item
         width 100%
+    .screen    
+      .screen-wrapper
+        width 100%
 </style>
 
