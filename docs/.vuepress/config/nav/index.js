@@ -11,7 +11,8 @@ module.exports = {
         },
         {
           text: '插件', items: [
-            { text: '插件', link: '/views/plugins/' }
+            { text: '官方插件', link: '/views/plugins/index.html' },
+            { text: '插件广场', link: '/views/other/recommend.html' }
           ]
         }
       ]
