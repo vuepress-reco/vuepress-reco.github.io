@@ -176,6 +176,9 @@ export default {
           white-space nowrap
           .name
             max-width 88%
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         .desc
           margin .6rem 0 1.5rem
           .tag
