@@ -56,11 +56,13 @@ date: 2019-04-09
 
 ## Preview
 
-![size.png](https://img2018.cnblogs.com/blog/804100/202001/804100-20200108145212697-2145342130.png)
+![size.png](https://i.loli.net/2020/01/13/nCbXp13lRG2TNeD.png)
 
-![style.png](https://img2018.cnblogs.com/blog/804100/202001/804100-20200108145234008-772192678.png)
+![style.png](https://i.loli.net/2020/01/13/ke1VirShQRLnEd7.png)
 
-![dark.png](https://img2018.cnblogs.com/blog/804100/202001/804100-20200108145237662-1681040203.png)
+![dark.png](https://i.loli.net/2020/01/13/Lj6XbwdmDFCYH9k.png)
+
+![home.png](https://i.loli.net/2020/01/13/nra3kbYSlxojmw4.png)
 
 ## License
 [MIT](https://github.com/recoluan/vuepress-theme-reco/blob/master/LICENSE)
