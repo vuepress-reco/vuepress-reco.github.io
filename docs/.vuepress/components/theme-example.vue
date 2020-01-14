@@ -85,6 +85,12 @@ export default {
           thumbnail: '/blogImages/originalxzx.png' 
         },
         { 
+          name: '山水有轻音', 
+          desc: '开启旅行笔记',
+          link: 'http://blod.wxinxianyun.com/', 
+          thumbnail: '/blogImages/山水有轻音.png' 
+        },
+        { 
           name: 'Black House', 
           desc: '代码千万行, 注释第一行, 编码不规范, 同事两行泪.',
           link: 'https://dong4j.github.io/', 
