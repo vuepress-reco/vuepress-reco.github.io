@@ -6,7 +6,7 @@ date: 2019-04-09
 ## 安装
 
 ```bash
-npm install vuepress-theme-reco@0.3.11 -dev--save
+npm install vuepress-theme-reco@0.3.11 --save-dev
 
 # or
 
