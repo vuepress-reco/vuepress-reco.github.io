@@ -13,7 +13,7 @@
       </div>
       <div style="padding: 0 16px">
         <h4>通知</h4>
-        <h5>1.2.0 正式发布，适配系统的暗色模式和亮色模式。</h5>
+        <h5>祝各位朋友新春愉快！</h5>
       </div>
     </div>
   </transition>
@@ -49,7 +49,7 @@ export default {
   width 260px
   box-sizing border-box
   background #fff
-  border 1px solid #3eaf7c
+  border 1px solid $accentColor
   border-radius .25rem
   background var(--background-color)
   box-shadow var(--box-shadow)
@@ -58,7 +58,7 @@ export default {
     box-sizing border-box
     padding 10px
     margin 0
-    background #3eaf7c
+    background $accentColor
     color #fff
     i 
       color #fff
