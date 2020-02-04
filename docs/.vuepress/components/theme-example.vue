@@ -55,6 +55,12 @@ export default {
           thumbnail: '/blogImages/xm.png' 
         },
         { 
+          name: '凝弧', 
+          desc: '理解了目标，方向自然就出现了',
+          link: 'https://callsoul.cn/', 
+          thumbnail: '/blogImages/凝狐.png' 
+        },
+        { 
           name: '刘晓北', 
           desc: '一个前端狗记录的一点小事情',
           link: 'https://tankryze.github.io/', 
