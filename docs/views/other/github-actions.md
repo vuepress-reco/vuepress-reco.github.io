@@ -1,6 +1,7 @@
 ---
 title: 使用 GitHub Actions 自动部署博客
 date: 2020-02-10
+author: Lasy
 tags:
 - Github Actions
 - VuePress
