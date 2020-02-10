@@ -205,6 +205,11 @@ jobs:
 
 以上便是本篇教程全部内容，本篇首发于我的个人博客：[https://www.lasy.site/](https://www.lasy.site/)
 
+
+:::tip
+本文作者 [Lasy](https://github.com/LasyIsLazy)，博客 [Lasy](https://www.lasy.site)。
+:::
+
 参考链接：
 
 - [https://help.github.com/en/github/working-with-github-pages/about-github-pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages)
