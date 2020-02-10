@@ -153,7 +153,7 @@ jobs:
 
 点击进入查看部署情况。
 
-![image-20200208231311498](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200208231311498.png)
+![147bLD.png](https://s2.ax1x.com/2020/02/10/147bLD.png)
 
 部署成功，全是绿色~
 
