@@ -1,12 +1,12 @@
 ---
 title: 使用 GitHub Actions 自动部署博客
-date: 2020-02-10 10:56:48
+date: 2020-02-10
 tags:
 - Github Actions
 - VuePress
 - 博客
 categories: 
- - 前端
+ - blog
 ---
 
 # 使用 GitHub Actions 自动部署博客
