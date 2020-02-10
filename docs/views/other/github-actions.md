@@ -157,7 +157,7 @@ jobs:
 
 部署成功，全是绿色~
 
-接下来访问网站验证一下：https://lasyislazy.github.io/gh-pages-action-demo/
+接下来访问网站验证一下：[https://lasyislazy.github.io/gh-pages-action-demo/](https://lasyislazy.github.io/gh-pages-action-demo/)
 
 ![1W4BuR.png](https://s2.ax1x.com/2020/02/08/1W4BuR.png)
 
@@ -193,9 +193,9 @@ jobs:
 
 最后再说一下怎么找 action，以下是几个常用的网址：
 
-- https://github.com/actions：GitHub 官方的 action
-- https://github.com/marketplace?type=actions：GitHub 官方市场中的 action
-- https://github.com/sdras/awesome-actions：第三方收集的有用的 action
+- [https://github.com/actions](https://github.com/actions)：GitHub 官方的 action
+- [https://github.com/marketplace?type=actions](https://github.com/marketplace?type=actions)：GitHub 官方市场中的 action
+- [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)：第三方收集的有用的 action
 
 然后就是要利用好搜索引擎了。
 
@@ -203,10 +203,10 @@ jobs:
 
 
 
-以上便是本篇教程全部内容，本篇首发于我的个人博客：https://www.lasy.site/
+以上便是本篇教程全部内容，本篇首发于我的个人博客：[https://www.lasy.site/](https://www.lasy.site/)
 
 参考链接：
 
-- https://help.github.com/en/github/working-with-github-pages/about-github-pages
-- https://help.github.com/cn/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions
-- http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
+- [https://help.github.com/en/github/working-with-github-pages/about-github-pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages)
+- [https://help.github.com/cn/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions](https://help.github.com/cn/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions)
+- [http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
