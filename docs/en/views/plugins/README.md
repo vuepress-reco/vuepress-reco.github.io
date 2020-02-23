@@ -1,33 +1,31 @@
 ---
-title: Introduce
+title: Introduction
 date: 2019-09-30
 ---
 
-## 插件是什么
+## What is Plugin
 
-VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅可以应用一个喜欢的主题，而且可以自己去选择一些插件来丰富你的博客或者文档内容，搭建一个属于你自己的静态网站。
+Since version `1.0` VuePress supported plugins, which not only enable us to use our favorite theme but also choose some plugins to enrich your blog or domentation and build your own static website.
 
-主题也自 `vuepress-theme-reco@1.1.0` 版本开始进行插件化，将能够独立的功能或组件封装成插件，精简核心代码，方便维护和扩展。
+Our theme `vuepress-theme-reco` has also become a plugin since version `1.1.0`. We packed independent features or components into plugins, which make our core code simpler and easier to maintain and extend.
 
-## 插件的来源有哪些
+## Source of Plugins
 
-### vuepress-reco 组织下的插件
+### Plugins under vuepress-reco
 
-我们开发了一些能够帮助你丰富网站内容的小插件，你可以根据自己的喜好去启用它们。
+We developed some plugins to help enrich your website. You could choose to use them if you wish.
 
 ::: tip
-
-我们的插件均发布在 `npm` 的组织 `vuepress-reco` 下，所以以下插件默认全称为 `@vuepress-reco/vuepress-plugin-<name>` （比如 `back-to-top` 的完整名称为 `@vuepress-reco/vuepress-plugin-back-to-top`） ，下面将简写组织内插件名称。
-
+The plugins we developed are under `npm`'s organization `vuepress-reco`, so the default full name of a following plugin is `@vuepress-reco/vuepress-plugin-<name>` (such as the full name for `back-to-top` is `@vuepress-reco/vuepress-plugin-back-to-top`). We will just list the short names below.
 :::
 
 <table>
   <tr>
-    <th style="width:100px">名称</th>
-    <th style="width:60px">版本</th>
-    <th style="width:20px">是否内置</th>
-    <th style="width:20px">是否主题独占</th>
-    <th style="width:100px">描述</th>
+    <th style="width:100px">Name</th>
+    <th style="width:60px">Version</th>
+    <th style="width:20px">Built-in?</th>
+    <th style="width:20px">Can Only Be Used in Our Theme?</th>
+    <th style="width:100px">Description</th>
   </tr>
   <tr>
     <td>
@@ -38,7 +36,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>返回顶部插件</td>
+    <td>Go back to top of the page</td>
   </tr>
   <tr>
     <td>
@@ -49,7 +47,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>分页插件，帮助你快速跳转到任意页面</td>
+    <td>Paginate your posts and quickly navigate to any page</td>
   </tr>
   <tr>
     <td>
@@ -60,7 +58,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>全屏按钮插件</td>
+    <td>Bring the page or any element into full screen</td>
   </tr>
   <tr>
     <td>
@@ -71,7 +69,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>页面加载时过渡动画插件</td>
+    <td>Show animation when loading pages</td>
   </tr>
   <tr>
     <td>
@@ -82,7 +80,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✖</td>
     <td>✖</td>
-    <td>看板娘插件，为你的网站添加一个萌萌哒看板娘~</td>
+    <td>Add a cute kanban girl</td>
   </tr>
   <tr>
     <td>
@@ -93,7 +91,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>评论插件，集成了 Valine 与 Vssue 两种评论系统</td>
+    <td>Comment plugin to support 2 comment systems: Valine and Vssue</td>
   </tr>
   <tr>
     <td>
@@ -104,7 +102,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✔</td>
     <td>✖</td>
-    <td>代码展示插件，可以方便地帮你展示多种代码组合</td>
+    <td>Display code of multiple languages</td>
   </tr>
   <tr>
     <td>
@@ -115,7 +113,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✖</td>
     <td>✔</td>
-    <td>RSS 生成插件</td>
+    <td>Help generate RSS</td>
   </tr>
   <tr>
     <td>
@@ -126,55 +124,51 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     </td>
     <td>✖</td>
     <td>✖</td>
-    <td>背景音乐播放器</td>
+    <td>Add a bgm player</td>
   </tr>
 </table>
 
-::: warning 注意
-
-- 只有**内置插件**是在安装主题时安装并配置好的，非内置插件（比如 kan-ban-niang 插件）需要你自行安装并配置。
-- 为了使得主题更加定制化，我们开发了一些本**主题独占**的插件（比如 rss 插件），由于和主题之间存在强耦合，所以这些插件**在其他主题可能不会正常工作**。
-
+::: warning Note
+- only **built-in plugins** are customized when installing our theme, non built-in ones require you to install and customize yourself
+- to make the theme more customized, we developed some plugins **only suited for our theme** (such as the RSS one). Thus, these plugins might not work in other themes
 :::
 
-### npm 中的 VuePress 插件生态
+### VuePress Plugin Ecosystem in `npm`
 
-如果你想额外添加一些自己喜欢的插件，你可以[在 npm 中搜索 `vuepress-plugin`](https://www.npmjs.com/search?q=vuepress-plugin) 前缀来查看当前 VuePress 社区中已经开发的插件，之后使用 npm 或者 yarn [下载](#插件的下载)并在 `.vuepress/config.js` 中[配置](#简单使用插件)以启用它们。
+If you want to add some of your favorite plugins, you could [search `vuepress-plugin` in npm](https://www.npmjs.com/search?q=vuepress-plugin). Then use `npm` or `yarn` to [download plugins](#download-a-plugin) and [add them](#use-a-plugin) in `.vuepress/config.js` to start using.
 
-### 主题内置插件
+### Built-in Plugs in Our Theme
 
-主题内置了一些适合于博客以及文档开箱即用的插件，方便你更快地搭建起一个简洁而又不失优雅的静态网站。
+We have some out-of-the-box built-in plugins in our theme to help you quickly build a simple and elegant static website.
 
-这些内置的插件已经按照主题风格进行配置，你不需要去手动去启用它们，但如果你不喜欢我们内置的配置，完全可以[修改插件配置](#为插件配置选项)甚至禁用插件。
+These built-in plugins have already been customized according to the style of our theme and you don't need to trigger manually. If you don't like our default customizations, you are free to [change customizations](#add-a-plugin) yourself or simply disable them.
 
-|                                                           名称                                                           | 是否必需 |                                   默认配置                                   | 描述                             |
+|                                                           Name                                                           | Must-have? |                                   Default Settings                                   | 描述                             |
 | :----------------------------------------------------------------------------------------------------------------------: | :------: | :--------------------------------------------------------------------------: | :------------------------------- |
 |                                              [back-to-top](./backToTop.md)                                               |    ✖     |                                      -                                       | ...                              |
-|                                                [comments](./comments.md)                                                 |    ✔     | 需主题配置内配置 `$themeConfig.vssueConfig` 或者 `$themeConfig.valineConfig` | ...                              |
-|                                             [loading-page](./loadingPage.md)                                             |    ✔     |                              作为组件，无需配置                              | ...                              |
-|                                                [pagation](./pagation.md)                                                 |    ✔     |                              作为组件，无需配置                              | ...                              |
-|                                              [screenfull](./screenfull.md)                                               |    ✔     |                              作为组件，无需配置                              | ...                              |
+|                                                [comments](./comments.md)                                                 |    ✔     | Need to add `$themeConfig.vssueConfig` or `$themeConfig.valineConfig` | ...                              |
+|                                             [loading-page](./loadingPage.md)                                             |    ✔     |                              No customization needed                              | ...                              |
+|                                                [pagation](./pagation.md)                                                 |    ✔     |                              No customization needed                              | ...                              |
+|                                              [screenfull](./screenfull.md)                                               |    ✔     |                              No customization needed                              | ...                              |
 |                                                      [extractCode](./extractCode.md)                                                       |    ✖     |                  -                   | ...                              |
-| [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html) |    ✖     |                                      -                                       | 页面滚动时自动激活侧边栏链接插件 |
-|         [@vuepress/plugin-medium-zoom](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html)         |    ✖     |              `{selector: '.theme-reco-content :not(a) > img'}`               | 图片缩放插件                     |
-|           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | 一个基于 nprogress 的进度条插件  |
-|              [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-search.html)              |    ✔     |                                      -                                       | 基于 Headers 的搜索插件          |
-|                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✖     |                本插件是博客系统的基础，请不要禁用或者覆盖配置                | 博客插件                         |
-|[vuepress-plugin-container](https://vuepress.github.io/zh/plugins/container/)|✖| 使用默认主题的配置，效果见[在 Markdown 中使用容器](../1.x/syntax.md#container)|在你的文档中注册新的 Markdown 容器，可同时注册多个容器|
+| [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/plugin/official/plugin-active-header-links.html) |    ✖     |                                      -                                       | Automatically activates sidebar links when page scrolls |
+|         [@vuepress/plugin-medium-zoom](https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html)         |    ✖     |              `{selector: '.theme-reco-content :not(a) > img'}`               | [medium-zoom](https://github.com/francoischalifour/medium-zoom) plugin |
+|           [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/plugin/official/plugin-nprogress.html)           |    ✖     |                                      -                                       | A progress bar plugin based on [nprogress](https://github.com/rstacruz/nprogress) |
+|              [@vuepress/plugin-search](https://v1.vuepress.vuejs.org/plugin/official/plugin-search.html)              |    ✔     |                                      -                                       | A search plugin based on [Headers](https://v1.vuepress.vuejs.org/miscellaneous/glossary.html#headers) |
+|                             [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)                             |    ✖     | This is a basic plugin for blogging. Please don't disable or change config | A plugin for blogging |
+|[vuepress-plugin-container](https://vuepress.github.io/plugins/container/)|✖| Use the default theme config, see demo at [Use Containers in Markdown](../1.x/syntax.md#container) | Register (multiple) new containers in your articles |
 
-::: tip 什么是必需插件
-
-因为主题正处于插件化的进程中，与大部分插件尚存在一些耦合，如果你通过手动禁用这些插件可能会引发某些莫名其妙的错误，所以**请尽量不要禁用标有必需标志的插件**，如果你有这样的需求，欢迎在评论中留言
-
+::: tip What is a must-have plugin?
+Since our theme is transforming to plugins and still haven't decoupled from most plugins, you might encounter weird errors if disabling them. Thus, **please don't disable the must-have ones.** If you have such needs, please comment below.
 :::
 
-## 插件怎么用
+## How to Use a Plugin
 
-> [关于插件的使用的详细文档](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html)
+> [Detailed documentation on how to use a plugin](https://vuepress.vuejs.org/plugin/using-a-plugin.html)
 
-### 插件的下载
+### Download a Plugin
 
-如果你有一个已经发布在 `npm` 的喜欢的插件，你可以使用以下命令来下载并安装它
+If you like a released plugin in `npm`, you could execute the following commands to download and install it:
 
 ```bash
 yarn add <pagkageName> -D
@@ -182,15 +176,13 @@ yarn add <pagkageName> -D
 npm i <packageName> -D
 ```
 
-::: warning 注意
-
-这里的包名需要全称，并不能省略 `vuepress-plugin-`
-
+::: warning Note
+A full package name is needed, i.e., have to prepend `vuepress-plugin-`
 :::
 
-### 简单使用插件
+### Use a Plugin
 
-在下载插件后，你可以通过在 `.vuepress/config.js` 中做一些配置来使用插件
+After downloading a plugin, you could customize your `.vuepress/config.js` to use it:
 
 ```javascript
 module.exports = {
@@ -198,7 +190,7 @@ module.exports = {
 };
 ```
 
-你甚至可以省略掉 `vuepress-plugin-`
+You could omit `vuepress-plugin-` now:
 
 ```javascript
 module.exports = {
@@ -206,11 +198,11 @@ module.exports = {
 };
 ```
 
-### 为插件配置选项
+### Customize a Plugin
 
-如果你选择的插件支持 Options ，那么你可以通过以下两种方式添加
+If your chosen plugin supports `options`, you could customize in two ways:
 
-#### Babel 式
+#### Babel-like
 
 ```javascript
 module.exports = {
@@ -225,7 +217,7 @@ module.exports = {
 };
 ```
 
-就像这样
+such as:
 
 ```javascript
 module.exports = {
@@ -248,7 +240,7 @@ module.exports = {
 };
 ```
 
-#### 对象式
+#### Object-oriented
 
 ```javascript
 module.exports = {
@@ -261,12 +253,9 @@ module.exports = {
 ```
 
 ::: tip
+You could use this way to customize built-in plugins in our theme, or disable one by setting `options` to `false`:
 
-你可以通过这种方式来对主题内置插件的配置进行覆盖，甚至禁用一个内置插件
-
-只需将 Options 设置成 `false` 便可禁用该插件
-
-就像这样
+like this:
 
 ```javascript
 module.exports = {
