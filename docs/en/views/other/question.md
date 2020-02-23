@@ -73,7 +73,7 @@ This has been solved in version 1.1.0`.
 
 ## 9. Is the Click-to-Zoom feature Supported?
 
-In version `1.1.1`, the theme has set `@vuepress/medium-zoom` as a built-in plugin, which enables the click-to-zoom feature. Please see [The Theme's Built-in Plugins](../plugins/README.md#???) for more details.
+In version `1.1.1`, the theme has set `@vuepress/medium-zoom` as a built-in plugin, which enables the click-to-zoom feature. Please see [The Theme's Built-in Plugins](../plugins/README.md#built-in-plugins-in-our-theme) for more details.
 
 ## 10. What If the Plugin or Theme Doesn't Work?
 
