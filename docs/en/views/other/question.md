@@ -15,17 +15,15 @@ Please note that this theme inherits almost all features from `VuePress`' defaul
 1. Put font files under `public` folder, then in `enhanceApp.js` import the css file among the font files.
 2. If your `icon`'s full `className` is `class="iconfont icon-myIcon"`, configure `icon-font` as `{ text: 'Home', link: '/', icon: 'iconfont icon-myIcon' }`.
 
-## 2. How to Show Synopsis?
+## 2. How to Show Abstract?
 
-Anything above `<!-- more -->` is the synopsis.
+Anything above `<!-- more -->` is the abstract.
 
 <RecoDemo :collapse="true">
 <template slot="code-markdown">
-  <<< @/docs/.vuepress/demo/abstract.md
+  <<< @/docs/.vuepress/demo/abstract_en.md
 </template>
 </RecoDemo>
-
-(=====> ???会在docs/.vuepress/demo下创建一个英文版的abstract_en.md, 然后删掉这句话 <=====)
 
 ## 3. Can the Footer of Home Page Be Customized?
 
