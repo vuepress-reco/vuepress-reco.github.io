@@ -137,7 +137,7 @@ The plugins we developed are under `npm`'s organization `vuepress-reco`, so the 
 
 If you want to add some of your favorite plugins, you could [search `vuepress-plugin` in npm](https://www.npmjs.com/search?q=vuepress-plugin). Then use `npm` or `yarn` to [download plugins](#download-a-plugin) and [add them](#use-a-plugin) in `.vuepress/config.js` to start using.
 
-### Built-in Plugs in Our Theme
+### Built-in Plugins in Our Theme
 
 We have some out-of-the-box built-in plugins in our theme to help you quickly build a simple and elegant static website.
 
