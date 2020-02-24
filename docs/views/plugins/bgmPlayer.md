@@ -69,7 +69,7 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
   - PC端可以通过shrinkMode来指定缩小时缩为哪种模式
   - 移动端默认缩小为浮窗模式
 - type: `String`
-- default: `mini`
+- default: `float`
 - accepted-values: `mini | float`
 
 ### floatPosition
@@ -86,7 +86,7 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
 - default:
   ```json
   { 
-    bottom: '100px',
+    bottom: '200px',
     'z-index': '999999'
   }
   ```
@@ -99,4 +99,3 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
 - **开发计划**
   - 自动播放
   - 移动端适配问题修复
-  - 切换动画
