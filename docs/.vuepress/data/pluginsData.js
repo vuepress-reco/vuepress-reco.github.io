@@ -63,6 +63,15 @@ export default [
     feature: 'feature',
     scenes: 'independent'
   },
+  {
+    //使用说明网址见：https://zpj80231.gitee.io/znote/views/front-end/vuepress-plugin-boxx.html
+    name: 'vuepress-plugin-boxx',
+    desc: '为博客文章自动随机添加名人名言或其他，可自定义样式和内容。',
+    user: 'zpj80231',
+    repo: 'vuepress-plugin-boxx',
+    feature: 'feature',
+    scenes: 'independent'
+  },
   { 
     name: 'go-top', 
     desc: '回到顶部。',
