@@ -85,7 +85,7 @@ export default {
           width 36px
           height 36px
           border-radius 6px
-          border 2px solid rgba(62, 175, 124, .3)
+          border 2px solid rgba(0, 0, 0, .3)
           img 
             width 100%
             height 100%
