@@ -3,7 +3,7 @@ title: 首页配置
 date: 2019-04-09
 ---
 
-## Introduce
+## 介绍
 
 :::tip
 主题的主页的默认风格偏文档，并不像一个博客，所以从 `vuepress-theme-reco@1.0.0-alpha.25` 开始，增加博客风格首页布局。
@@ -17,7 +17,7 @@ date: 2019-04-09
 #### 1. 如果您的heroImage具有您的网站标题，则可能需要设置 `isShowTitleInHome: false` 以使标题不显示。
 
 ```yaml
-# 这是你的主页 
+# 这是你的主页
 
 ---
 home: true
@@ -29,7 +29,7 @@ isShowTitleInHome: false
 #### 2. 如果你想改变heroImage的风格，你可以设置值 `heroImageStyle` 来实现你想要的效果
 
 ```yaml
-# 这是你的主页 
+# 这是你的主页
 
 ---
 home: true
@@ -49,7 +49,6 @@ heroImageStyle: {
 
 > `heroImage` 在此模式下仍然有效。
 
-
 #### 1. 指定 `type: 'blog'`
 
 ```javascript
@@ -59,14 +58,14 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     type: 'blog'
-  }  
-}  
+  }
+}
 ```
 
 #### 2. 设置首页的背景图片，如果你想改变 bgImage 的风格，你可以设置值 `bgImageStyle` 来实现你想要的效果
 
 ```yaml
-# 这是你的主页 
+# 这是你的主页
 
 ---
 home: true
@@ -81,7 +80,7 @@ bgImageStyle: {
 
 ::: warning
 `1.2.0` 后使用 `themeConfig.authorAvatar` 替换首页的 `faceImage` 来设置头像
-::: 
+:::
 
 ```javascript
 // .vuepress/config.js
@@ -90,8 +89,8 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     authorAvatar: '/avatar.png'
-  }  
-}  
+  }
+}
 ```
 
 #### 4. 添加友链 <Badge text="1.1.2+" />
@@ -117,7 +116,7 @@ module.exports = {
       // ...
     ]
   }
-}  
+}
 ```
 
 - title 友链标题
@@ -140,8 +139,8 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     type: 'your vue component name'
-  }  
-}  
+  }
+}
 ```
 
 如果你的首页风格并不希望显示 `navbar`，你可以在首页文件里设置 `front-matter`，`navbar: false`。

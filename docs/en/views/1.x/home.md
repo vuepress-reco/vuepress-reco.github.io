@@ -1,9 +1,9 @@
 ---
-title: Home configuration
+title: Home Configuration
 date: 2019-04-09
 ---
 
-## Introduce
+## Introduction
 
 :::tip
 The default style of the theme's homepage is not like a blog, so start with `vuepress-theme-reco@1.0.0-alpha.25` and add a blog style homepage layout.
@@ -12,12 +12,13 @@ The default style of the theme's homepage is not like a blog, so start with `vue
 ## Option API
 
 ### Home
+
 ![home.png](../images/1.png)
 
 1. If your heroImage has your website title, you may need to set `isShowTitleInHome: false` so that the title is not displayed.
 
 ```yaml
-# 这是你的主页 
+# This is your home page
 
 ---
 home: true
@@ -43,10 +44,10 @@ heroImageStyle: {
 ```
 
 ### Home-Blog
+
 ![home.png](../images/home-blog.png)
 
  > `heroImage` is still valid in this mode.
-
 
 1. Specify `type: 'blog'`
 
@@ -127,7 +128,6 @@ module.exports = {
 > The home page will automatically add `header` and `footer`, and the custom part does not need to consider adding header and foot content.
 
 Write your desired home page style as a `vue` component, package it as a plugin or globally with the `@vuepress/plugin-register-components` plugin, then configure `type`:
-
 
 ```javascript
 // .vuepress/config.js

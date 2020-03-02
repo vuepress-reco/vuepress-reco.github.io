@@ -4,7 +4,7 @@ date: 2019-04-09
 ---
 
 ## 添加博客配置
-    
+
 ```javascript
 // .vuepress/config.js
 
@@ -22,19 +22,19 @@ module.exports = {
         text: 'Tag'      // 默认文案 “标签”
       }
     }
-  }  
-}  
+  }
+}
 ```
 
 ## 写文章时添加分类和标签
 
 ```yaml
---- 
-title: 【vue】跨域解决方案之proxyTable  
+---
+title: 【vue】跨域解决方案之proxyTable
 date: 2017-12-28
-categories: 
+categories:
  - frontEnd
-tags: 
+tags:
  - vue
 ---
 ```

@@ -7,52 +7,51 @@ date: 2019-04-09
 ![leancloud-storage](https://img.shields.io/badge/leancloud--storage-3.10.1-orange.svg)
 ![valine](https://img.shields.io/badge/valine-1.3.4-blue.svg)
 
-::: tip 介绍
-1. 这是一个vuepress主题，旨在添加博客所需的分类、TAB墙、分页、评论等能；<br>
-2. 主题追求极简，根据 vuepress 的默认主题修改而成，官方的主题配置仍然适用；<br>
-3. 你可以打开 [午后南杂](http://recoluan.gitlab.io) 来查看效果。
+::: tip Introduction
+1. This is a Vuepress theme with the necessary features for a blog: categories, tags, pagination, comments, etc. <br/>
+2. This minimalistic theme modifies the default theme but the default configs still apply
+3. You could open [午后南杂](http://recoluan.gitlab.io) to see an example
 :::
 
 ## Play Together
 
 ### 0.x
 
-`vuepress-theme-reco@0.x` 是基于 `vuepress@0.x` 的博客主题。
+`vuepress-theme-reco@0.x` is based on blog theme of `vuepress@0.x`。
 
-`vuepress@0.x` 功能比较简单，只适合书写简单的文档，但好在支持主题自定义，而个人又希望能够用它来书写博客，原因就是它足够的简洁，毫无疑问，这也符合很多程序员的观念，也就是在这种情况下，`vuepress-theme-reco@0.x` 的第一个版本经过一个通宵而产生。
+`vuepress@0.x` has simple features, is only good for simple documentation, and supports theme customization. Actually it is the simplicity that drives me to build a blog theme for VuePress. After an all-nighter, I built the very first version for `vuepress-theme-reco@0.x`.
 
-主题开源不久，很多朋友通过各种联系方式，给到很多好的意见和建议，所以我个人也在积极地更新。
+This theme has just been open sourced recently and many friends have proposed great suggestions in various ways, so I am actively updating the theme.
 
-因为我是一名前端开发工程师，开发的过程中，总是想着能不能加入一些炫酷的效果，有很多次都是添加上又去掉，反反复复，最后都是被 **简洁** 的这个原则阻止掉，毕竟，现在我是将它当作一个产品来看待，并不是一个技术或者是技巧的尝试项目。
+Since I am a frontend engineer, I always wanted to add some fancy visual effects but finally ridded them because of minimalism. After all, I see `reco` as a product, rather than a random trial.
 
 ### 1.x
 
-随着不断有用户过来询问：为什么 `vuepress-theme-reco@0.x` 不能在 `vuepress@1.x` 上使用？本来只是打算对 `vuepress-theme-reco@0.x` 进行简单的bug修复的我，终究还是忍不住，开始了 `vuepress-theme-reco@1.x` 的开发。又是在一个寂静的凌晨两点半（晚上就是出活快），我默默地开始了。
+As more users asked me why `vuepress-theme-reco@0.x` can't be used on top of `vuepress@1.x`, originally I wanted to fixed some simple bugs but finally decided to develop `vuepress-theme-reco@1.x`. At another 2:30a.m. (quite productive at night), I quietly started.
 
-主题升级的关键也就是 `@vuepress/plugin-blog` 这款官方插件，它不需要再去麻烦地过滤数据，将分类和标签的相关信息直接存在 `$categories` 和 `$tags` 这两个全局变量中。借助于 `@vuepress/plugin-blog`，分类和标签功能更容易实现，但也有了一些局限。接下来两三天的时间，都是在进行功能的迁移和一些bug的修复。
+The core update was the offical plugin `@vuepress/plugin-blog`, which doesn't filter data any more but stored the metadata in `$categories` and `$tags`. The plugin traded simpler realization of categorization and tagging with limitations. In the following 2 or 3 days, I was migrating features and debugging.
 
-`vuepress-theme-reco@1.x` 的开发中，更加深刻地明白了模块化和组件化编程的重要性，如果当初没有把一些功能进行封装，而是直接简单的复制，这次升级也不会这么顺利。模块拆分的越细，使用就会越灵活。
+During the development of `vuepress-theme-reco@1.x`, I understand deeper the importance of modular programming. If I had not modulazied some features but directly copy and paste, I wouldn't have updated the theme that easily. The more modules a project is divided into, the more flexible in actual usage.
 
 ### CLI
 
-还是衷心地希望能有更多的朋友参与进来，更快地去完善它。接下来时间允许的情况下，我会开源一款自动生成博客的脚手架，略过配置步骤，直接书写优质内容，这也是我后来逐渐形成的一种信念，就是希望能让这款主题，功能越完善，使用越来越简单。
+I sincerely hope more friends will opt in and better this theme. If time allows, I will open source a CLI (a scaffolding tool) to auto generate a blog. Users can go over the config step and directly write great content. It has been my aspiration to make this theme incorporate more features and easier to use.
 
-### Contribute
+### Contributors
 
-**衷心感谢为此项目贡献过宝贵代码的朋友们**
+**My sincerely thanks go to the contributors!**
 
-|昵称|贡献记录|
+|GitHub Username|Contribution History|
 |:-:|-|
 |[kangxu](https://github.com/kangxukangxu)|[vuepress-theme-reco@0.x](https://github.com/recoluan/vuepress-theme-reco/commit/ec7426a88d50cf8d9f90a7ad9b731a10da7f438b)|
 |[Ekko](https://github.com/danranVm)|[vuepress-theme-reco-demo@1.x](https://github.com/recoluan/vuepress-theme-reco-demo/commit/6d2bbe919e7f6564b8c8173558d197e38e024dc5)|
 
-**衷心感谢美女设计师**
+**I also thank our beautiful lady designers!**
 
-
-|昵称|贡献内容|
+|GitHub Username|Contribution History|
 |:-:|-|
-|[Zoey]()|主题图标调整定稿|
-|冰冰|主题图标初稿|
+|Zoey|Revised Theme Logo|
+|冰冰|Original Theme Logo|
 
 ## Preview
 

@@ -4,13 +4,13 @@ date: 2019-12-02
 author: 橘子
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-bgm-player/"/>
+## 介绍 <GitHubLink repo="vuepress-reco/vuepress-plugin-bgm-player/"/>
 
 ![demo.png](./images/bgm.png)
 
 Bgm player plugin for vuepress-theme-reco or other vuepress theme.  
 
-### Name
+### 名字
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-bgm-player`
 - **As component**: `BgMusic`（自动出现在页面中，无需添加额外代码）
@@ -91,7 +91,7 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
   }
   ```
 
-## About
+## 更多
 
 - **兼容性**：vuepress-plugin-bgm-player是使用HTML5的Audio开发，故兼容性与Audio的兼容性相关
 - 对于 `vuepress-theme-reco` 的 `dark` 模式的适配  

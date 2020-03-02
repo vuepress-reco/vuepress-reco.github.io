@@ -1,9 +1,9 @@
 ---
-title: Installation and reference
+title: Installation and Usage
 date: 2019-04-09
 ---
 
-## Install
+## Installation
 
 ```bash
 npm install vuepress-theme-reco -dev--save

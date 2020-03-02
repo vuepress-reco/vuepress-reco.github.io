@@ -1,16 +1,15 @@
 ---
-title: rss
+title: RSS
 date: 2019-11-06
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-rss"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-rss"/>
 
 RSS plugin only for vuepress-theme-reco.
 
 ### Name
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-rss`
-
 
 ## Option API
 

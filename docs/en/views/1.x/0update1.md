@@ -1,5 +1,5 @@
 ---
-title: update 1.x from 0.x
+title: Update 1.x from 0.x
 date: 2019-04-09
 ---
 
@@ -8,10 +8,10 @@ date: 2019-04-09
 ### Delete files needed for category and tag
 
 ```
---- 
-title: frontEnd  
-isCategories: true  
-sidebar: false  
+---
+title: frontEnd
+isCategories: true
+sidebar: false
 isComment: false
 ---
 
@@ -37,17 +37,17 @@ module.exports = {
         text: 'Tag'      // Default "Tag"
       }
     }
-  }  
-}  
+  }
+}
 ```
 
-### Edit YAML front matter 
+### Edit YAML front matter
 
 **0.x**
 
 ```
 ---
-title: 【vue】跨域解决方案之proxyTable  
+title: [Vue]proxyTable for Cross-domain Solutions
 date: 2017-12-28
 categories: frontEnd
 tags:
@@ -60,9 +60,9 @@ tags:
 
 ```
 ---
-title: 【vue】跨域解决方案之proxyTable  
+title: [Vue]proxyTable for Cross-domain Solutions
 date: 2017-12-28
-categories: 
+categories:
  - frontEnd
 tags:
  - vue
@@ -70,4 +70,4 @@ tags:
 ---
 ```
 
-The difference is simply that the categories is changed to an array.
+The difference is simply that `categories` is changed to an array.

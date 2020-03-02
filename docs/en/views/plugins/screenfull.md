@@ -1,11 +1,11 @@
 ---
-title: screenfull
+title: Screenfull
 date: 2019-09-30
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-screenfull/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-screenfull/"/>
 
-Screenfull plugin for vuepress-theme-reco or other vuepress theme.
+Screenfull plugin for vuepress-theme-reco or other vuepress themes.
 
 ### Name
 

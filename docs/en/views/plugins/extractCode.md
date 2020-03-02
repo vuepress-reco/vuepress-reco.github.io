@@ -1,11 +1,11 @@
 ---
-title: extractCode
+title: Extract Code
 date: 2019-11-01
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-extract-code/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-extract-code/"/>
 
-Features and code presentation plugin for vuepress-theme-reco or other vuepress theme.
+Features and code presentation plugin for vuepress-theme-reco or other vuepress themes.
 
 <RecoDemo :collapse="true">
   <template slot="code-template">
@@ -26,7 +26,7 @@ Features and code presentation plugin for vuepress-theme-reco or other vuepress 
 
 ## Usage
 
-### 修改 `config.js`
+### Modify `config.js`
 
 ```js
 module.exports = {
@@ -36,9 +36,9 @@ module.exports = {
 }
 ```
 
-### 展示 `VUE` 组件
+### Display a `VUE` Component
 
-> `@` 是当前项目目录的别名
+> `@` is an alias for current directory
 
 ```html
 <RecoDemo>
@@ -54,9 +54,9 @@ module.exports = {
 </RecoDemo>
 ```
 
-### 随意组合想展示的代码
+### Randomly Combine Code to Display
 
-比如，你想展示 `html` 代码，需要将插槽名字改为 `code-html`，然后将文件指向对应的文件即可。
+For example, if you want to display `HTML` code, you could just change the `slot` to `code-html` and point the file to corresponding file.
 
 ```html
 <RecoDemo>
@@ -72,11 +72,11 @@ module.exports = {
 </RecoDemo>
 ```
 
-### 展示代码效果
+### Display Code Output
 
-如果你想同时展示你的案例的显示效果，可以通过 `demo` 这个插槽来操作：
+If you want to display the output of your demo, could set `slot` to `demo`:
 
-#### 1. 可以通过 `img` 标签去展示效果截图
+#### 1. Use `img` tag to display output screenshot
 
   ```html
   <RecoDemo>
@@ -94,7 +94,7 @@ module.exports = {
   </RecoDemo>
   ```
 
-#### 2. 当然，如果可以将展示效果写成一个 `vue` 组件的话，可以这样来展示：
+#### 2. Of course you could write the output demo as a `Vue` component:
 
 ```html
 <RecoDemo>
@@ -112,7 +112,7 @@ module.exports = {
 </RecoDemo>
 ```
 
-只要你的组件可以在 `.md` 文件中正常使用就可以，你可以把这些组件放在 `.vuepress/components` 下；可以通过官方注册插件 `@vuepress/plugin-register-components` 去注册组件；可以通过组件的方式去注入。
+You could do this as long as your component works in a `.md` file. You could put these components under `.vuepress/components`. Otherwise you could use the official plugin `@vuepress/plugin-register-components` to register these components and import as a component.
 
 #### 3. 另外，如果你想要展示的案例代码就是一个独立的可以显示效果的功能组件，那最方便不过了，因为这个组件既可以作为代码来源，又可以用来显示效果：
 
@@ -132,9 +132,9 @@ module.exports = {
 </RecoDemo>
 ```
 
-### 展示不具名的代码
+### Display Unnamed Code
 
-如果你的代码只是某个代码块，可以直接在文本里写，这样很方便，不需要去建立一个文件，但是这样不会显示代码高亮的。
+Your code to display doesn't have to be in a file but can just be shown in text. Though it's easy to do so, syntax highlighting is disabled.
 
 ```html
 <RecoDemo :collapse="true">
@@ -146,7 +146,7 @@ module.exports = {
 </RecoDemo>
 ```
 
-但是这样还有一个缺点，就是会有多余的代码缩进，可以这样粗暴解决：
+There is another shortcoming that extra indentation would be shown, but can be solved this way:
 
 ```html
 <RecoDemo :collapse="true">
@@ -159,9 +159,9 @@ a.b = 1
 </RecoDemo>
 ```
 
-### 默认显示代码块
+### Display Code Block by Default
 
-代码展示默认是隐藏的，点击左上角的按钮才可以显示，可以把 `collapse` 设置为 `true` 来默认显示代码：
+Code display is hidden by default and can only be shown if the button in top left corner is clicked. You could set `collapse` to `true`:
 
 ```html
 <RecoDemo :collapse="true">

@@ -3,7 +3,7 @@ title: 评论
 date: 2019-04-09
 ---
 
-## Introduce
+## 介绍
 
 主题内置评论插件 [@vuepress-reco/vuepress-plugin-comments](/views/plugins/)，可以根据自己的喜好选择 `Valine` 或者 `Vssue`；
 

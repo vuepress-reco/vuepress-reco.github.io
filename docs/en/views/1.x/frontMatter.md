@@ -3,11 +3,11 @@ title: Front Matter
 date: 2019-10-21
 ---
 
-A complete `Front Matter` case:
+This is a complete `Front Matter`:
 
 ```yaml
 ---
-title: The practice of roast duck
+title: The Practice of Roast Duck
 date: 2019-08-08
 sidebar: 'auto'
 categories:
@@ -17,14 +17,14 @@ tags:
  - barbecue
  - duck
 keys:
- - '123456' 
+ - '123456'
 publish: false
 ---
 ```
 
 ### title
 
-- description: The title of the article, abandoning the way to define the title through the first level directory, changed in `Front Matter`.
+- description: The title of the article. Instead of defining the title through the first level heading, we set in `Front Matter`.
 
 ### date
 
@@ -55,4 +55,3 @@ publish: false
 - description: Article sticky.
 - type: `number`
 - sort type: Descending order, you can lower the priority of the top posts according to `1, 2, 3, ...`.
-

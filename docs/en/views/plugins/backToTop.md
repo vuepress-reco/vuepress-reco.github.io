@@ -1,9 +1,9 @@
 ---
-title: back-to-top
+title: Back to Top
 date: 2019-09-30
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-back-to-top/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-back-to-top/"/>
 
 ![demo.png](./images/backToTop.png)
 
@@ -12,28 +12,28 @@ Back-to-top plugin for vuepress-theme-reco or other vuepress theme.
 ### Name
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-back-to-top`
-- **As component**: `BackToTop（自动出现在页面中，无需添加额外代码）`
+- **As component**: `BackToTop` (auto appear in the page, no need for extra code)
 
 ## Option API
 
 ### icon
 
-- description: 按钮中间的图标名字
+- description: name of icon in the middle of the button
 - type: `String`
 - default: `reco-up`
-- accepted values: 主题内置的其他图标
+- accepted values: other built-in icons in the theme
 
 ### visibilityHeight
 
-- description: 按钮出现时的最小滚动高度
+- description: minimum scrolling height before the button appears
 - type: `Number`
 - default: `400`
 
 ### customStyle
 
-- description: 自定义按钮的样式
+- description: button's cutomized style
 - type: `Object`
-- default: 
+- default:
   ```json
   {
     right:'1rem',
@@ -45,6 +45,7 @@ Back-to-top plugin for vuepress-theme-reco or other vuepress theme.
     backgroundColor: 'rgba(231, 234, 241,.5)'
   }
   ```
+
 ## Contributors
 
 <Contributors user="vuepress-reco" repo="vuepress-plugin-back-to-top"></Contributors>

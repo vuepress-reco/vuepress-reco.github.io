@@ -1,42 +1,42 @@
 ---
-title: pagation
+title: Pagination
 date: 2019-09-30
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-pagation/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-pagation/"/>
 
 ![demo.png](./images/pagation.png)
 
-Pagation plugin for vuepress-theme-reco or other vuepress theme.
+Pagination plugin for vuepress-theme-reco or other vuepress theme.
 
 ### Name
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-pagation`
-- **As component**: `Pagation`（主题开发时使用）
+- **As component**: `Pagation` (used in theme development)
 
 ## Option API
 
 ### total
 
-- description: 数据总数量
+- description: total amount of data
 - type: `Number`
 - default: `10`
 
 ### perPage
 
-- description: 每页多少条
+- description: how many posts per page
 - type: `Number`
 - default: `10`
 
 ### currentPage
 
-- description: 当前是第几页
+- description: current page number
 - type: `Number`
 - default: `1`
 
 ### getCurrentPage
 
-- description: 当前是第几页
+- description: get the current page number
 - type: `Function`
 
 ## Contributors

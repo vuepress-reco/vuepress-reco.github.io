@@ -1,10 +1,10 @@
 ---
-title: bgm player
+title: Background Music Player
 date: 2019-12-02
 author: 橘子
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-bgm-player/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-bgm-player/"/>
 
 ![demo.png](./images/bgm.png)
 
@@ -13,28 +13,28 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
 ### Name
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-bgm-player`
-- **As component**: `BgMusic`（自动出现在页面中，无需添加额外代码）
+- **As component**: `BgMusic` (auto appear in the page, no need for extra code)
 
 ## Option API
 
-> 以下为插件注入时的参数。
+> The following are the default parameters when plugin is used.
 
 ### audios
 
-- description: 播放列表
+- description: playlist
 - type: `Array`
-- default: 无默认值且必须配置
+- default: no default value and must be customized
 - example
   ```
   audios: [
-    // 本地文件示例
+    // local media examples
     {
       name: '장가갈 수 있을까',
       artist: '咖啡少年',
       url: '/bgm/1.mp3',
       cover: '/bgm/1.jpg'
     },
-    // 网络文件示例
+    // online media examples
     {
       name: '강남역 4번 출구',
       artist: 'Plastic / Fallin` Dild',
@@ -50,9 +50,9 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
   ]  
   ```
 
-### position
+### Position
 
-- description: 播放器位置
+- description: position of player
 - type: `Object`
 - default
   ``` json
@@ -66,22 +66,22 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
 ### shrinkMode
 
 - description
-  - PC端可以通过shrinkMode来指定缩小时缩为哪种模式
-  - 移动端默认缩小为浮窗模式
+  - PC can set shrinkMode to customize which mode when window is shrunk
+  - Mobile device defaults to `float`ing window
 - type: `String`
 - default: `mini`
 - accepted-values: `mini | float`
 
 ### floatPosition
 
-- description: 指定浮窗模式浮动在哪一侧
+- description: in `float`ing window, set the side to show
 - type: `String`
 - default: `left`
 - accepted-values: `left | right`
 
 ### floatStyle
 
-- description: 浮窗的样式
+- description: `float`ing window style
 - type: `Object`
 - default:
   ```json
@@ -93,10 +93,10 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
 
 ## About
 
-- **兼容性**：vuepress-plugin-bgm-player是使用HTML5的Audio开发，故兼容性与Audio的兼容性相关
-- 对于 `vuepress-theme-reco` 的 `dark` 模式的适配  
+- **Compatibility**：vuepress-plugin-bgm-player uses `audio` in HTML5, so compatibility is associated that of `audio`
+- customize according to `dark` mode in `vuepress-theme-reco`
   ![dark.png](./images/darkBgm.png)
-- **开发计划**
-  - 自动播放
-  - 移动端适配问题修复
-  - 切换动画
+- **Development Plans**
+  - auto play
+  - fix mobile customization
+  - switch animation

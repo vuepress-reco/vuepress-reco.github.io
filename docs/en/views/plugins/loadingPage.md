@@ -1,11 +1,11 @@
 ---
-title: loading-page
+title: Loading Page
 date: 2019-10-08
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-loading-page/"/>
+## Introduction <GitHubLink repo="vuepress-reco/vuepress-plugin-loading-page/"/>
 
-Loading page plugin for vuepress-theme-reco or other vuepress theme.
+Loading page plugin for vuepress-theme-reco or other vuepress themes.
 
 ### Name
 

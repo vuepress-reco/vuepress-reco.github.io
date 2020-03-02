@@ -1,15 +1,15 @@
 ---
-title: pagation
+title: Pagination
 date: 2019-09-30
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-pagation/"/>
+## 介绍 <GitHubLink repo="vuepress-reco/vuepress-plugin-pagation/"/>
 
 ![demo.png](./images/pagation.png)
 
 Pagation plugin for vuepress-theme-reco or other vuepress theme.
 
-### Name
+### 名字
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-pagation`
 - **As component**: `Pagation`（主题开发时使用）
@@ -39,6 +39,6 @@ Pagation plugin for vuepress-theme-reco or other vuepress theme.
 - description: 当前是第几页
 - type: `Function`
 
-## Contributors
+## 贡献者
 
 <Contributors user="vuepress-reco" repo="vuepress-plugin-pagation"></Contributors>
