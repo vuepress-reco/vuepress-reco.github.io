@@ -1,17 +1,17 @@
 ---
-title: 暗色模式适配
+title: Customize the Dark Mode
 date: 2019-12-29
 ---
 
 ::: tip
-主题从 `1.2.0` 之后，适配系统的暗色主题模式，如果你有一些关于本主题的插件或者自定义的组件的话，你需要对暗色模式进行适配。
+Since version `1.2.0`, we have added dark mode. If you have some of your own plugins or components in this theme, you may also want to customize them accordingly.
 :::
 
-## 颜色变量
+## Color Variables
 
-这里是主题提供的颜色变量，请根据自己的需求选择相应的颜色变量，替换你的组件里的颜色值：
+Here are the color variables provided by the theme. Please select the corresponding color variable according to your needs and replace the color value in your component:
 
-|变量|亮色模式|暗色模式|
+|Variables|Light Mode|Dark Mode|
 |-|-|-|
 |--default-color-10|rgba(0, 0, 0, 1)|rgba(255, 255, 255, 1)|
 |--default-color-9|rgba(0, 0, 0, .9)|rgba(255, 255, 255, .9)|
@@ -30,7 +30,7 @@ date: 2019-12-29
 |--code-color|rgba(27, 31, 35, 0.05)|rgba(0, 0, 0, .3)|
 |--mask-color|#888|#000|
 
-## 使用方法
+## Usage
 
 ```stylus
 .title {

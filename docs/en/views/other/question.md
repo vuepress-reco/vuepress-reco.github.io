@@ -5,9 +5,9 @@ sidebar: 'auto'
 ---
 
 ::: tip
-We have collected some usual questions here. If you haven't found the answer you want here, you could please read `VuePress`' [Default Theme Config](https://v1.vuepress.vuejs.org/theme/default-theme-config.html). As a final resort, you could post an issue on GitHub(???我没写微信，感觉英文使用者比较少用微信？).
+We have collected some usual questions here. If you don't find the answer you want here, please read `VuePress`' [default theme config](https://v1.vuepress.vuejs.org/theme/default-theme-config.html). As final resort, you could post an [issue on GitHub](https://github.com/vuepress-reco/vuepress-theme-reco/issues).
 
-Please note that this theme inherits almost all features from `VuePress`' default theme. Thus, this article only serves to introduce extra features. If you've found some features this site hasn't mentioned, or you want to know some features in default theme, please go to the [official documentation](https://v1.vuepress.vuejs.org/theme/default-theme-config.html).
+Please note that this theme includes almost all features from `VuePress`' default theme. Thus, this FAQ only serves to introduce extra features. If you've found some features this site hasn't mentioned, or you want to know some features in default theme, please go to the [official documentation](https://v1.vuepress.vuejs.org/theme/default-theme-config.html).
 :::
 
 ## 1. How to Add `icon-font`?

@@ -3,9 +3,9 @@ title: Config.js configuration
 date: 2019-04-09
 ---
 
-## Mobile optimization
+## Mobile Optimization
 
-On the mobile side, the search box zooms in when it gets focus, and can scroll left and right after losing focus, which can be optimized by setting the meta.
+On a mobile device, the search box can be zoomed in when focused, and scrolled left or right when not focused. This can be done by setting the meta.
 
 ```javascript
 // .vuepress/config.js
@@ -18,7 +18,7 @@ module.exports = {
 
 ## Icon
 
-You can use the theme's built-in icons in the navigation menu as follows:
+You can use the theme's built-in icons in the navigation bar as follows:
 
 ```javascript
 { text: 'Tags', link: '/tags/', icon: 'reco-tag' }
@@ -65,10 +65,10 @@ module.exports = {
 
 ```bash
 ---
-title: You have not really worked hard, you easily lose to laziness
+title: You Haven't Really Worked Hard before You Yield to Laziness
 date: 2015-04-23
 categories: article
-author: 渡渡
+author: Dudu
 ---
 ```
 

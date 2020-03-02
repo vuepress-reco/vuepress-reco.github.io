@@ -1,19 +1,19 @@
 ---
-title: 定制样式与脚本
+title: Customize Style and Script
 date: 2019-11-22
 author: SigureMo
 ---
 
-## 定制属于你自己的样式
+## Customize Your Own Style
 
-如果你不满足于主题提供的默认样式，VuePress 提供了一些简单的接口文件，可以让你能够很方便地定制你自己想要的效果。
+If you are not happy with the default style, VuePress offers some simple config files to easily customize what you want in style.
 
-### 修改主题颜色
+### Change Default Colors
 
-你可以通过配置 `.vuepress/styles/palette.styl` 来快速修改主题的一些颜色属性。
+You could customize `.vuepress/styles/palette.styl` to quickly modify color configs in the theme.
 
 ``` stylus
-// 默认值
+// default colors
 $accentColor = #3eaf7c                      // 主题颜色
 $textColor = #2c3e50                        // 文本颜色
 $borderColor = #eaecef                      // 边框线颜色
@@ -21,9 +21,9 @@ $codeBgColor = #282c34                      // 代码块背景色
 $backgroundColor = #ffffff                  // 悬浮块背景色
 ```
 
-### 添加或修改主题样式
+### Add or Modify Theme Style
 
-你可以创建一个 `.vuepress/styles/index.styl` 文件以方便地添加额外样式。这是一个 Stylus 文件，但你也可以使用正常的 CSS 语法。
+You could create a `.vuepress/styles/index.styl` file to easily add more styles. Note that this is a Stylus file, but you could also use normal CSS grammar.
 
 ``` stylus
 .content {
@@ -31,15 +31,15 @@ $backgroundColor = #ffffff                  // 悬浮块背景色
 }
 ```
 
-::: tip 是否可以将颜色与样式写在同一个文件？
-
-不可以将颜色与样式写在同一个文件中，VuePress 会先解析 `palette.styl` 中的全局变量，之后作用于主题的各个样式中，最后才解析 `index.styl` ，以覆盖主题默认的样式。
-
+::: tip Can the Color and Style Be in the Same File?
+Sorry, you can't. VuePress will parse global variables in `palette.styl` and apply in blog style, before finally parse `index.styl` to override default blog style.
 :::
 
-## 在 Head 中引用脚本与样式
+## Import Style and Script in Head
 
-你可以通过配置 `.vuepress/config.js` 中的 `head` 来引入脚本与样式，它将会被编译为 `<head>` 中的一项。
+You could import style and script in `head` in `.vuepress/config.js`. `head` will be interpreted as `<head>` at the end.
+
+For example:
 
 ``` js
 module.exports = {
@@ -50,7 +50,7 @@ module.exports = {
 }
 ```
 
-比如上面的配置就会被解析为
+The above will be interpreted as:
 
 ``` html
 <head>
@@ -59,13 +59,13 @@ module.exports = {
 </head>
 ```
 
-关于 `head` 的详细配置说明请参考[官方文档 head 配置](https://v1.vuepress.vuejs.org/zh/config/#head)
+See [official documentation on head configuration](https://v1.vuepress.vuejs.org/config/#head) for more details.
 
-## 在单独页面中应用样式和脚本
+## Apply Style and Script to a Single Page
 
-有时，你可以只想在当前页面应用一些 `JavaScript` 或者 `CSS`，在这种情况下，你可以直接在 `Markdown` 文件中使用原生的 `<script>` 或者 `<style>` 标签，它们将会从编译后的 HTML 文件中提取出来，并作为生成的 Vue 单文件组件的 `<script>` 和 `<style>` 标签。
+Sometimes we may just want to apply some `JavaScript` or `CSS` to the current page. We could do this by adding original `<script>` or `<style>` tags in the `Markdown` file, which will be compiled and extracted in the output HTML file.
 
-**输入**
+**Input**
 
 ``` html
 <p class="demo" :class="$style.example"></p>
@@ -87,7 +87,7 @@ export default {
 </script>
 ```
 
-**输出**
+**Output**
 
 <p class="demo" :class="$style.example"></p>
 

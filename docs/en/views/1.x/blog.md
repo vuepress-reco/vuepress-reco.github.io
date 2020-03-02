@@ -1,10 +1,10 @@
 ---
-title: Category and tag
+title: Category and Tag
 date: 2019-04-09
 ---
 
-## Addblog configuration
-    
+## Add Blog Configurations
+
 ```javascript
 // .vuepress/config.js
 
@@ -14,29 +14,29 @@ module.exports = {
      // Blog configuration
     blogConfig: {
       category: {
-        location: 2,     // The position occupied in the navigation bar menu, default 2
-        text: 'Category' // Default copy "Category"
+        location: 2,     // The position occupied in the navigation bar menu, default to 2
+        text: 'Category' // Text default to "Category"
       },
       tag: {
-        location: 3,     // The position occupied in the navigation bar menu, default 3
-        text: 'Tag'      // Default copy "Tag"
+        location: 3,     // The position occupied in the navigation bar menu, default to 3
+        text: 'Tag'      // Text default to "Tag"
       }
     }
-  }  
-}  
+  }
+}
 ```
 
-## Add categories and tags when writing articles
+## Add Categories and Tags when Writing Blogs
 
 ```yaml
---- 
-title: 【vue】跨域解决方案之proxyTable  
+---
+title: [Vue]proxyTable for Cross-domain Solutions
 date: 2017-12-28
-categories: 
+categories:
  - frontEnd
-tags: 
+tags:
  - vue
 ---
 ```
 
-> Note: `categories` and `tags` are to be filled in as an array.
+> Note: `categories` and `tags` should be filled in as an array.

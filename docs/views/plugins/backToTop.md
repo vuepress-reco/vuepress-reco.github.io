@@ -3,13 +3,13 @@ title: back-to-top
 date: 2019-09-30
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-back-to-top/"/>
+## 介绍 <GitHubLink repo="vuepress-reco/vuepress-plugin-back-to-top/"/>
 
 ![demo.png](./images/backToTop.png)
 
 Back-to-top plugin for vuepress-theme-reco or other vuepress theme.
 
-### Name
+### 名字
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-back-to-top`
 - **As component**: `BackToTop（自动出现在页面中，无需添加额外代码）`
@@ -45,6 +45,7 @@ Back-to-top plugin for vuepress-theme-reco or other vuepress theme.
     backgroundColor: 'rgba(231, 234, 241,.5)'
   }
   ```
-## Contributors
+
+## 贡献者
 
 <Contributors user="vuepress-reco" repo="vuepress-plugin-back-to-top"></Contributors>

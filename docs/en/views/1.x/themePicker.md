@@ -15,7 +15,7 @@ module.exports = {
 }  
 ```
 
-## Custom color
+## Customize Color
 
 ```javascript
 // .vuepress/config.js

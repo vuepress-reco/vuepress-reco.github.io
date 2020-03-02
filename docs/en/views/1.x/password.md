@@ -5,9 +5,9 @@ date: 2019-04-09
 
 ## Project Encryption
 
-### Introduce
+### Introduction
 
-If the project is private and does not want to be made public, the content page can only be accessed after the key is logged in (the login is disabled after closing the browser tab). You can set multiple passwords by setting `keys` in the format of the array. The value of the array must be a string.
+If the project is private and does not want to be made public, the content page can only be accessed after the key is logged in (the login will no longer be effective after closing the browser tab). You can set multiple passwords by setting `keys` in the format of the array. The value of the array must be a string.
 
 ```javascript
 // .vuepress/config.js
@@ -21,8 +21,8 @@ module.exports = {
       color: '#42b983', // The color of the login page animation ball
       lineColor: '#42b983' // The color of the login page animation line
     }
-  }  
-}  
+  }
+}
 ```
 
 ### Absolute encryption <Badge text="1.1.2+" />
@@ -48,6 +48,6 @@ keys:
 ```
 
 :::warning
-**Legacy issues with encrypted pages:**  
+**Legacy issues with encrypted pages:**
 Encryption cannot be hidden when entering a separate article from a single encrypted article (such as the navigation bar)
 :::

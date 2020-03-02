@@ -3,11 +3,11 @@ title: comments
 date: 2019-10-17
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-comments/"/>
+## 介绍 <GitHubLink repo="vuepress-reco/vuepress-plugin-comments/"/>
 
 Comments plugin for vuepress-theme-reco or other vuepress theme.
 
-### Name
+### 名字
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-comments`
 - **As component**: `Comments (评论)` / `AccessNumber (使用 Valine 时的访问量)`（主题开发时使用）
@@ -72,7 +72,7 @@ module.exports = {
 module.exports = {
   theme: 'reco',
   plugins: [['@vuepress-reco/comments', {
-    solution: 'vuess',
+    solution: 'vssue',
     options: {
       title: 'vuepress-theme-reco',
       platform: 'github',
@@ -121,6 +121,6 @@ module.exports = {
 - description: 文章标题
 - type: `String`
 
-## Contributors
+## 贡献者
 
 <Contributors user="vuepress-reco" repo="vuepress-plugin-comments"></Contributors>

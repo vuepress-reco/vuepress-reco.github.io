@@ -1,13 +1,13 @@
 ---
-title: Add a summary
+title: Add a Summary
 date: 2019-04-09
 ---
 
-## 效果
+## Example
 
 ![2.png](../images/11.png)
 
-## markdown
+## Markdown
 
 ![1.png](../images/12.png)
 

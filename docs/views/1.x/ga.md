@@ -1,9 +1,9 @@
 ---
-title: Google Analytic
+title: Google Analytics
 date: 2019-09-30
 ---
 
-## Introduce
+## 介绍
 
 ::: warning
 
@@ -11,7 +11,7 @@ date: 2019-09-30
 
 :::
 
-主题内置 `Google Analytic` [@vuepress-reco/vuepress-plugin-ga](/views/plugins/ga.md)。
+主题内置 `Google Analytics` [@vuepress-reco/vuepress-plugin-ga](/views/plugins/ga.md)。
 
 ## Option API
 

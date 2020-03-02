@@ -210,7 +210,7 @@ module.exports = {
 
 如果你选择的插件支持 Options ，那么你可以通过以下两种方式添加
 
-#### Babel 式
+#### 1. Babel 式
 
 ```javascript
 module.exports = {
@@ -248,7 +248,7 @@ module.exports = {
 };
 ```
 
-#### 对象式
+#### 2. 对象式
 
 ```javascript
 module.exports = {

@@ -1,17 +1,15 @@
 ---
-title: Google Analytic
+title: Google Analytics
 date: 2019-09-30
 ---
 
-## Introduce
+## Introduction
 
 ::: warning
-
-主题 `1.1.2` 版本起已移除该功能，如果你希望继续使用该功能，请移步官方插件[Google Analytics](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-google-analytics.html)。
-
+Since version `1.1.2`, our theme has removed such feature. If you want to continue using it, please see the official plugin [Google Analytics](https://v1.vuepress.vuejs.org/plugin/official/plugin-google-analytics.html).
 :::
 
-主题内置 `Google Analytic` [@vuepress-reco/vuepress-plugin-ga](/views/plugins/ga.md)。
+Built-in plugin in our theme: `Google Analytics` [@vuepress-reco/vuepress-plugin-ga](/en/views/plugins/ga.md)。
 
 ## Option API
 
@@ -19,7 +17,7 @@ date: 2019-09-30
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    GAID: xxx // 项目生成后生成的 ID 值
+    GAID: xxx // Google Analytics property ID
   }  
 }
 ```

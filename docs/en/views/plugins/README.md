@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction to Plugins
 date: 2019-09-30
 ---
 
@@ -141,7 +141,7 @@ If you want to add some of your favorite plugins, you could [search `vuepress-pl
 
 We have some out-of-the-box built-in plugins in our theme to help you quickly build a simple and elegant static website.
 
-These built-in plugins have already been customized according to the style of our theme and you don't need to trigger manually. If you don't like our default customizations, you are free to [change customizations](#add-a-plugin) yourself or simply disable them.
+These built-in plugins have already been customized according to the style of our theme and you don't need to trigger manually. If you don't like our default customizations, you are free to [change customizations](#customize-a-plugin) yourself or simply disable them.
 
 |                                                           Name                                                           | Must-have? |                                   Default Settings                                   | 描述                             |
 | :----------------------------------------------------------------------------------------------------------------------: | :------: | :--------------------------------------------------------------------------: | :------------------------------- |
@@ -202,7 +202,7 @@ module.exports = {
 
 If your chosen plugin supports `options`, you could customize in two ways:
 
-#### Babel-like
+#### 1. Babel-like
 
 ```javascript
 module.exports = {
@@ -240,7 +240,7 @@ module.exports = {
 };
 ```
 
-#### Object-oriented
+#### 2. Object-oriented
 
 ```javascript
 module.exports = {

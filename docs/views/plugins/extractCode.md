@@ -1,9 +1,9 @@
 ---
-title: extractCode
+title: 提取代码
 date: 2019-11-01
 ---
 
-## Introduce <GitHubLink repo="vuepress-reco/vuepress-plugin-extract-code/"/>
+## 介绍 <GitHubLink repo="vuepress-reco/vuepress-plugin-extract-code/"/>
 
 Features and code presentation plugin for vuepress-theme-reco or other vuepress theme.
 
@@ -20,11 +20,11 @@ Features and code presentation plugin for vuepress-theme-reco or other vuepress 
   <extract-code slot="demo"></extract-code>
 </RecoDemo>
 
-### Name
+### 名字
 
 - **As plugin**: `@vuepress-reco/vuepress-plugin-extract-code`
 
-## Usage
+## 应用
 
 ### 修改 `config.js`
 
@@ -179,6 +179,6 @@ a.b = 1
 </RecoDemo>
 ```
 
-## Contributors
+## 贡献者
 
 <Contributors user="vuepress-reco" repo="vuepress-plugin-extract-code"></Contributors>

@@ -1,5 +1,5 @@
 ---
-title: Recommend
+title: Recommendations
 date: 2019-05-06
 ---
 

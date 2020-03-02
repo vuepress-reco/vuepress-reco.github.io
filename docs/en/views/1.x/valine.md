@@ -3,15 +3,15 @@ title: Comments
 date: 2019-04-09
 ---
 
-## Introduce
+## Introduction
 
-The theme built-in comment plugin [@vuepress-reco/vuepress-plugin-comments](/views/plugins/), you can choose `Valine` or `Vssue` according to your preferences.
+The theme's built-in comment plugin [@vuepress-reco/vuepress-plugin-comments](/views/plugins/) has two options: `Valine` or `Vssue`.
 
-If only an article does not want to open comment, you can set `isShowComments: false` in `front-matter`.
+If you don't want an article open for comments, you can set `isShowComments: false` in `front-matter`.
 
-::: warning
-1. **Pageview** Displayed only when using `Valine`.  
-2. Because ** views ** need to call the relevant interface when the page loads, all the data of the list page will be loaded together. If the number of articles is large, it will affect the loading speed, so remove the article list after `1.2.0` Page views.
+::: warning Page View
+1. **Page view** is displayed only when using `Valine`.  
+2. Because **views** need to call the relevant interface when the page loads, all the data of the list page will be loaded together. If the number of articles is large, it will affect the loading speed, so page view is removed in the article list after `1.2.0`.
 :::
 
 ## Option API
@@ -51,4 +51,4 @@ module.exports = {
 }
 ```
 
-Other parameters refer to [Vssue official website](https://vssue.js.org/en/options/).
+For other parameters please refer to the [official documentation of Vssue](https://vssue.js.org/options/).
