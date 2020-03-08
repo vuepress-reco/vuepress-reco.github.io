@@ -1,7 +1,12 @@
 <template>
   <article class="home-page-one-wrapper">
     <section class="description">
-      <h1>{{ $frontmatter.heroText || $title }}</h1>
+      <img
+        v-if="$frontmatter.heroImage"
+        :style="heroImageStyle || {}"
+        :src="$withBase($frontmatter.heroImage)"
+        alt="hero">
+      <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
       <p class="description">{{ $description }}</p>
       <div>
         <iframe
@@ -71,6 +76,12 @@ export default {
   computed: {
     features () {
       return this.$frontmatter.features
+    },
+    heroImageStyle () {
+      return this.$frontmatter.heroImageStyle || {
+        maxHeight: '200px',
+        margin: '6rem auto 1.5rem'
+      }
     }
   },
 
