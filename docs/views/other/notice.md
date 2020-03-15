@@ -3,6 +3,18 @@ title: Notice
 date: 2019-04-21
 ---
 
+**[2020-03-15]** 更新 `1.3.0`
+
+1. 【修复】详情页评论块无加载动画
+2. 【修复】刷新按钮的暗色适配
+3. 【增加】增加容器 `right`, `theorem`, `details` [文档](/views/1.x/syntax.html#容器) [@franklinqin0](https://github.com/franklinqin0)
+4. 【增加】增加 tagline（首页的描述）并可以通过 null 来关闭 [文档](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5)
+5. 【增加】增加暗色模式初始化配置 [文档](/views/1.x/mode.html#初始化)
+6. 【重构】密码需要再设置中设置 `MD5` 加密后的32位密文 [文档](/views/1.x/password.html#设置密文)
+7. 【重构】滚动条样式
+
+---
+
 **[2020-01-27]** 更新 `1.2.2`
 
 1. 【修复】优化更新提示弹窗暗色适配

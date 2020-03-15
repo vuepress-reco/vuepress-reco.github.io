@@ -45,5 +45,6 @@ module.exports = {
   // // 假如文档放在一个特定的分支下：
   docsBranch: 'gh-pages-source',
   // // 默认是 false, 设置为 true 来启用
-  editLinks: true
+  editLinks: true,
+  mode: 'light'
 }

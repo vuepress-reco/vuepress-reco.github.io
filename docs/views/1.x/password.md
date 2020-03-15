@@ -17,13 +17,18 @@ module.exports = {
   themeConfig: {
     // 密钥
     keyPage: {
-      keys: ['123456'],
+      keys: ['md5 加密后的32位密文'], // 1.3.0 版本后需要设置密文
       color: '#42b983', // 登录页动画球的颜色
       lineColor: '#42b983' // 登录页动画线的颜色
     }
   }
 }
 ```
+
+### 设置密文 <Badge text="1.3.0+" />
+
+需要将密码字符串设置为 `md5` 32位加密密文，你可以通过下面的工具获取相应的密文。
+<md5></md5>
 
 ### 绝对加密 <Badge text="1.1.2+" />
 
@@ -44,7 +49,7 @@ title: vuepress-theme-reco
 date: 2019-04-09
 author: reco_luan
 keys:
- - '123456'
+ - 'md5 加密后的32位密文'
 ---
 ```
 
