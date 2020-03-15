@@ -22,7 +22,7 @@ module.exports = {
           'home',
           'themePicker',
           'ga',
-          '404',
+          'notfound',
           'mode'
         ]
       },
@@ -40,7 +40,7 @@ module.exports = {
         title: '其他',
         collapsable: false,
         children: [
-          '0update1',
+          'updatetoone',
           'recommend'
         ]
       }
@@ -118,7 +118,7 @@ module.exports = {
           'home',
           'themePicker',
           'ga',
-          '404',
+          'notfound',
           'mode'
         ]
       },
@@ -136,7 +136,7 @@ module.exports = {
         title: 'Other',
         collapsable: false,
         children: [
-          '0update1',
+          'updatetoone',
           'recommend'
         ]
       }
