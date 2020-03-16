@@ -17,7 +17,7 @@ module.exports = {
   themeConfig: {
     // 密钥
     keyPage: {
-      keys: ['md5 加密后的32位密文'], // 1.3.0 版本后需要设置密文
+      keys: ['32位的 md5 加密密文'], // 1.3.0 版本后需要设置为密文
       color: '#42b983', // The color of the login page animation ball
       lineColor: '#42b983' // The color of the login page animation line
     }
@@ -27,7 +27,9 @@ module.exports = {
 
 ### 设置密文 <Badge text="1.3.0+" />
 
-需要将密码字符串设置为 `md5` 32位加密密文，你可以通过下面的工具获取相应的密文。
+如果你的密码是 `123456`，需要将密码字符串设置为32位的 md5 加密密文，也就是 `e10adc3949ba59abbe56e057f20f883e`。网站发布后，在密码输入框输入 `123456` 即可进入网站，同时他人也无法通过代码中的密文知道你的密码，但是你一定要记住自己的密码。
+
+请在下面的输入框输入密码，获取相应的md5加密的32位密文：
 <md5></md5>
 
 ### Absolute encryption <Badge text="1.1.2+" />
@@ -48,7 +50,7 @@ title: vuepress-theme-reco
 date: 2019-04-09
 author: reco_luan
 keys:
- - 'md5 加密后的32位密文'
+ - '32位的 md5 加密密文'
 ---
 ```
 
