@@ -190,7 +190,7 @@ module.exports = {
 };
 ```
 
-You could omit `vuepress-plugin-` now:
+You could omit `vuepress-plugin-`:
 
 ```javascript
 module.exports = {
@@ -254,8 +254,6 @@ module.exports = {
 
 ::: tip
 You could use this way to customize built-in plugins in our theme, or disable one by setting `options` to `false`:
-
-like this:
 
 ```javascript
 module.exports = {

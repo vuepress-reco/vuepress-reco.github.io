@@ -10,7 +10,7 @@ Of course you could use the original Markdown syntax, but if there is something 
 
 ## Default Markdown Extensions in VuePress
 
-VuePress has some easy built-in grammar so that you could write posts more easily. In the following I will briefly list supported Markdown extensions. For more details, please see [VuePress Markdown extensions](https://v1.vuepress.vuejs.org/guide/markdown.html) 查看
+VuePress has some easy built-in grammar so that you could write posts more easily. In the following I will briefly list supported Markdown extensions. For more details, please see [VuePress Markdown extensions](https://v1.vuepress.vuejs.org/guide/markdown.html)
 
 - Table in the style of GitHub
 - Table of Contents
@@ -74,7 +74,6 @@ This is a dangerous warning
 
 **Output**
 
-
 ::: tip
 This is a tip
 :::
@@ -89,7 +88,7 @@ This is a dangerous warning
 
 ### Flowchart
 
-[vuepress-plugin-flowchart](https://flowchart.vuepress.ulivz.com/) enables you to draw a flowchart in Markdown. Like this:
+[vuepress-plugin-flowchart](https://flowchart.vuepress.ulivz.com/) enables you to draw a flowchart in Markdown like this:
 
 **Input**
 
