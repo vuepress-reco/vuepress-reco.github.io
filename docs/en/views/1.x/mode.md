@@ -7,6 +7,20 @@ date: 2019-12-29
 Since version `1.2.0`, we have added dark mode. If you have some of your own plugins or components in this theme, you may also want to customize them accordingly.
 :::
 
+## 初始化
+
+暗色模式默认开启，并且为 `auto` 模式，你也可以自定义初始化配置：
+
+```js
+// .vuepress/config.js
+module.exports = {
+  theme: 'reco',
+  themeConfig: {
+    mode: 'dark' // auto 跟随系统，dark 暗色模式，light 亮色模式，null 与 light 效果相同，但没有切换按钮
+  }
+}  
+```
+
 ## Color Variables
 
 Here are the color variables provided by the theme. Please select the corresponding color variable according to your needs and replace the color value in your component:

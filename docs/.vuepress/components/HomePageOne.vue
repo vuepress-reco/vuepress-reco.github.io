@@ -1,7 +1,12 @@
 <template>
   <article class="home-page-one-wrapper">
     <section class="description">
-      <h1>{{ $frontmatter.heroText || $title }}</h1>
+      <img
+        v-if="$frontmatter.heroImage"
+        :style="heroImageStyle || {}"
+        :src="$withBase($frontmatter.heroImage)"
+        alt="hero">
+      <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
       <p class="description">{{ $description }}</p>
       <div>
         <iframe
@@ -19,14 +24,12 @@
         <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>-->
       </div>
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
-      <!-- <img class="banner" src="./images/blog.svg" alt=""> -->
-      <img class="banner" src="./images/2020/newyear.svg" alt="">
+      <img class="banner" src="./images/blog.svg" alt="">
     </section>
     <section class="wish yesterday">
       <div class="wish-inner">
         <div class="img-wrapper">
-          <!-- <img src="./images/yesterday.svg" alt=""> -->
-          <img src="./images/2020/mobilelife.svg" alt="">
+          <img src="./images/yesterday.svg" alt="">
         </div>
         <div class="text-wrapper">
           <h1>{{ features[0].title }}</h1>
@@ -41,16 +44,14 @@
           <p class="description">{{ features[1].details }}</p>
         </div>
         <div class="img-wrapper">
-          <!-- <img src="./images/today.svg" alt=""> -->
-          <img src="./images/2020/content.svg" alt="">
+          <img src="./images/today.svg" alt="">
         </div>
       </div>
     </section>
     <section class="wish tomorrow">
       <div class="wish-inner">
         <div class="img-wrapper">
-          <!-- <img src="./images/tomorrow.svg" alt=""> -->
-          <img src="./images/2020/snowman.svg" alt="">
+          <img src="./images/tomorrow.svg" alt="">
         </div>
         <div class="text-wrapper">
           <h1>{{ features[2].title }}</h1>
@@ -75,6 +76,12 @@ export default {
   computed: {
     features () {
       return this.$frontmatter.features
+    },
+    heroImageStyle () {
+      return this.$frontmatter.heroImageStyle || {
+        maxHeight: '200px',
+        margin: '6rem auto 1.5rem'
+      }
     }
   },
 

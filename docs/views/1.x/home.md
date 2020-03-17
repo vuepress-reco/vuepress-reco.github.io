@@ -14,7 +14,7 @@ date: 2019-04-09
 ### Home
 ![home.png](../images/1.png)
 
-#### 1. 如果您的heroImage具有您的网站标题，则可能需要设置 `isShowTitleInHome: false` 以使标题不显示。
+#### 1. 如果您的heroImage具有您的网站标题，则可能需要设置 `heroText: null` 以使标题不显示。
 
 ```yaml
 # 这是你的主页
@@ -22,7 +22,7 @@ date: 2019-04-09
 ---
 home: true
 heroImage: /hero.png
-isShowTitleInHome: false
+heroText: null
 ---
 ```
 

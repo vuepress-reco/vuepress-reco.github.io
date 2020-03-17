@@ -15,7 +15,7 @@ The default style of the theme's homepage is not like a blog, so start with `vue
 
 ![home.png](../images/1.png)
 
-1. If your heroImage has your website title, you may need to set `isShowTitleInHome: false` so that the title is not displayed.
+1. If your heroImage has your website title, you may need to set `heroText: null` so that the title is not displayed.
 
 ```yaml
 # This is your home page
@@ -23,7 +23,7 @@ The default style of the theme's homepage is not like a blog, so start with `vue
 ---
 home: true
 heroImage: /hero.png
-isShowTitleInHome: false
+heroText: null
 ---
 ```
 

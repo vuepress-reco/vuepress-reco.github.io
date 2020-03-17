@@ -67,6 +67,12 @@ export default {
           thumbnail: '/blogImages/刘晓北.png' 
         },
         { 
+          name: '平凡的你我', 
+          desc: '理想成为大牛的小陈同学',
+          link: 'https://reinness.com/', 
+          thumbnail: '/blogImages/平凡的你我.png' 
+        },
+        { 
           name: 'SigureMo', 
           desc: '一个小透明的透明世界',
           link: 'https://www.sigure.xyz/', 

@@ -1,6 +1,6 @@
 module.exports = {
   type: 'HomePageOne',
-  logo: '/icon_vuepress_reco.png',
+  // logo: '/icon_vuepress_reco.png',
   // 搜索设置
   search: true,
   searchMaxSuggestions: 10,
@@ -27,7 +27,8 @@ module.exports = {
     appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
     appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
     placeholder: '填写邮箱可以收到回复提醒哦！',
-    notify: true,
+    verify: true, // 验证码服务
+    // notify: true, // 
     recordIP: true
   },
   // vssueConfig: {
@@ -45,5 +46,6 @@ module.exports = {
   // // 假如文档放在一个特定的分支下：
   docsBranch: 'gh-pages-source',
   // // 默认是 false, 设置为 true 来启用
-  editLinks: true
+  editLinks: true,
+  mode: 'light'
 }

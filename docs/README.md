@@ -6,7 +6,6 @@ heroImageStyle: {
   width: '100%',
   display: block,
   margin: '5rem auto 2rem',
-  background: '#fff',
   borderRadius: '1rem',
 }
 isShowTitleInHome: true
@@ -24,19 +23,22 @@ features:
 ## 更新记录 [更多+](/views/other/notice)
 
 ::: tip
-**[2020-01-01]** 更新 `1.2.0`
+**[2020-03-16]** 更新 `1.3.2`
 
-1. 【修复】文章列表页跳转详情页，返回时无法记录列表当前的页码
-2. 【修复】修复代码段过长导致博客首页布局错乱的 bug
-3. 【增加】适配系统的暗色主题，首次加载默认自适应系统主题色，并可以通过原本自定义主题色按钮来切换自己喜欢的模式 [文档](/views/1.x/mode.md)
-4. 【增加】`heroImage` 在 `type: 'blog'` 时仍然有效
-5. 【增加】增加 ICP 备案链接和公安部备案配置 [文档](/views/1.x/configJs.md#备案信息和项目开始时间)
-6. 【优化】将博文列表数据的处理逻辑，增加加载速度
-7. 【优化】对密码进行了加密
-8. 【修改】修改指定博客首页的信息栏头像的配置 [文档](/views/1.x/home.md#设置首页右侧信息栏头像)
-9. 【删除】删除自定义主题色功能
-10. 【删除】暂时删除全屏按钮
-11. 【删除】删除文章列表页的浏览量，异步加载博客列表 [文档](/views/1.x/valine.md)
+1. 【优化】暗色模式字体颜色
+2. 【修复】暗色模式初始化无效
+
+---
+
+**[2020-03-15]** 更新 `1.3.0`
+
+1. 【修复】详情页评论块无加载动画
+2. 【修复】刷新按钮的暗色适配
+3. 【增加】增加容器 `right`, `theorem`, `details` [文档](/views/1.x/syntax.html#容器) [@franklinqin0](https://github.com/franklinqin0)
+4. 【增加】增加 tagline（首页的描述）并可以通过 null 来关闭 [文档](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5)
+5. 【增加】增加暗色模式初始化配置 [文档](/views/1.x/mode.html#初始化)
+6. 【重构】密码需要再设置中设置 `MD5` 加密后的32位密文 [文档](/views/1.x/password.html#设置密文)
+7. 【重构】滚动条样式
 :::
 
 ## 快速开始
