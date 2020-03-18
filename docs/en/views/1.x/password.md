@@ -15,9 +15,9 @@ If the project is private and does not want to be made public, the content page 
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    // 密钥
+    // secret key
     keyPage: {
-      keys: ['32位的 md5 加密密文'], // 1.3.0 版本后需要设置为密文
+      keys: ['32-bit md5 secret key'], // should set to md5 secret key after version 1.3.0
       color: '#42b983', // The color of the login page animation ball
       lineColor: '#42b983' // The color of the login page animation line
     }
@@ -25,11 +25,11 @@ module.exports = {
 }
 ```
 
-### 设置密文 <Badge text="1.3.0+" />
+### Set Secret Key <Badge text="1.3.0+" />
 
-如果你的密码是 `123456`，需要将密码字符串设置为32位的 md5 加密密文，也就是 `e10adc3949ba59abbe56e057f20f883e`。网站发布后，在密码输入框输入 `123456` 即可进入网站，同时他人也无法通过代码中的密文知道你的密码，但是你一定要记住自己的密码。
+If you password is `123456`, then set the `keys` field to its 32-bit md5 secret key: `e10adc3949ba59abbe56e057f20f883e`. After the blog is published, input the password `123456` to enter. Others will not know your password through your secret key, but you have to remember it.
 
-请在下面的输入框输入密码，获取相应的md5加密的32位密文：
+Please input password in the following textbox to obtain the corresponding 32-bit md5 secret key:
 <md5></md5>
 
 ### Absolute encryption <Badge text="1.1.2+" />
@@ -50,7 +50,7 @@ title: vuepress-theme-reco
 date: 2019-04-09
 author: reco_luan
 keys:
- - '32位的 md5 加密密文'
+ - '32-bit md5 secret key'
 ---
 ```
 

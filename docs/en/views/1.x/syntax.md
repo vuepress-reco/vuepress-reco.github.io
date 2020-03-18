@@ -10,7 +10,7 @@ Of course you could use the original Markdown syntax, but if there is something 
 
 ## Default Markdown Extensions in VuePress
 
-VuePress has some easy built-in grammar so that you could write posts more easily. In the following I will briefly list supported Markdown extensions. For more details, please see [VuePress Markdown extensions](https://v1.vuepress.vuejs.org/guide/markdown.html) 查看
+VuePress has some easy built-in grammar so that you could write posts more easily. In the following I will briefly list supported Markdown extensions. For more details, please see [VuePress Markdown extensions](https://v1.vuepress.vuejs.org/guide/markdown.html)
 
 - Table in the style of GitHub
 - Table of Contents
@@ -71,20 +71,19 @@ This is a warning
 This is a dangerous warning
 :::
 
-::: theorem 牛顿第一定律
-假若施加于某物体的外力为零，则该物体的运动速度不变。
+::: theorem Newton's first law
+If the net force (the vector sum of all forces acting on an object) is zero, then the velocity of the object is constant.
 
 ::: right
-来自 [维基百科](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B)
+From [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
 :::
 
 ::: details
-这是一个详情块，在 IE / Edge 中不生效
+This is a details block and doesn't take effect in IE / Edge.
 :::
 ```
 
 **Output**
-
 
 ::: tip
 This is a tip
@@ -98,20 +97,20 @@ This is a warning
 This is a dangerous warning
 :::
 
-::: theorem 牛顿第一定律
-假若施加于某物体的外力为零，则该物体的运动速度不变。
+::: theorem Newton's first law
+If the net force (the vector sum of all forces acting on an object) is zero, then the velocity of the object is constant.
 
 ::: right
-来自 [维基百科](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B)
+From [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
 :::
 
 ::: details
-这是一个详情块，在 IE / Edge 中不生效
+This is a details block and doesn't take effect in IE / Edge.
 :::
 
 ### Flowchart
 
-[vuepress-plugin-flowchart](https://flowchart.vuepress.ulivz.com/) enables you to draw a flowchart in Markdown. Like this:
+[vuepress-plugin-flowchart](https://flowchart.vuepress.ulivz.com/) enables you to draw a flowchart in Markdown like this:
 
 **Input**
 
