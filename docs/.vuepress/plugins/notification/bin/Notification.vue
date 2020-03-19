@@ -3,7 +3,7 @@
     <div v-if="visible" class="notification-wrapper">
       <h4 class="notification-title">
         <i class="iconfont reco-tongzhi"></i>
-        <span>通知</span>
+        <span>公告</span>
         <i class="btn-close" @click="closeNote">
           <svg t="1573745677073" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4448" width="22" height="22"><path d="M512 34.133333a486.4 486.4 0 1 0 486.4 486.4A486.4 486.4 0 0 0 512 34.133333z m209.4848 632.8064l-55.6032 55.466667-151.517867-151.125333-151.517866 151.1168-55.6032-55.466667 151.517866-151.108267L307.242667 364.714667l55.6032-55.466667 151.517866 151.125333 151.517867-151.1168 55.6032 55.466667-151.517867 151.099733z m0 0" p-id="4449"></path></svg>
         </i>
@@ -12,10 +12,10 @@
         <h5>欢迎加入QQ交流群 🎉🎉🎉</h5>
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
-      <!-- <div style="padding: 0 16px">
-        <h4>通知</h4>
-        <h5>为方便社区管理，微信群暂停关请大伙进入 QQ 交流群！</h5>
-      </div> -->
+      <div style="padding: 0 16px">
+        <hr>
+        <a class="btn-donate" href="/views/other/donate.html">打赏</a>
+      </div>
     </div>
   </transition>
 </template>
@@ -83,6 +83,18 @@ export default {
       text-align center
     img
       width 100%
+  .btn-donate
+    display block
+    margin 2rem auto
+    width 3.4rem
+    line-height 3.4rem
+    text-align center
+    background-color $accentColor
+    border-radius 50%
+    color #fff
+    font-size 1rem
+    box-shadow var(--box-shadow)
+    cursor pointer
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }

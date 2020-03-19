@@ -211,10 +211,11 @@ export default {
       .btn-about {
         margin: 2rem 0;
         display: inline-block;
-        padding: 1rem 3rem;
+        padding: .6rem 1.2rem;
         border-radius: 0.25rem;
         background: $accentColor;
         color: #fff;
+        font-size: 1rem;
       }
 
       .banner {
@@ -272,7 +273,7 @@ export default {
           margin-top: 5rem;
         }
         .btn-about {
-          padding: .7rem 2rem;
+          font-size .9rem
         }
       }
 
@@ -304,7 +305,7 @@ export default {
           margin-top: 5rem;
         }
         .btn-about {
-          padding: .7rem 2rem;
+          font-size .8rem
         }
       }
 
