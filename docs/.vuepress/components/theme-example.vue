@@ -61,10 +61,10 @@ export default {
           thumbnail: '/blogImages/凝狐.png' 
         },
         { 
-          name: '刘晓北', 
-          desc: '一个前端狗记录的一点小事情',
-          link: 'https://tankryze.github.io/', 
-          thumbnail: '/blogImages/刘晓北.png' 
+          name: 'Leecason', 
+          desc: '若我所见不同，独守一角青空',
+          link: 'https://leecason.github.io', 
+          thumbnail: '/blogImages/Leecason.png' 
         },
         { 
           name: '平凡的你我', 
@@ -83,12 +83,6 @@ export default {
           desc: '每一个不曾起舞的日子，都是对生命的辜负！',
           link: 'https://docs.zkkysqs.top/', 
           thumbnail: '/blogImages/月上秦少.png' 
-        },
-        { 
-          name: 'LINUX48', 
-          desc: '🖖快应用UI组件库，简洁，易用，高效',
-          link: 'https://linux48.com/', 
-          thumbnail: '/blogImages/LINUX48.png' 
         },
         { 
           name: 'originalxzx', 
