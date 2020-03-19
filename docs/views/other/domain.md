@@ -6,12 +6,6 @@ categories:
  - blog
 ---
 
-<style>
-table th:first-of-type {
-	width: 400px;
-}
-</style>
-
 ## 自定义域名
 
 ### GitLab
