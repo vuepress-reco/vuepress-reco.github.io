@@ -22,6 +22,8 @@ publish: false
 ---
 ```
 
+## Often Used Predefined Variables
+
 ### title
 
 - description: The title of the article. Instead of defining the title through the first level heading, we set in `Front Matter`.
@@ -55,3 +57,7 @@ publish: false
 - description: Article sticky.
 - type: `number`
 - sort type: Descending order, you can lower the priority of the top posts according to `1, 2, 3, ...`.
+
+## Some Other Predefined Variables
+
+There are some other predefiend variables like `prev`, `next`, please check the [documentation](https://vuepress.vuejs.org/guide/frontmatter.html#alternative-frontmatter-formats)

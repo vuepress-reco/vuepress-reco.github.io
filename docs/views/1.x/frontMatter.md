@@ -17,10 +17,12 @@ tags:
  - 烤
  - 鸭子
 keys:
- - '123456' 
+ - '123456'
 publish: false
 ---
 ```
+
+## 常用的变量
 
 ### title
 
@@ -55,3 +57,7 @@ publish: false
 - description: 文章置顶。
 - type: `number`
 - sort type: 降序，可以按照 `1, 2, 3, ...` 来降低置顶文章的排列优先级
+
+## 其他的变量
+
+另外还有一些`Vuepress` 默认主题的变量例如`prev`, `next`，请移步 [官方文档](https://vuepress.vuejs.org/zh/guide/frontmatter.html#%E5%85%B6%E4%BB%96%E6%A0%BC%E5%BC%8F%E7%9A%84-front-matter)
