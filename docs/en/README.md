@@ -10,7 +10,7 @@ heroImageStyle: {
 }
 isShowTitleInHome: true
 actionText: About
-actionLink: /views/other/about
+actionLink: /en/views/other/about
 features:
 - title: Yesterday
   details: Develop a vuepress blog theme that looks happy and writes smoothly.
