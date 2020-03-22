@@ -1,2 +1,3 @@
-# vuepress-reco.github.io
-Doc of vuepress-reco
+# Documentation
+
+This is the official [Documentation](https://vuepress-theme-reco.recoluan.com) of vuepress-theme-reco.
