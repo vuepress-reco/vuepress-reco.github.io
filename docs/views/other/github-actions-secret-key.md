@@ -68,6 +68,18 @@ ${{ secrets.YOURKEY }}
 
 在 `npm run build` 之前加上环境参数那一段。
 
+```js
+  vssueConfig: {
+    platform: 'github',
+    owner: 'xyyolab',
+    repo: 'blog',
+    clientId: process.env.VSSUEID,
+    clientSecret: process.env.VSSUESECRET
+  }
+```
+
+再在 `config` 内用 node 的语法去环境参数取就 OK 啦！
+
 结果是评论功能可以使用了呀 😍。
 
 ![Screenshot 2020-03-23 13.36.35.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/470919/0a508150-59e8-948c-4601-b57012db2ed6.png)
