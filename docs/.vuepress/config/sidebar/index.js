@@ -23,7 +23,8 @@ module.exports = {
           'themePicker',
           'ga',
           'notfound',
-          'mode'
+          'mode',
+          'local'
         ]
       },
       {
@@ -119,7 +120,8 @@ module.exports = {
           'themePicker',
           'ga',
           'notfound',
-          'mode'
+          'mode',
+          'local'
         ]
       },
       {

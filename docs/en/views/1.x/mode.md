@@ -7,7 +7,7 @@ date: 2019-12-29
 Since version `1.2.0`, we have added dark mode. If you have some of your own plugins or components in this theme, you may also want to customize them accordingly.
 :::
 
-## Initializatoin
+## Initializatoin <Badge text="1.3.0+" />
 
 Dark mode is enabled by default and set to `auto` mode. You could also customize the default value:
 
