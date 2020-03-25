@@ -32,6 +32,14 @@ with:
 
 ![Screenshot 2020-03-23 13.08.05.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/470919/6d81c510-7f25-a039-5087-f07854d6d75e.png)
 
+**注意⚠️**：上图中画圈的位置的 `A`, 正确的英语语法是 `AN`, 不过这篇教程统一用 `A`, 和下面的
+::: v-pre
+${{ secrets.THIS_IS_A_EXAMPLE }}
+:::
+  也得一致!
+
+~~英语好的朋友别嘲讽在下 😵~~
+
 再在 `actions` 里用
 
 ```
@@ -50,9 +58,7 @@ ${{ secrets.YOURKEY }}
   run: echo 'try to show secret 😉' && echo $EXAMPLE && echo $NOT_EXIST
 ```
 
-~~不是 `A` 是 `AN`  难受😣~~
-
-输出这样的结果。github 把结果加密了，好像也看不出啥。那直接试试吧。
+输出下图这样的结果。github 把结果加密了，不过可以发现，有设置的 `THIS_IS_A_EXAMPLE` 和没有设置的 `NOT_EXIST`，`echo` 出来是不一样的。由此可见，已经设置成功了。
 
 ![Screenshot 2020-03-23 13.11.39.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/470919/e72b8478-89cb-6f45-f406-e6938f81e1c7.png)
 
