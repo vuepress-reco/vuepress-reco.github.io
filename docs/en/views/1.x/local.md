@@ -3,19 +3,23 @@ title: 多语言配置
 date: 2019-03-24
 ---
 
+::: warning
+The blog-related functionality of this topic relies on `@vuepress/plugin-blog`, and for some reason, it is not possible to multilingual configure blog categories and tags, so multilingual is only suitable for document-type projects.
+:::
+
 ::: tip <Badge text="1.3.3+" />
 `vuepress-theme-reco` 的多语言配置，是在站点多语言配置和默认主题多语言配置的基础上增加的额外配置，所以请先了解官方的 [多语言配置官方文档](https://v1.vuepress.vuejs.org/zh/guide/i18n.html#%E7%AB%99%E7%82%B9%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE)。**并且请注意，`vuepress` 的默认语言代码为 `en-US`**。
 :::
 
-## 网站支持的语言
+## multi-language
 
-|名称|语言代码|
+|language|language code|
 |:-:|-|
-|简中|`zh-CN`、`zh-SG`|
-|繁中|`zh-HK`、`zh-MO`、`zh-TW`|
-|日语|`ja-JP`|
-|韩语|`ko-KR`|
-|英语|`en-US` 及除上面语种外其他任何语种|
+|Simplified Chinese|`zh-CN`、`zh-SG`|
+|Traditional Chinese|`zh-HK`、`zh-MO`、`zh-TW`|
+|Japanese|`ja-JP`|
+|Korean|`ko-KR`|
+|English|`en-US` and other|
 
 ## 如果网站只有一种语言
 

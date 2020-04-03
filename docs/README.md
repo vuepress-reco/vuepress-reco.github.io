@@ -20,27 +20,6 @@ features:
   details: 吸引更多的朋友参与到开发中来，继续强大功能。
 ---
 
-## 更新记录 [更多+](/views/other/notice)
-
-::: tip
-**[2020-03-16]** 更新 `1.3.2`
-
-1. 【优化】暗色模式字体颜色
-2. 【修复】暗色模式初始化无效
-
----
-
-**[2020-03-15]** 更新 `1.3.0`
-
-1. 【修复】详情页评论块无加载动画
-2. 【修复】刷新按钮的暗色适配
-3. 【增加】增加容器 `right`, `theorem`, `details` [文档](/views/1.x/syntax.html#容器) [@franklinqin0](https://github.com/franklinqin0)
-4. 【增加】增加 tagline（首页的描述）并可以通过 null 来关闭 [文档](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5)
-5. 【增加】增加暗色模式初始化配置 [文档](/views/1.x/mode.html#初始化)
-6. 【重构】密码需要再设置中设置 `MD5` 加密后的32位密文 [文档](/views/1.x/password.html#设置密文)
-7. 【重构】滚动条样式
-:::
-
 ## 快速开始
 
 **npx**
@@ -78,6 +57,28 @@ theme-cli init my-blog
 cd my-blog
 yarn install
 ```
+
+## 多语言
+
+|名称|语言代码|
+|:-:|-|
+|简中|`zh-CN`、`zh-SG`|
+|繁中|`zh-HK`、`zh-MO`、`zh-TW`|
+|日语|`ja-JP`|
+|韩语|`ko-KR`|
+|英语|`en-US` 及其他|
+
+## 更新记录 [更多+](/views/other/notice)
+
+::: tip
+**[2020-04-03]** 更新 `1.4.0`
+
+本次更新主要是项目构建工具和版本管理工具的更新，详情见源码。其他更新内容，如下：
+
+1. 【优化】暗色模式字体颜色
+2. 【增加】新增颜色模式按钮显示与隐藏配置 [文档](/views/1.x/mode.html)
+3. 【新增】多语言配置 [文档](/views/1.x/local.html)
+:::
 
 ## 贡献者
 

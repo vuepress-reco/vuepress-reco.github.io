@@ -9,14 +9,15 @@ date: 2019-12-29
 
 ## 初始化 <Badge text="1.3.0+" />
 
-暗色模式默认开启，并且为 `auto` 模式，你也可以自定义初始化配置：
+暗色模式默认开启，为 `auto` 模式，显示模式调节按钮，你也可以自定义初始化配置：
 
 ```js
 // .vuepress/config.js
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    mode: 'dark' // auto 跟随系统，dark 暗色模式，light 亮色模式，null 与 light 效果相同，但没有切换按钮
+    mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    modePicker: false // 默认 true，false 不显示模式调节按钮，true 则显示
   }
 }  
 ```

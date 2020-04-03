@@ -9,14 +9,15 @@ Since version `1.2.0`, we have added dark mode. If you have some of your own plu
 
 ## Initializatoin <Badge text="1.3.0+" />
 
-Dark mode is enabled by default and set to `auto` mode. You could also customize the default value:
+Dark mode is enabled by default, as 'auto' mode, and the display mode adjustment button. You could also customize the default value:
 
 ```js
 // .vuepress/config.js
 module.exports = {
   theme: 'reco',
   themeConfig: {
-    mode: 'dark' // 'auto' follows system, 'dark' is set to dark mode, 'light' is set to light mode, 'null' and 'light' are the same but has no switch button
+    mode: 'dark', // Default 'auto'，'auto' follows system, 'dark' is set to dark mode, 'light' is set to light mode
+    modePicker: false // Default 'true', 'false' does not show the mode adjustment button, 'true' shows.
   }
 }  
 ```
