@@ -10,6 +10,7 @@ date: 2019-04-21
 1. 【优化】暗色模式字体颜色
 2. 【增加】新增颜色模式按钮显示与隐藏配置 [文档](/views/1.x/mode.html)
 3. 【新增】多语言配置 [文档](/views/1.x/local.html)
+4. 【删除】移除内置插件 `@vuepress-reco/vuepress-plugin-extract-code`
 
 ---
 

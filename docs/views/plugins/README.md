@@ -58,7 +58,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <td>
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-screenfull"/>
     </td>
-    <td>✔</td>
+    <td>✖</td>
     <td>✖</td>
     <td>全屏按钮插件</td>
   </tr>
@@ -102,7 +102,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
     <td>
       <NpmLink pkg="@vuepress-reco/vuepress-plugin-extract-code"/>
     </td>
-    <td>✔</td>
+    <td>✖</td>
     <td>✖</td>
     <td>代码展示插件，可以方便地帮你展示多种代码组合</td>
   </tr>
@@ -153,7 +153,7 @@ VuePress 自 `1.0` 版本开始对插件进行了支持，这使得我们不仅�
 |                                                [comments](./comments.md)                                                 |    ✔     | 需主题配置内配置 `$themeConfig.vssueConfig` 或者 `$themeConfig.valineConfig` | ...                              |
 |                                             [loading-page](./loadingPage.md)                                             |    ✔     |                              作为组件，无需配置                              | ...                              |
 |                                                [pagation](./pagation.md)                                                 |    ✔     |                              作为组件，无需配置                              | ...                              |
-|                                              [screenfull](./screenfull.md)                                               |    ✔     |                              作为组件，无需配置                              | ...                              |
+|                                              [screenfull](./screenfull.md)                                               |    ✖     |                              作为组件，无需配置                              | ...                              |
 |                                                      [extractCode](./extractCode.md)                                                       |    ✖     |                  -                   | ...                              |
 | [@vuepress/plugin-active-header-links](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-active-header-links.html) |    ✖     |                                      -                                       | 页面滚动时自动激活侧边栏链接插件 |
 |         [@vuepress/plugin-medium-zoom](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html)         |    ✖     |              `{selector: '.theme-reco-content :not(a) > img'}`               | 图片缩放插件                     |
