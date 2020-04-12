@@ -63,6 +63,14 @@ Bgm player plugin for vuepress-theme-reco or other vuepress theme.
   }
   ```
 
+### autoShrink
+
+- description: 是否默认缩小
+- type: `Boolean`
+- default: `false`
+- accepted-values: `true | false`
+
+
 ### shrinkMode
 
 - description
