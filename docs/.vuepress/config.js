@@ -16,7 +16,8 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: '/icon_vuepress_reco.png' }],
     ['link', { rel: 'mask-icon', href: '/icon_vuepress_reco.svg', color: '#42b983' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icon_vuepress_reco.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['script', { 'ata-ad-client': 'ca-pub-5123799675896802', async: 'async', src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }]
   ],
   theme: 'reco',
   themeConfig,
