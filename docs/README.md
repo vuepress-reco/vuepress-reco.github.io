@@ -68,24 +68,9 @@ yarn install
 |韩语|`ko-KR`|
 |英语|`en-US` 及其他|
 
-## 更新记录 [更多+](/views/other/notice)
+## 更新记录
 
-::: tip
-**[2020-04-06]** 更新 `1.4.1`
-
-1. 【修复】时间轴页面显示bug
-
----
-
-**[2020-04-03]** 更新 `1.4.0`
-
-本次更新主要是项目构建工具和版本管理工具的更新，详情见源码。其他更新内容，如下：
-
-1. 【优化】暗色模式字体颜色
-2. 【新增】新增颜色模式按钮显示与隐藏配置 [文档](/views/1.x/mode.html)
-3. 【新增】多语言配置 [文档](/views/1.x/local.html)
-4. 【删除】移除内置插件 `@vuepress-reco/vuepress-plugin-extract-code`
-:::
+[记录](https://github.com/vuepress-reco/vuepress-theme-reco/blob/develop/CHANGELOG.md)
 
 ## 贡献者
 

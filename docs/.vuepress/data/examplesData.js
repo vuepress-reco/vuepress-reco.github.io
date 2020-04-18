@@ -119,4 +119,16 @@ export default [
     link: 'https://jokervtv.top/blog/', 
     thumbnail: 'https://i.loli.net/2020/04/04/w2dRfYat3ybOj9G.png' 
   },
+  {
+    name: '青灯有味',
+    desc: '一款简洁易懂算法博客 & 文档抠细节 & 主题',
+    link: 'https://zscnb.gitee.io',
+    thumbnail: 'https://zscnb.gitee.io/bg.png'
+  },
+  {
+    name: 'Hexo中文站',
+    desc: 'Hexo最全中文文档站.',
+    link: 'https://hexocn.cn',
+    thumbnail: 'https://i.loli.net/2020/04/11/mcUvHRTZg7qF3Ji.png'
+  }
 ]

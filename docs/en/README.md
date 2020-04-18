@@ -58,7 +58,7 @@ cd my-blog
 yarn install
 ```
 
-## multi-language
+## Multi-language
 
 |language|language code|
 |:-:|-|
@@ -67,6 +67,10 @@ yarn install
 |Japanese|`ja-JP`|
 |Korean|`ko-KR`|
 |English|`en-US` and other|
+
+## Update record
+
+[Record](https://github.com/vuepress-reco/vuepress-theme-reco/blob/develop/CHANGELOG.md)
 
 ## Contributors
 

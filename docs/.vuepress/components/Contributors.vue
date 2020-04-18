@@ -4,7 +4,7 @@
     {{ repo }}
     <GitHubLink :repo="`${user}/${repo}`"/>
   </h3>
-  <ul class="contributors-list">
+  <ul class="contributors-list" v-if="contributors.length">
     <li class="contributors-item" v-for="(contributor, index) in contributors" :key="index">
       <a :href="contributor.html_url">
         <img class="avatar" :src="contributor.avatar_url" :alt="contributor.login">
