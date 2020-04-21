@@ -1,5 +1,6 @@
 ---
 title: '插件广场'
+isShowComments: true
 ---
 
 <plugins-recommend></plugins-recommend>
