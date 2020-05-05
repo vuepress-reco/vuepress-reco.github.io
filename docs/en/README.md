@@ -74,5 +74,17 @@ yarn install
 
 ## Contributors
 
-<Contributors user="vuepress-reco" repo="vuepress-theme-reco" :show-title="true"></Contributors>
-<Contributors user="vuepress-reco" repo="vuepress-reco.github.io" :show-title="true"></Contributors>
+<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-theme-reco/graphs/contributors" target="_black">
+  <img 
+    alt="vuepress-theme-reco" 
+    src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-theme-reco?style=for-the-badge&logo=github&label=vuepress-theme-reco" />
+</a>
+
+<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-reco.github.io/graphs/contributors" target="_black">
+  <img 
+    alt="vuepress-reco.github.io" 
+    src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-reco.github.io?style=for-the-badge&logo=github&label=vuepress-reco.github.io" />
+</a>
+
+<!-- <Contributors user="vuepress-reco" repo="vuepress-theme-reco" :show-title="true"></Contributors>
+<Contributors user="vuepress-reco" repo="vuepress-reco.github.io" :show-title="true"></Contributors> -->

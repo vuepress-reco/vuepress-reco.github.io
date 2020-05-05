@@ -20,8 +20,6 @@ module.exports = {
           'password',
           'configJs',
           'home',
-          'themePicker',
-          'ga',
           'notfound',
           'mode',
           'local'
@@ -86,7 +84,6 @@ module.exports = {
           'pagation',
           'screenfull',
           'loadingPage',
-          'ga',
           'kanbanniang',
           'comments',
           'extractCode',
@@ -117,8 +114,6 @@ module.exports = {
           'password',
           'configJs',
           'home',
-          'themePicker',
-          'ga',
           'notfound',
           'mode',
           'local'
@@ -153,7 +148,6 @@ module.exports = {
           'pagation',
           'screenfull',
           'loadingPage',
-          'ga',
           'kanbanniang',
           'comments',
           'extractCode',

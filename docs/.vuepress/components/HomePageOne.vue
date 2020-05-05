@@ -9,19 +9,21 @@
       <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
       <p class="description">{{ $description }}</p>
       <div>
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=star&count=true&q=GitHub+Octocat+in:readme+user:defunkt"
-          frameborder="0"
-          scrolling="0"
-          width="100px"
-          height="20px"
-        ></iframe>
-        <img
-          :src="`https://img.shields.io/badge/download-${downloads}-orange.svg?style=social&logo=npm`"
-          alt=""
-        >
-        <!-- <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-        <iframe src="https://ghbtns.com/github-btn.html?user=vuepress-reco&repo=vuepress-theme-reco&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>-->
+        <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+          <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco?&logo=github">
+        </a>
+        <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+          <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+        </a>
+        <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+          <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+        </a>
+        <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
+          <img alt="Npm downloads" src="https://img.shields.io/npm/dt/vuepress-theme-reco?style=flat&logo=npm">
+        </a>
+        <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
+          <img alt="Npm version" src="https://img.shields.io/npm/v/vuepress-theme-reco.svg?style=flat&logo=npm&label=version"/>
+        </a>
       </div>
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
       <img class="banner" src="./images/blog.svg" alt="">
