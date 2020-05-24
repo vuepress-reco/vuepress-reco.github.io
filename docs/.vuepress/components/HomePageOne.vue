@@ -88,13 +88,13 @@ export default {
   },
 
   created () {
-    const date = new Date()
-    const year = date.getFullYear()
-    const mounth = date.getMonth() + 1
-    const day = date.getDate()
-    this.npmPackageDownloads('vuepress-theme-reco', `2018-09-12:${year}-${mounth}-${day}`).then(res => {
-      this.downloads = this.toThousandslsFilter(res)
-    })
+    // const date = new Date()
+    // const year = date.getFullYear()
+    // const mounth = date.getMonth() + 1
+    // const day = date.getDate()
+    // this.npmPackageDownloads('vuepress-theme-reco', `2018-09-12:${year}-${mounth}-${day}`).then(res => {
+    //   this.downloads = this.toThousandslsFilter(res)
+    // })
   },
 
   methods: {

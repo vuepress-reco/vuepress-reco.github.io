@@ -1,5 +1,5 @@
 ---
-title: 多语言配置
+title: Internationalization
 date: 2019-03-24
 ---
 
@@ -8,7 +8,7 @@ The blog-related functionality of this topic relies on `@vuepress/plugin-blog`, 
 :::
 
 ::: tip <Badge text="1.3.3+" />
-`vuepress-theme-reco` 的多语言配置，是在站点多语言配置和默认主题多语言配置的基础上增加的额外配置，所以请先了解官方的 [多语言配置官方文档](https://v1.vuepress.vuejs.org/zh/guide/i18n.html#%E7%AB%99%E7%82%B9%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE)。**并且请注意，`vuepress` 的默认语言代码为 `en-US`**。
+The internationalization configuration of `vuepress-theme-reco` is an additional configuration on top of the site's multilingual configuration and the default theme multilingual configuration. So check out [the official multilingual configuration documentation](https://v1.vuepress.vuejs.org/guide/i18n.html) first. **And please note that the default language code for `vuepress` is `en-US`.**
 :::
 
 ## multi-language
@@ -21,11 +21,11 @@ The blog-related functionality of this topic relies on `@vuepress/plugin-blog`, 
 |Korean|`ko-KR`|
 |English|`en-US` and other|
 
-## 如果网站只有一种语言
+## Only one language
 
-### 修改默认语言代码
+### Modify the default language code
 
-`vuepress` 的默认语言代码为 `en-US`，如果我们需要改成简体中文，需要通过站点多语言配置来修改：
+The default language code of `vuepress` is `en-US`. If we need to change it to simplified Chinese, we need to modify it through the site's multi-language configuration:
 
 ```js{5}
 // config.js
@@ -38,27 +38,33 @@ module.exports = {
 }
 ```
 
-### 修改默认语言配置
+### Modify the default language configuration
 
-如果你觉得主题内置的术语不符合你的喜好，你可以这样修改：
+If you feel that the terms in the theme are not to your liking, you can modify them by:
 
-```js{11,12,13,14,15,16,17,18}
+```js{11,12,13,14,15,16,17,18,19,20,21,22,23,24}
 // config.js
 module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN'
     }
-  }
+  },
   themeConfig: {
     locales: {
       '/': {
-        recoLocals: {
+        recoLocales: {
           homeBlog: {
-            article: '美文', // 默认 文章
-            tag: '标识', // 默认 标签
-            category: '类别', // 默认 分类
-            friendLink: '友链' // 默认 友情链接
+            article: 'Article',
+            tag: 'Tag',
+            category: 'Category',
+            friendLink: 'Friend Link'
+          },
+          pagation: {
+            prev: 'Prev',
+            next: 'Next',
+            go: 'Go',
+            jump: 'Jump To'
           }
         }
       }
@@ -67,9 +73,9 @@ module.exports = {
 }
 ```
 
-## 如果你的网站有多种语言
+## More than one language
 
-上面的语法同样适用：
+The same syntax applies:
 
 ```js
 // config.js
@@ -85,22 +91,22 @@ module.exports = {
   themeConfig: {
     locales: {
       '/': {
-        recoLocals: {
+        recoLocales: {
           homeBlog: {
-            article: '美文', // 默认 文章
-            tag: '标识', // 默认 标签
-            category: '类别', // 默认 分类
-            friendLink: '友链' // 默认 友情链接
+            // ...
+          },
+          pagation: {
+            // ...
           }
         }
       },
       '/en/': {
-        recoLocals: {
+        recoLocales: {
           homeBlog: {
-            article: 'Article',
-            tag: 'Tag',
-            category: 'Category',
-            friendLink: 'Friend Link'
+            // ...
+          },
+          pagation: {
+            // ...
           }
         }
       }

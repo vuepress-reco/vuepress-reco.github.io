@@ -52,3 +52,35 @@ module.exports = {
 ```
 
 其他参数参考 [Vssue 官网](https://vssue.js.org/zh/options/)。
+
+### 多语言配置
+
+如果你需要支持不同语言，需要这么设置：
+
+```js
+// config.js
+module.exports = {
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    },
+    '/en/': {
+      lang: 'en-US'
+    }
+  }
+  themeConfig: {
+    locales: {
+      '/': {
+        valineConfig: {
+          // ...
+        }
+      },
+      '/en/': {
+        valineConfig: {
+          // ...
+        }
+      }
+    }
+  }
+}
+```

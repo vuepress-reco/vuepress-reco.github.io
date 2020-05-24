@@ -52,3 +52,36 @@ module.exports = {
 ```
 
 For other parameters please refer to the [official documentation of Vssue](https://vssue.js.org/options/).
+
+### Internationalization
+
+If you need to support different languages, you need to do this:
+
+```js
+// config.js
+module.exports = {
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    },
+    '/en/': {
+      lang: 'en-US'
+    }
+  }
+  themeConfig: {
+    locales: {
+      '/': {
+        valineConfig: {
+          // ...
+        }
+      },
+      '/en/': {
+        valineConfig: {
+          // ...
+        }
+      }
+    }
+  }
+}
+```
+
