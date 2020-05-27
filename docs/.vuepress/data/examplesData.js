@@ -11,6 +11,42 @@ export default [
     link: 'http://blog.smallsunnyfox.com', 
     thumbnail: 'https://i.loli.net/2020/04/04/lYavGBJpm3scIKH.png' 
   },
+  {
+    name: 'lookroot的个人空间',
+    desc: '追求理想与现实的平衡',
+    link: 'https://www.lookroot.cn/',
+    thumbnail: '//img.lookroot.cn/blog/202005/25/190857-668213.png'
+  },
+  {
+    name: '白日醒梦',
+    desc: 'Simple Life.',
+    link: 'https://saszr.gitee.io/blog/',
+    thumbnail: 'https://pic.saszr.xyz/qiniu/20200525122314.png'
+  },
+  { 
+    name: 'congco', 
+    desc: '得道者多助，失道者寡助',
+    link: 'https://snowyan.gitee.io/', 
+    thumbnail: 'https://s1.ax1x.com/2020/05/16/Y6BMHs.png'
+  },
+  { 
+    name: 'SUMMER-1874', 
+    desc: '当我沉默的时候，我觉得很充实，当我开口说话，就感到了空虚。',
+    link: 'http //summer1874.top', 
+    thumbnail: 'https //pic.downk.cc/item/5eb8fb6ac2a9a83be5e9d6f2.png'
+  },
+  { 
+    name: '海边的小溪鱼', 
+    desc: 'Study Programs And Record Life',
+    link: 'https://www.gaosanshi.top/', 
+    thumbnail: 'https://www.gaosanshi.top/head.png'
+  },
+  { 
+    name: `shanks's blog`, 
+    desc: '淡泊以明志，宁静而致远',
+    link: 'https://www.mhynet.cn', 
+    thumbnail: 'https://image.mhynet.cn/20200422202702.jpg' 
+  },
   { 
     name: '有梦想的咸鱼', 
     desc: '我不能克制我记几',

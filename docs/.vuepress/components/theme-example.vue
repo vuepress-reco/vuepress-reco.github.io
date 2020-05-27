@@ -1,14 +1,18 @@
 <template>
   <div class="theme-example">
     <div class="blog-list-wrapper">
-      <div class="blog-item" v-for="(blog, index) in currentPageData" :key="index">
-        <img class="thumbnail" :src="blog.thumbnail" alt="缩略图">
-        <div class="info">
-          <h4 class="title">{{ blog.name }}</h4>
-          <p class="desc">{{ blog.desc }}</p>
-          <a class="btn" target="blank" :href="blog.link">直达</a>
-        </div>
-      </div>
+      <Card class="blog-item" v-for="(blog, index) in currentPageData" :key="blog.name">
+        <template slot="front">
+          <img class="thumbnail" :src="blog.thumbnail" alt="缩略图">
+        </template>
+        <template slot="back">
+          <div class="info">
+            <h4 class="title">{{ blog.name }}</h4>
+            <p class="desc">{{ blog.desc }}</p>
+            <a class="btn" target="blank" :href="blog.link">直达</a>
+          </div>
+        </template>
+      </Card>
     </div>
 
     <!-- 分页 -->
@@ -60,11 +64,11 @@ export default {
     .blog-item
       margin-bottom 4rem
       width 31%
-      box-shadow: var(--box-shadow)
-      transition: all .5s
+      height 140px
+      transition: all .5s;
       .info
-        margin 2.5rem  0 1.5rem
-        padding 0 1.5rem
+        box-sizing border-box
+        padding 1rem 1rem
         .title
           margin 0
           max-width 65%
@@ -86,8 +90,6 @@ export default {
           font-size 12px
           text-decoration none 
           cursor pointer
-      &:hover
-        transform scale(1.05)
 
 @media (max-width: $MQMobile)
   .theme-example
