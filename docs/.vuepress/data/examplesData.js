@@ -18,6 +18,30 @@ export default [
     thumbnail: '//img.lookroot.cn/blog/202005/25/190857-668213.png'
   },
   {
+    name: 'keledd’s blog',
+    desc: '记录笔记，分享生活',
+    link: 'https://www.keledd.cn/',
+    thumbnail: 'https://keledd.cn/keledd.png'
+  },
+  {
+    name: 'stay true to the mission’',
+    desc: '人生在勤，不索何获。技术笔记，好学不厌。',
+    link: 'https://www.weicker.cn/',
+    thumbnail: 'https://www.weicker.cn/banners.png'
+  },
+  {
+    name: 'CHANX\'s Blog',
+    desc: '想法 + 实践 = BUG',
+    link: 'https://www.chanx.tech/',
+    thumbnail: 'https://www.chanx.tech/thumbnail.png'
+  },
+  {
+    name: '倚天丶惊鸿的博客',
+    desc: '分享Web前端开发知识，在这记录了我成长的脚步',
+    link: 'https://blog.yitian2019.cn/',
+    thumbnail: 'https://oss.yitian2019.cn/img/blog.png'
+  },
+  {
     name: '白日醒梦',
     desc: 'Simple Life.',
     link: 'https://saszr.gitee.io/blog/',
