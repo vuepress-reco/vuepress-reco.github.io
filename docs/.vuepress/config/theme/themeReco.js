@@ -48,5 +48,6 @@ module.exports = {
   docsBranch: 'gh-pages-source',
   // // 默认是 false, 设置为 true 来启用
   editLinks: true,
-  mode: 'light'
+  mode: 'light',
+  codeTheme: 'tomorrow'
 }
