@@ -22,7 +22,8 @@ module.exports = {
           'home',
           'notfound',
           'mode',
-          'local'
+          'local',
+          'codeTheme'
         ]
       },
       {
@@ -116,7 +117,8 @@ module.exports = {
           'home',
           'notfound',
           'mode',
-          'local'
+          'local',
+          'codeTheme'
         ]
       },
       {
