@@ -18,13 +18,10 @@ module.exports = {
     /**
      * support for
      * 'default'
-     * 'coy'
-     * 'dark'
      * 'funky'
      * 'okaidia'
      * 'solarizedlight'
      * 'tomorrow'
-     * 'twilight'
      */
     codeTheme: 'tomorrow' // default 'tomorrow'
   }
