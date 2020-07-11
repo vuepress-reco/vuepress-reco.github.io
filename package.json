@@ -3,8 +3,8 @@
   "homepage": "./",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
     "push": "bash scripts/push.sh",
     "deploy": "bash scripts/deploy.sh"
   },
