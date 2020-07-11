@@ -25,7 +25,7 @@ features:
 **npx**
 
 ```
-npx @vuepress-reco/theme-cli init my-blog
+npx @vuepress-reco/theme-cli init
 ```
 
 **npm**
@@ -33,17 +33,7 @@ npx @vuepress-reco/theme-cli init my-blog
 ```bash
 # 初始化
 npm install @vuepress-reco/theme-cli -g
-theme-cli init my-blog
-
-# 安装
-cd my-blog
-npm install
-
-# 运行
-npm run dev
-
-# 编译
-npm run build
+theme-cli init
 ```
 
 **yarn**
@@ -51,11 +41,7 @@ npm run build
 ```bash
 # 初始化
 yarn global add @vuepress-reco/theme-cli
-theme-cli init my-blog
-
-# 安装
-cd my-blog
-yarn install
+theme-cli init
 ```
 
 ## 多语言
