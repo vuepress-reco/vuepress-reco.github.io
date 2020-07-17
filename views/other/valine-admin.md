@@ -1,7 +1,7 @@
 ---
-title: Valine Admin 后台搭建
-date:  2020-01-28
-author: caleb
+title: Valine Admin 后台搭建(修订)
+date:  2020-07-06
+author: Caleb
 categories:
  - blog
 ---
@@ -15,25 +15,32 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 
 ## 云引擎"一键"部署
 ### 1. 填写代码库
-#### 在[Leancloud](https://leancloud.cn/dashboard/#/apps)云引擎设置界面，填写代码库并保存：[https://github.com/DesertsP/Valine-Admin.git](https://github.com/DesertsP/Valine-Admin.git)
-![填写代码库.png](./../images/valine_admin//git.png)
+#### 在[Leancloud](https://leancloud.cn/dashboard/#/apps)云引擎-->部署界面，填写代码库并保存：[https://github.com/DesertsP/Valine-Admin.git](https://github.com/DesertsP/Valine-Admin.git)
+
+::: tip
+#### 也可以使用我根据[@Deserts](https://deserts.io/)的项目改写的地址： [https://github.com/ComicAuthor/Valine-Admin](https://github.com/ComicAuthor/Valine-Admin)   
+ [改编版本内容介绍](#改编版本内容介绍)
+:::
+
+![填写代码库.png](./../images/valine_admin//git1.png)
+![填写代码库.png](./../images/valine_admin//git2.png)
 
 ### 2.在设置页面，设置环境变量以及 Web 二级域名。
-![设置环境变量.png](./../images/valine_admin//setRule.png)
+![设置环境变量.png](./../images/valine_admin//set1.png)
 
 具体格式如下：
-| 变量             |                     示例                     |                                                                                                                           说明 |
-|------------------|:--------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------:|
-| SITE_NAME        |                  平凡的你我                  |                                                                                                                 [必填]博客名称 |
-| SITE_URL         | [https://bcjiangbo.cn](https://bcjiangbo.cn) |                                                                                                                 [必填]首页地址 |
+|       变量       |                     示例                     |                                                              说明                                                              |
+|:----------------:|:--------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
+|    SITE_NAME     |                  平凡的你我                  |                                                         [必填]博客名称                                                         |
+|     SITE_URL     | [https://reinness.com](https://reinness.com) |                                                         [必填]首页地址                                                         |
 | **SMTP_SERVICE** |                    "163"                     | [新版支持]邮件服务提供商，支持 QQ、163、126、Gmail 以及 [**更多**](https://nodemailer.com/smtp/well-known/#supported-services) |
-| SMTP_USER        |                xxxxx@163.com                 |                                                                                                             [必填]SMTP登录用户 |
-| SMTP_PASS        |                   XXXXXXXX                   |                                                                                   [必填]SMTP登录密码（QQ邮箱需要获取独立密码） |
-| SENDER_NAME      |                    caleb                     |                                                                                                                   [必填]发件人 |
-| SENDER_EMAIL     |                xxxxx@163.com                 |                                                                                                                 [必填]发件邮箱 |
-| ADMIN_URL        |           https://xxx.leanapp.cn/            |                                                                                            [建议]Web主机二级域名，用于自动唤醒 |
-| BLOGGER_EMAIL    |                 xxxxx@qq.com                 |                                                                                   [可选]博主通知收件地址，默认使用SENDER_EMAIL |
-| AKISMET_KEY      |                 xxxxxxxxxxxx                 |                                            [可选]Akismet Key 用于垃圾评论检测，设为MANUAL_REVIEW开启人工审核，留空不使用反垃圾 |
+|    SMTP_USER     |                xxxxx@163.com                 |                                                       [必填]SMTP登录用户                                                       |
+|    SMTP_PASS     |                   XXXXXXXX                   |                                          [必填]SMTP登录密码（QQ邮箱需要获取独立密码）                                          |
+|   SENDER_NAME    |                    caleb                     |                                                          [必填]发件人                                                          |
+|   SENDER_EMAIL   |                xxxxx@163.com                 |                                                         [必填]发件邮箱                                                         |
+|  BLOGGER_EMAIL   |                xxxxx@163.com                 |               [可选]如果自己在回复，设置这个可以不向自己的邮箱发送邮件 && 博主通知收件地址，默认使用SENDER_EMAIL               |
+|    ADMIN_URL     |           https://xxx.leanapp.cn/            |                                              [建议]Web主机二级域名，用于自动唤醒                                               |
+|   AKISMET_KEY    |                 xxxxxxxxxxxx                 |                      [可选]Akismet Key 用于垃圾评论检测，设为MANUAL_REVIEW开启人工审核，留空不使用反垃圾                       |
 
 **以上必填参数请务必正确设置。**
 
@@ -44,16 +51,28 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 ![部署日志.png](./../images/valine_admin//log.png)
 
 ### 4.评论管理
-#### 访问设置的二级域名`https://二级域名.leanapp.cn/sign-up` ，注册管理员登录信息，如：[https://nk6vtvs0tdwc.leanapp.cn/sign-up](https://nk6vtvs0tdwc.leanapp.cn/sign-up)
+#### ~~访问设置的二级域名`https://二级域名.leanapp.cn/sign-up` ，注册管理员登录信息，如：[https://nk6vtvs0tdwc.leanapp.cn/sign-up](https://nk6vtvs0tdwc.leanapp.cn/sign-up)~~
 
-![网站地址.png](./../images/valine_admin//website.png)
+
+:::tip
+按照LeanCould下发的通知，华北和华东地区不再提供共享的域名。所以华北、华东的用户需要自行绑定域名(需要已经备案过的域名)。如果没有自己的域名呢，也可以直接使用国际版，但是只会提供三个月的有效时间。过后还是得自行绑定域名。
+
+详情参考 [LeanCloud Blog | 域名绑定 Q&A](https://leancloudblog.com/domain-question-answers/)
+:::
+
+
+国际版域名配置,输入你想自定义的名称即可。
+
+![域名配置.png](./../images/valine_admin//domain.png)
+
 
 ::: warning
 注：使用原版Valine如果遇到注册页面不显示直接跳转至登录页的情况，请手动删除_User表中的全部数据。
-:::
-![注册页.png](./../images/valine_admin//setLogin.png)
 
-**此后，可以通过`https://二级域名.leanapp.cn/`管理评论。**
+如果发现页面并没有跳转，请在域名后加上 `/sign-up`
+:::
+
+![注册页.png](./../images/valine_admin//setLogin.png)
 
 ### 5.定时任务设置
 
@@ -141,9 +160,133 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 效果如图：
 ![彩虹风格.png](./../images/valine_admin//new_us.png)
 
+
+## 改编版本教程
+
+## Qmsg酱
+
+### 申请APPKey 
+
+首先前往[**Qmsg酱官网**](https://qmsg.zendee.cn/),按照官方文档完成相应的注册。并添加「Qmsg酱」小姐姐为QQ好友。然后点击文档按钮。  
+
+![个人中心](./../images/valine_admin/admin/qmsg_login.png)  
+
+看到接口地址后将 `send/` 之后的内容复制下来，填写进 `QMSG_KEY` 变量中。  
+
+![接口地址](./../images/valine_admin/admin/qmsg_guide.png)  
+
+### Qmsg模板
+
+初始化模板样式如下：  
+ 
+![QMSG_TEMPLATE](./../images/valine_admin/admin/qmsg_template.png)   
+
+如果你并不不喜欢当前的样式，这里为您抛出了一些接口供您自定义模板：  
+
+|   变量    |         说明         |
+|:---------:|:--------------------:|
+| SITE_NAME |    [可选]站点名称    |
+|   NICK    |   [可选]评论者名称   |
+|  comment  |    [必填]评论信息    |
+| POST_URL  | [可选]对应的评论地址 |
+
+**使用字符串拼接方法，将变量放入其中**
+
+参考如下：
+``` js
+`您在 ${SITE_NAME} 上有新评论啦！
+${NICK} 给您的回复如下：[CQ:emoji,id=11015]
+           
+    [CQ:face,id=12] ${comment}
+        
+您可以点击 ${POST_URL} 前去查看！`
+```
+
+同时您还可以使用QQ表情用来点缀您的信息模板。使用方法为 `[CQ:face,id=XX]` ,其中XX为下图的表情序号。
+
+![表情](./../images/valine_admin/admin/face.png)
+
+如果你觉得QQ表情不是特别好看的话，您可以使用QQ里面的emoji表情。使用方法为 `[CQ:emoji,id=XX]` ,其中XX为emoji表情序号。
+
+[**emoji表情id查询地址**](https://cqp.cc/t/15827/)
+
+
+### QQ戳一戳
+
+如果想开启戳一戳提示的话，就设置true。
+
+## Server酱
+
+### 申请SC_KEY
+
+首先前往[**Server酱官网**](https://sc.ftqq.com/3.version), 通过Github登录。点击 `微信推送` 完成微信绑定。
+
+![微信绑定](./../images/valine_admin/admin/server_login.png)
+
+测试微信推送正常以后，点击 `发送消息` 进入页面。可以看到 `SCKEY` 复制粘贴到变量 `SC_KEY` 中。
+
+![查看SCKEY](./../images/valine_admin/admin/server_key.png)
+
+### 消息 标题/内容 模板  
+ 
+初始化模板样式如下：  
+
+![标题模板](./../images/valine_admin/admin/server_temp.png)
+
+
+### 自定义 标题/内容 模板 
+
+抛出的接口： 
+
+|   变量    |         说明         |
+|:---------:|:--------------------:|
+| SITE_NAME |    [可选]站点名称    |
+|   NICK    |   [可选]评论者名称   |
+|  COMMENT  |    [必填]评论信息    |
+| POST_URL  | [可选]对应的评论地址 |
+
+**使用字符串拼接方法，将变量放入其中**
+
+消息标题模板参考：
+```js
+`您在 ${SITE_NAME} 上有新评论啦！`
+```
+
+
+消息内容模板参考：
+```js
+`#### ${NICK} 给您的回复如下：
+        
+> ${COMMENT}
+        
+#### 您可以点击[查看回复的完整內容](${POST_URL})`
+```
+
+变量 `SC_DESP_TEMPLATE` 支持MarkDown。但是最大只有64K，请提前注意。
+
+**`注意这里的 COMMENT 与 QQ消息模板中的 comment 并不相同，请注意分别。`**
+
+## 改编版本内容介绍
+
+:::tip
+#### Version 1.0.2
+#### 1.增加了QQ提醒功能(Qmsg酱)
+#### 2.增加了微信提醒功能(Server酱)
+:::
+
+
+:::tip
+#### Version 1.0.1
+#### 1.增加了用户头像的判断 QQ头像以及gravatar头像
+#### 2.增加了分页插件
+#### 3.增加了博主/全部列表的展示
+#### 4.增加了返回顶部按钮
+#### 不断升级中~~~
+:::
+
 **以上所有内容供大家参考，有问题请及时指正，如有侵权，请及时联系删除**
 
 :::tip
-本文作者 [caleb](https://github.com/ACchenjiangbo)，博客 [平凡的你我](https://bcjiangbo.cn/)。
+本文作者 [Caleb](https://github.com/ComicAuthor)，博客 [平凡的你我](https://reinness.com/)。
 :::
 ### **完结撒花:tada::tada::tada:**
