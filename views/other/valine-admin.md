@@ -17,16 +17,13 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 ### 1. 填写代码库
 #### 在[Leancloud](https://leancloud.cn/dashboard/#/apps)云引擎-->部署界面，填写代码库并保存：[https://github.com/DesertsP/Valine-Admin.git](https://github.com/DesertsP/Valine-Admin.git)
 
-::: tip
-#### 也可以使用我根据[@Deserts](https://deserts.io/)的项目改写的地址： [https://github.com/ComicAuthor/Valine-Admin](https://github.com/ComicAuthor/Valine-Admin)   
- [改编版本内容介绍](#改编版本内容介绍)
-:::
+> 也可以使用我根据[@Deserts](https://deserts.io/)的项目改写的地址： [https://github.com/ComicAuthor/Valine-Admin](https://github.com/ComicAuthor/Valine-Admin)，改编版本内容介绍请[点击](#改编版本内容介绍)。
 
-![填写代码库.png](./../images/valine_admin//git1.png)
-![填写代码库.png](./../images/valine_admin//git2.png)
+![填写代码库.png](https://i.loli.net/2020/07/19/BCxjLA68ZOEtID7.png)
+![填写代码库.png](https://i.loli.net/2020/07/19/53bpWmS2MAJIXf9.png)
 
 ### 2.在设置页面，设置环境变量以及 Web 二级域名。
-![设置环境变量.png](./../images/valine_admin//set1.png)
+![设置环境变量.png](https://i.loli.net/2020/07/19/qZBdJPEmLzx5Oo6.png)
 
 具体格式如下：
 |       变量       |                     示例                     |                                                              说明                                                              |
@@ -45,10 +42,10 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 **以上必填参数请务必正确设置。**
 
 ### 3.切换到部署标签页，分支使用master，点击部署即可
-![部署.png](./../images/valine_admin//bushu.png)
+![部署.png](https://i.loli.net/2020/07/19/Gl28hq1UsHZ6F9L.png)
 第一次部署可能会需要些时间。
 
-![部署日志.png](./../images/valine_admin//log.png)
+![部署日志.png](![log.png](https://i.loli.net/2020/07/19/icCQWGbaAlNdjPB.png))
 
 ### 4.评论管理
 #### ~~访问设置的二级域名`https://二级域名.leanapp.cn/sign-up` ，注册管理员登录信息，如：[https://nk6vtvs0tdwc.leanapp.cn/sign-up](https://nk6vtvs0tdwc.leanapp.cn/sign-up)~~
@@ -63,7 +60,7 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 
 国际版域名配置,输入你想自定义的名称即可。
 
-![域名配置.png](./../images/valine_admin//domain.png)
+![域名配置.png](https://i.loli.net/2020/07/19/whs3c5oJ6qpEdxb.png)
 
 
 ::: warning
@@ -72,7 +69,7 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 如果发现页面并没有跳转，请在域名后加上 `/sign-up`
 :::
 
-![注册页.png](./../images/valine_admin//setLogin.png)
+![注册页.png](https://i.loli.net/2020/07/19/Cn1hvLGEcQmgsXl.png)
 
 ### 5.定时任务设置
 
@@ -88,11 +85,11 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 
 (1)选择self-wake云函数，Cron表达式为`0 0/30 7-23 * * ?`，表示每天早6点到晚23点每隔30分钟访问云引擎，ADMIN_URL环境变量务必设置正确：
 
-![self-wake云函数.png](./../images/valine_admin//self_work.png)
+![self-wake云函数.png](https://i.loli.net/2020/07/19/jXduZSOi3QnRMo6.png)
 
 (2)选择resend-mails云函数，Cron表达式为`0 0 8 * * ?`，表示每天早8点检查过去24小时内漏发的通知邮件并补发：
 
-![resend-mails云函数.png](./../images/valine_admin//resend.png)
+![resend-mails云函数.png](https://i.loli.net/2020/07/19/oIrpXniWRy9T5Zc.png)
 
 **添加定时器后记得点击启动方可生效。**
 
@@ -133,7 +130,7 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 <div style="border-top:2px solid #12ADDB;box-shadow:0 1px 3px #AAAAAA;line-height:180%;padding:0 15px 12px;margin:50px auto;font-size:12px;"><h2 style="border-bottom:1px solid #DDD;font-size:14px;font-weight:normal;padding:13px 0 10px 8px;">您在<a style="text-decoration:none;color: #12ADDB;" href="${SITE_URL}" target="_blank">            ${SITE_NAME}</a>上的评论有了新的回复</h2> ${PARENT_NICK} 同学，您曾发表评论：<div style="padding:0 12px 0 12px;margin-top:18px"><div style="background-color: #f5f5f5;padding: 10px 15px;margin:18px 0;word-wrap:break-word;">            ${PARENT_COMMENT}</div><p><strong>${NICK}</strong>回复说：</p><div style="background-color: #f5f5f5;padding: 10px 15px;margin:18px 0;word-wrap:break-word;"> ${COMMENT}</div><p>您可以点击<a style="text-decoration:none; color:#12addb" href="${POST_URL}" target="_blank">查看回复的完整內容</a>，欢迎再次光临<a style="text-decoration:none; color:#12addb" href="${SITE_URL}" target="_blank">${SITE_NAME}</a>。<br></p></div></div>
 ```
 效果如图：
-![默认主题.png](./../images/valine_admin//default.png)
+![默认主题.png](https://i.loli.net/2020/07/19/2g9lkajHZhczWL3.png)
 
 **（2）彩虹风格的@通知邮件模板代码：**
 
@@ -141,7 +138,7 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 <div style="border-top:2px solid #12ADDB;box-shadow:0 1px 3px #AAAAAA;line-height:180%;padding:0 15px 12px;margin:50px auto;font-size:12px;"><h2 style="border-bottom:1px solid #DDD;font-size:14px;font-weight:normal;padding:13px 0 10px 8px;">您在<a style="text-decoration:none;color: #12ADDB;" href="${SITE_URL}" target="_blank">            ${SITE_NAME}</a>上的评论有了新的回复</h2> ${PARENT_NICK} 同学，您曾发表评论：<div style="padding:0 12px 0 12px;margin-top:18px"><div style="background-color: #f5f5f5;padding: 10px 15px;margin:18px 0;word-wrap:break-word;">            ${PARENT_COMMENT}</div><p><strong>${NICK}</strong>回复说：</p><div style="background-color: #f5f5f5;padding: 10px 15px;margin:18px 0;word-wrap:break-word;"> ${COMMENT}</div><p>您可以点击<a style="text-decoration:none; color:#12addb" href="${POST_URL}" target="_blank">查看回复的完整內容</a>，欢迎再次光临<a style="text-decoration:none; color:#12addb" href="${SITE_URL}" target="_blank">${SITE_NAME}</a>。<br></p></div></div>
 ```
 效果如图：
-![彩虹风格.png](./../images/valine_admin//new.png)
+![彩虹风格.png](https://i.loli.net/2020/07/19/pq9h1KPgynVSbIX.png)
 
 
 博主通知邮件模板中的可用变量与@通知中的基本一致，***PARENT_NICK*** 和 ***PARENT_COMMENT*** 变量不再可用。
@@ -158,7 +155,7 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 <div style="border-radius: 10px 10px 10px 10px;font-size:13px;    color: #555555;width: 666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background: #ffffff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);"><div style="width:100%;background:#49BDAD;color:#ffffff;border-radius: 10px 10px 0 0;background-image: -moz-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));background-image: -webkit-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));height: 66px;"><p style="font-size:15px;word-break:break-all;padding: 23px 32px;margin:0;background-color: hsla(0,0%,100%,.4);border-radius: 10px 10px 0 0;">您在<a style="text-decoration:none;color: #ffffff;"href="${SITE_URL}">${SITE_NAME}</a>上有新评论啦！</p></div><div style="margin:40px auto;width:90%"><p>${NICK}给您的回复如下：</p><div style="background: #fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);margin:20px 0px;padding:15px;border-radius:5px;font-size:14px;color:#555555;">${COMMENT}</div><p>您可以点击<a style="text-decoration:none; color:#12addb"href="${POST_URL}#comments">查看回复的完整內容</a>，欢迎再次光临<a style="text-decoration:none; color:#12addb"href="${SITE_URL}">${SITE_NAME}</a>。</p><style type="text/css">a:link{text-decoration:none}a:visited{text-decoration:none}a:hover{text-decoration:none}a:active{text-decoration:none}</style></div></div>
 ```
 效果如图：
-![彩虹风格.png](./../images/valine_admin//new_us.png)
+![彩虹风格.png](https://i.loli.net/2020/07/19/sNiR4QHFDjmqXGB.png)
 
 
 ## 改编版本教程
@@ -169,17 +166,17 @@ Valine Admin 是 Valine 评论系统的扩展和增强，主要实现评论邮�
 
 首先前往[**Qmsg酱官网**](https://qmsg.zendee.cn/),按照官方文档完成相应的注册。并添加「Qmsg酱」小姐姐为QQ好友。然后点击文档按钮。  
 
-![个人中心](./../images/valine_admin/admin/qmsg_login.png)  
+![个人中心](https://i.loli.net/2020/07/19/WPHmEcjfdzM7y9r.png)  
 
 看到接口地址后将 `send/` 之后的内容复制下来，填写进 `QMSG_KEY` 变量中。  
 
-![接口地址](./../images/valine_admin/admin/qmsg_guide.png)  
+![接口地址](https://i.loli.net/2020/07/19/gc8Aad5ZmNP3fIk.png)  
 
 ### Qmsg模板
 
 初始化模板样式如下：  
  
-![QMSG_TEMPLATE](./../images/valine_admin/admin/qmsg_template.png)   
+![QMSG_TEMPLATE](https://i.loli.net/2020/07/19/tWilU9OCqAdbx6H.png)   
 
 如果你并不不喜欢当前的样式，这里为您抛出了一些接口供您自定义模板：  
 
@@ -204,7 +201,7 @@ ${NICK} 给您的回复如下：[CQ:emoji,id=11015]
 
 同时您还可以使用QQ表情用来点缀您的信息模板。使用方法为 `[CQ:face,id=XX]` ,其中XX为下图的表情序号。
 
-![表情](./../images/valine_admin/admin/face.png)
+![表情](https://i.loli.net/2020/07/19/Sro5UpwiPBGHKsY.png)
 
 如果你觉得QQ表情不是特别好看的话，您可以使用QQ里面的emoji表情。使用方法为 `[CQ:emoji,id=XX]` ,其中XX为emoji表情序号。
 
@@ -221,17 +218,17 @@ ${NICK} 给您的回复如下：[CQ:emoji,id=11015]
 
 首先前往[**Server酱官网**](https://sc.ftqq.com/3.version), 通过Github登录。点击 `微信推送` 完成微信绑定。
 
-![微信绑定](./../images/valine_admin/admin/server_login.png)
+![微信绑定](https://i.loli.net/2020/07/19/DpXSO96R8gFHCmk.png)
 
 测试微信推送正常以后，点击 `发送消息` 进入页面。可以看到 `SCKEY` 复制粘贴到变量 `SC_KEY` 中。
 
-![查看SCKEY](./../images/valine_admin/admin/server_key.png)
+![查看SCKEY](https://i.loli.net/2020/07/19/mhfROXjAITVL58y.png)
 
 ### 消息 标题/内容 模板  
  
 初始化模板样式如下：  
 
-![标题模板](./../images/valine_admin/admin/server_temp.png)
+![标题模板](https://i.loli.net/2020/07/19/sCcjfIzUpvDdknh.png)
 
 
 ### 自定义 标题/内容 模板 
@@ -264,25 +261,20 @@ ${NICK} 给您的回复如下：[CQ:emoji,id=11015]
 
 变量 `SC_DESP_TEMPLATE` 支持MarkDown。但是最大只有64K，请提前注意。
 
-**`注意这里的 COMMENT 与 QQ消息模板中的 comment 并不相同，请注意分别。`**
+> 注意这里的 COMMENT 与 QQ消息模板中的 comment 并不相同，请注意分别。
 
 ## 改编版本内容介绍
 
-:::tip
-#### Version 1.0.2
-#### 1.增加了QQ提醒功能(Qmsg酱)
-#### 2.增加了微信提醒功能(Server酱)
-:::
+**Version 1.0.2**
+1. 增加了QQ提醒功能(Qmsg酱)
+2. 增加了微信提醒功能(Server酱)
 
-
-:::tip
-#### Version 1.0.1
-#### 1.增加了用户头像的判断 QQ头像以及gravatar头像
-#### 2.增加了分页插件
-#### 3.增加了博主/全部列表的展示
-#### 4.增加了返回顶部按钮
-#### 不断升级中~~~
-:::
+**Version 1.0.1**
+1. 增加了用户头像的判断 QQ头像以及gravatar头像
+2. 增加了分页插件
+3. 增加了博主/全部列表的展示
+4. 增加了返回顶部按钮
+5. 不断升级中~~~
 
 **以上所有内容供大家参考，有问题请及时指正，如有侵权，请及时联系删除**
 
