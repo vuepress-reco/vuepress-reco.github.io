@@ -7,6 +7,8 @@ date: 2019-04-09
 
 The theme's built-in comment plugin [@vuepress-reco/vuepress-plugin-comments](/views/plugins/) has two options: `Valine` or `Vssue`.
 
+If you want to display comments only on certain pages instead of loading them by default, set `showComment: false` in `valineConfig` or `vssueConfig` and `isShowComments: false` on pages where you want to display comments.
+
 If you don't want an article open for comments, you can set `isShowComments: false` in `front-matter`.
 
 ::: warning Page View

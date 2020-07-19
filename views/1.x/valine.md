@@ -7,6 +7,8 @@ date: 2019-04-09
 
 主题内置评论插件 [@vuepress-reco/vuepress-plugin-comments](/views/plugins/)，可以根据自己的喜好选择 `Valine` 或者 `Vssue`；
 
+如果你想默认不加载评论，而只在某些页面显示评论功能，可以在 `valineConfig` 或 `vssueConfig` 中设置 `showComment: false`，并在需要展示评论的页面 设置 `isShowComments: false`。
+
 如果仅是某篇文章不想设置开启评论功能，可以在 `front-matter` 设置 `isShowComments: false`。
 
 ::: warning 浏览量
