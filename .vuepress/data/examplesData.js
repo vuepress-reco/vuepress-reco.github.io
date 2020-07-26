@@ -24,7 +24,19 @@ export default [
     thumbnail: 'https://keledd.cn/keledd.png'
   },
   {
-    name: 'stay true to the mission’',
+    name: 'SlovinG',
+    desc: '为学应尽毕生力',
+    link: 'https://sloving.gitee.io/sloving/',
+    thumbnail: 'https://s1.ax1x.com/2020/07/15/Uw9TFx.md.png'
+  },
+  {
+    name: '叫我詹躲躲',
+    desc: '岂能尽如人意，但求无愧于心',
+    link: 'https://zhanhongzhu.top/',
+    thumbnail: 'https://dcdn.it120.cc/2020/07/05/a55d7d9a-b7e1-4391-a6ad-040360f7de75.png'
+  },
+  {
+    name: 'stay true to the mission',
     desc: '人生在勤，不索何获。技术笔记，好学不厌。',
     link: 'https://www.weicker.cn/',
     thumbnail: 'https://www.weicker.cn/banners.png'
