@@ -5,7 +5,7 @@ heroImageStyle: {
   maxWidth: '200px',
   width: '100%',
   display: block,
-  margin: '5rem auto 2rem',
+  margin: '0 auto 2rem',
   borderRadius: '1rem',
 }
 isShowTitleInHome: true
