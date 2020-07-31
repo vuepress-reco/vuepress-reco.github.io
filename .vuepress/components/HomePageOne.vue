@@ -202,7 +202,7 @@ export default {
       align-items: center;
       justify-content: center;
       box-sizing: border-box;
-      margin: 0 auto 6rem;
+      margin: 0 auto;
       width: 100%;
       height: calc(100vh - 3.4rem);
       overflow hidden
@@ -278,6 +278,10 @@ export default {
     section {
       padding: 0 2rem;
 
+      &.main {
+        height 580px
+      }
+
       &.description {
         h1 {
           margin-top: 5rem;
@@ -309,6 +313,10 @@ export default {
   .home-page-one-wrapper {
     section {
       padding: 0 2rem;
+
+      &.main {
+        height 580px
+      }
 
       &.description {
         h1 {
