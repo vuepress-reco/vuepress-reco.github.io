@@ -16,7 +16,7 @@
     "vuepress": "^1.4.0",
     "vuepress-plugin-flowchart": "1.4.3",
     "vuepress-plugin-sitemap": "2.3.0",
-    "vuepress-theme-reco": "1.5.4",
+    "vuepress-theme-reco": "1.5.5",
     "whatwg-fetch": "3.0.0"
   }
 }
