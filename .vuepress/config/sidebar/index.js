@@ -23,7 +23,8 @@ module.exports = {
           'notfound',
           'mode',
           'local',
-          'codeTheme'
+          'codeTheme',
+          'sidebar'
         ]
       },
       {
@@ -32,8 +33,7 @@ module.exports = {
         children: [
           'abstract',
           'syntax',
-          'customStyleAndScript',
-          'sidebar'
+          'customStyleAndScript'
         ]
       },
       {
@@ -118,7 +118,8 @@ module.exports = {
           'notfound',
           'mode',
           'local',
-          'codeTheme'
+          'codeTheme',
+          'sidebar'
         ]
       },
       {
@@ -127,8 +128,7 @@ module.exports = {
         children: [
           'abstract',
           'syntax',
-          'customStyleAndScript',
-          'sidebar'
+          'customStyleAndScript'
         ]
       },
       {

@@ -4,37 +4,28 @@ date: 2019-10-25
 author: 橘子
 ---
 
-## Whether Enable the Sidebar
+:::warning
+After '1.5.6', the theme removes the multilevel title from the original sidebar, creating a sub-sidebar that is placed on the right side of the page. The left sidebar appears only when there is a custom sidebar that displays a collection of articles, while the sub-sidebar focuses on the current article's multiple levels of titles.
+:::
 
-It's recommended to globally enable the sidebar:
+## Whether Enable the sub-sidebar
+
+It's recommended to globally enable the sub-sidebar:
 
 ```javascript
 // .vuepress/config.js
 
 module.exports = {
   themeConfig: {
-    sidebar: 'auto'//auto generate sidebar in all pages
+    subSidebar: 'auto'//auto generate sidebar in all pages
   }
 }
 ```
 
-Then use `YAML front matter` to disable sidebar on specific pages:
+Then use `YAML front matter` to disable sub-sidebar on specific pages:
 
 ```yaml
 ---
-sidebar: false
+subSidebar: false
 ---
 ```
-
-## Sidebar Depth
-
-> By default, the sidebar is auto generated based on headers of current page and indents according to blog structure. You could use `themeConfig.sidebarDepth` to modify the behaviors. By default the depth is `1` and extracts headers down to `h2`. You could set it to `0` to disable headers, or to `2` to extract both `h2` and `h3` headers.
-> You could also use `YAML front matter` to set the depth for specific pages
-
-```yaml
----
-sidebarDepth: 2
----
-```
-
-## [More sidebar configs](https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar)
