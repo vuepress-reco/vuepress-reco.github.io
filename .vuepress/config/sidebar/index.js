@@ -89,7 +89,8 @@ module.exports = {
           'comments',
           'extractCode',
           'rss',
-          'bgmPlayer'
+          'bgmPlayer',
+          'bulletinPopover'
         ]
       }
     ]
@@ -154,7 +155,8 @@ module.exports = {
           'comments',
           'extractCode',
           'rss',
-          'bgmPlayer'
+          'bgmPlayer',
+          'bulletinPopover'
         ]
       }
     ]

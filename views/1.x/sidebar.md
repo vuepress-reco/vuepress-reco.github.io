@@ -16,7 +16,7 @@ author: 橘子
 // .vuepress/config.js
 module.exports = {
   themeConfig: {
-    subSidebar: 'auto'//在所有页面中启用自动生成子侧边栏
+    subSidebar: 'auto'//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
   }
 }
 ```

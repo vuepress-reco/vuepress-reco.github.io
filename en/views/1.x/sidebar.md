@@ -17,7 +17,7 @@ It's recommended to globally enable the sub-sidebar:
 
 module.exports = {
   themeConfig: {
-    subSidebar: 'auto'//auto generate sidebar in all pages
+    subSidebar: 'auto' //auto generate sidebar in all pages, 原 sidebar 仍然兼容
   }
 }
 ```
