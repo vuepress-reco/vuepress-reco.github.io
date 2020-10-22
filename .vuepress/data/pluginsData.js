@@ -1,4 +1,12 @@
 export default [
+  {
+    name: 'vuepress-plugin-sponsor',
+    desc: '打赏插件',
+    user: 'yokefellow',
+    repo: 'vuepress-plugin-sponsor',
+    feature: 'feature',
+    scenes: 'independent'
+  },
   { 
     name: '@vuepress-reco/back-to-top', 
     desc: '回到顶部。',

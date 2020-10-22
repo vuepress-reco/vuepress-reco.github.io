@@ -81,15 +81,25 @@ module.exports = {
           style: 'text-aligin: center;'
         },
         {
-          type: 'image',
-          src: '/rvcode_qq.png'
-        }
+          type: 'text',
+          content: 'QQ群1：1037296104',
+          style: 'text-align: center;'
+        },
+        {
+          type: 'text',
+          content: 'QQ群2：1061561395',
+          style: 'text-align: center;'
+        },
+        // {
+        //   type: 'image',
+        //   src: '/rvcode_qq.png'
+        // }
       ],
       footer: [
         {
           type: 'button',
           text: '打赏',
-          link: '/donate'
+          link: '/views/other/donate.html'
         }
       ]
     }]

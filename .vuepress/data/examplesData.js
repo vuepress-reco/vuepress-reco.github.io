@@ -30,6 +30,66 @@ export default [
     thumbnail: 'https://s1.ax1x.com/2020/07/15/Uw9TFx.md.png'
   },
   {
+    name: '极客小祥',
+    desc: '永远相信美好的事情即将发生',
+    link: 'https://jtxyh.top/',
+    thumbnail: 'https://jtxyh.top/logo.png'
+  },
+  {
+    name: 'GolangRoadmap.com',
+    desc: 'Gopher一站式学习平台。',
+    link: 'https://www.golangroadmap.com/',
+    thumbnail: 'https://www.golangroadmap.com/img/thumbnail.png'
+  },
+  {
+    name: 'zealsay说你想说',
+    desc: '大道至简，追求优雅代码永无止境。',
+    link: 'https://www.zealsay.com',
+    thumbnail: 'https://pan.zealsay.com/blog/20200819192408.jpg'
+  },
+  {
+    name: '后来的我们',
+    desc: 'It takes two to tango.',
+    link: 'https://zyj_yida.gitee.io/',
+    thumbnail: 'https://zyj_yida.gitee.io/source/img/indexbg/5.jpg?timestamp=1603386765821'
+  },
+  {
+    name: 'GuoJun Blog',
+    desc: '笑看云卷云舒,静观潮起潮落',
+    link: 'https://guojun.de',
+    thumbnail: 'https://guojun.de/img/logo_p.png'
+  },
+  {
+    name: 'QiJieH\'s Blog',
+    desc: '于朝阳升起处，我将踏上旅程',
+    link: 'https://qijieh.gitee.io/blog/',
+    thumbnail: 'https://gitee.com/QiJieH/blog-image-bed/raw/master//20200809182218.png'
+  },
+  {
+    name: '互勉之',
+    desc: '跬步千里，积微成著',
+    link: 'https://zihonghuang.gitee.io',
+    thumbnail: 'https://zihonghuang.gitee.io/image/bg1.jpg'
+  },
+  {
+    name: 'Yin的笔记本',
+    desc: '一位胡乱学习者的笔记本',
+    link: 'https://yindaheng98.github.io/',
+    thumbnail: 'https://yindaheng98.github.io/avatar.svg'
+  },
+  {
+    name: '君陌离的博客', 
+    desc: 'STUDY PROGRAMS AND RECORD LIFE',
+    link: 'https://songjun520.cn',
+    thumbnail: 'https://songjun520.cn/bg.png'
+  },
+  {
+    name: 'w晚风阅览馆',
+    link: 'http://bk.xiat123.cn',
+    thumbnail: 'http://bk.xiat123.cn/head.jpg',
+    desc: '流年以笑掷,未来诚可期!'
+  },
+  {
     name: '叫我詹躲躲',
     desc: '岂能尽如人意，但求无愧于心',
     link: 'https://zhanhongzhu.top/',
@@ -68,20 +128,14 @@ export default [
   { 
     name: 'SUMMER-1874', 
     desc: '当我沉默的时候，我觉得很充实，当我开口说话，就感到了空虚。',
-    link: 'http //summer1874.top', 
-    thumbnail: 'https //pic.downk.cc/item/5eb8fb6ac2a9a83be5e9d6f2.png'
-  },
-  { 
-    name: '海边的小溪鱼', 
-    desc: 'Study Programs And Record Life',
-    link: 'https://www.gaosanshi.top/', 
-    thumbnail: 'https://www.gaosanshi.top/head.png'
+    link: 'http://summer1874.top', 
+    thumbnail: 'https://pic.downk.cc/item/5eb8fb6ac2a9a83be5e9d6f2.png'
   },
   { 
     name: `shanks's blog`, 
     desc: '淡泊以明志，宁静而致远',
     link: 'https://www.mhynet.cn', 
-    thumbnail: 'https://image.mhynet.cn/20200422202702.jpg' 
+    thumbnail: 'https://cdn.hyuan.site/uploads/2_uE7Yu3pA/11585904087.jpg?imageView2/1/w/1200/h/300/interlace/1' 
   },
   { 
     name: '有梦想的咸鱼', 
