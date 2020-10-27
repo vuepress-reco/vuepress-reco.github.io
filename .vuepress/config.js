@@ -102,6 +102,7 @@ module.exports = {
           link: '/views/other/donate.html'
         }
       ]
-    }]
+    }],
+    '@vuepress-reco/extract-code'
   ]
 }  
