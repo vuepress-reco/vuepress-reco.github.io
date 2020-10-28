@@ -21,7 +21,7 @@ Anything above `<!-- more -->` is the abstract.
 
 <RecoDemo :collapse="true">
 <template slot="code-markdown">
-  <<< @/docs/.vuepress/demo/abstract_en.md
+  <<< @/.vuepress/demo/abstract_en.md
 </template>
 </RecoDemo>
 

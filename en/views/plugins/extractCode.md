@@ -9,13 +9,13 @@ Features and code presentation plugin for vuepress-theme-reco or other vuepress 
 
 <RecoDemo :collapse="true">
   <template slot="code-template">
-    <<< @/docs/.vuepress/demo/extract-code.vue?template
+    <<< @/.vuepress/demo/extract-code.vue?template
   </template>
   <template slot="code-script">
-    <<< @/docs/.vuepress/demo/extract-code.vue?script
+    <<< @/.vuepress/demo/extract-code.vue?script
   </template>
   <template slot="code-style">
-    <<< @/docs/.vuepress/demo/extract-code.vue?style
+    <<< @/.vuepress/demo/extract-code.vue?style
   </template>
   <extract-code slot="demo"></extract-code>
 </RecoDemo>
@@ -43,13 +43,13 @@ module.exports = {
 ```html
 <RecoDemo>
   <template slot="code-template">
-    <<< @/docs/.vuepress/demo/demo.vue?template
+    <<< @/.vuepress/demo/demo.vue?template
   </template>
   <template slot="code-script">
-    <<< @/docs/.vuepress/demo/demo.vue?script
+    <<< @/.vuepress/demo/demo.vue?script
   </template>
   <template slot="code-style">
-    <<< @/docs/.vuepress/demo/demo.vue?style
+    <<< @/.vuepress/demo/demo.vue?style
   </template>
 </RecoDemo>
 ```
@@ -61,13 +61,13 @@ For example, if you want to display `HTML` code, you could just change the `slot
 ```html
 <RecoDemo>
   <template slot="code-html">
-    <<< @/docs/.vuepress/config/nav/index.html
+    <<< @/.vuepress/config/nav/index.html
   </template>
   <template slot="code-css">
-    <<< @/docs/.vuepress/config/nav/style.css
+    <<< @/.vuepress/config/nav/style.css
   </template>
   <template slot="code-js">
-    <<< @/docs/.vuepress/config/nav/index.js
+    <<< @/.vuepress/config/nav/index.js
   </template>
 </RecoDemo>
 ```
@@ -81,13 +81,13 @@ If you want to display the output of your demo, could set `slot` to `demo`:
   ```html
   <RecoDemo>
     <template slot="code-template">
-      <<< @/docs/.vuepress/demo/demo.vue?template
+      <<< @/.vuepress/demo/demo.vue?template
     </template>
     <template slot="code-script">
-      <<< @/docs/.vuepress/demo/demo.vue?script
+      <<< @/.vuepress/demo/demo.vue?script
     </template>
     <template slot="code-style">
-      <<< @/docs/.vuepress/demo/demo.vue?style
+      <<< @/.vuepress/demo/demo.vue?style
     </template>
 
     <img src="./images/demo.png" slot="demo" />
@@ -99,13 +99,13 @@ If you want to display the output of your demo, could set `slot` to `demo`:
 ```html
 <RecoDemo>
   <template slot="code-template">
-    <<< @/docs/.vuepress/demo/demo.vue?template
+    <<< @/.vuepress/demo/demo.vue?template
   </template>
   <template slot="code-script">
-    <<< @/docs/.vuepress/demo/demo.vue?script
+    <<< @/.vuepress/demo/demo.vue?script
   </template>
   <template slot="code-style">
-    <<< @/docs/.vuepress/demo/demo.vue?style
+    <<< @/.vuepress/demo/demo.vue?style
   </template>
 
   <some-demo slot="demo"></some-demo>
@@ -119,13 +119,13 @@ You could do this as long as your component works in a `.md` file. You could put
 ```html
 <RecoDemo>
   <template slot="code-template">
-    <<< @/docs/.vuepress/demo/some-demo.vue?template
+    <<< @/.vuepress/demo/some-demo.vue?template
   </template>
   <template slot="code-script">
-    <<< @/docs/.vuepress/demo/some-demo.vue?script
+    <<< @/.vuepress/demo/some-demo.vue?script
   </template>
   <template slot="code-style">
-    <<< @/docs/.vuepress/demo/some-demo.vue?style
+    <<< @/.vuepress/demo/some-demo.vue?style
   </template>
 
   <some-demo slot="demo"></some-demo>
@@ -166,13 +166,13 @@ Code display is hidden by default and can only be shown if the button in top lef
 ```html
 <RecoDemo :collapse="true">
   <template slot="code-template">
-    <<< @/docs/.vuepress/demo/some-demo.vue?template
+    <<< @/.vuepress/demo/some-demo.vue?template
   </template>
   <template slot="code-script">
-    <<< @/docs/.vuepress/demo/some-demo.vue?script
+    <<< @/.vuepress/demo/some-demo.vue?script
   </template>
   <template slot="code-style">
-    <<< @/docs/.vuepress/demo/some-demo.vue?style
+    <<< @/.vuepress/demo/some-demo.vue?style
   </template>
 
   <some-demo slot="demo"></some-demo>

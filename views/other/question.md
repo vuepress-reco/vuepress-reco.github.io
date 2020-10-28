@@ -21,7 +21,7 @@ sidebar: 'auto'
 
 <RecoDemo :collapse="true">
 <template slot="code-markdown">
-  <<< @/docs/.vuepress/demo/abstract.md
+  <<< @/.vuepress/demo/abstract.md
 </template>
 </RecoDemo>
 
