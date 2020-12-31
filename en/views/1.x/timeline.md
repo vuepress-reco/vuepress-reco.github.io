@@ -7,6 +7,10 @@ date: 2019-04-09
 After the `1.1.0` version, the timeline has been refactored. Users do not need to add additional files, and the other configurations are unchanged.
 :::
 
+::: tip
+It is worth mentioning that TimeLine only shows blogs with Front Matter `categories` & `title`, and without Front Matter `publush === false` & `home: true`.
+:::
+
 ## Add Navigation Button
 
 ```javascript

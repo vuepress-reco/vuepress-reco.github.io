@@ -17,7 +17,7 @@ tags:
  - 烤
  - 鸭子
 keys:
- - '123456'
+ - '32位的 md5 加密密文'
 publish: false
 ---
 ```
@@ -46,7 +46,7 @@ publish: false
 
 ### keys
 
-- description: 文章加密密码。
+- description: 文章加密密码，32位的 md5 加密密文。
 
 ### publish
 
