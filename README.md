@@ -56,7 +56,7 @@ theme-cli init
 
 ## 更新记录
 
-[记录](https://github.com/vuepress-reco/vuepress-theme-reco/blob/develop/CHANGELOG.md)
+[记录](https://github.com/vuepress-reco/vuepress-theme-reco/blob/master/CHANGELOG.md)
 
 ## 贡献者
 
