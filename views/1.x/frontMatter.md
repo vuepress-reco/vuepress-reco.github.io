@@ -8,7 +8,7 @@ date: 2019-10-21
 ```yaml
 ---
 title: 烤鸭的做法
-date: 2019-08-08
+date: '2019-08-08 08:00:00'
 sidebar: 'auto'
 categories:
  - 烹饪
@@ -30,7 +30,8 @@ publish: false
 
 ### date
 
-- description: 文章创建日期，格式 `2019-08-08` 或 `2019-08-08 08:08:08`。
+- type: `string`
+- description: 文章创建日期，格式 `'2019-08-08'` 或 `'2019-08-08 08:08:08'`。
 
 ### sidebar
 

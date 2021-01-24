@@ -8,7 +8,7 @@ This is a complete `Front Matter`:
 ```yaml
 ---
 title: The Practice of Roast Duck
-date: 2019-08-08
+date: '2019-08-08 08:00:00
 sidebar: 'auto'
 categories:
  - cooking
@@ -30,7 +30,8 @@ publish: false
 
 ### date
 
-- description: The date the article was created, in the format `2019-08-08` or `2019-08-08 08:08:08`.
+- type: `string`
+- description: The date the article was created, in the format `'2019-08-08'` or `'2019-08-08 08:08:08'`.
 
 ### sidebar
 
