@@ -20,7 +20,11 @@ module.exports = {
       tag: {
         location: 3,     // The position occupied in the navigation bar menu, default to 3
         text: 'Tag'      // Text default to "Tag"
-      }
+      },
+      socialLinks: [     // Information bar displays social information
+        { icon: 'reco-github', link: 'https://github.com/recoluan' },
+        { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+      ]
     }
   }
 }

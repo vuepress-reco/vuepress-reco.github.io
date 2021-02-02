@@ -24,7 +24,8 @@ module.exports = {
 { text: 'Tags', link: '/tags/', icon: 'reco-tag' }
 ```
 
-本主题有以下内置图标供您选择
+1. 本主题支持 [Font Awesome 免费图标](https://fontawesome.com/icons?d=gallery&m=free)
+2. 本主题有以下内置图标供您选择：
 
 <icon-example></icon-example>
 

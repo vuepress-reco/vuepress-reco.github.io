@@ -70,7 +70,7 @@ yarn install
 
 ## Update record
 
-[Record](https://github.com/vuepress-reco/vuepress-theme-reco/blob/develop/CHANGELOG.md)
+[Record](https://github.com/vuepress-reco/vuepress-theme-reco/blob/master/CHANGELOG.md)
 
 ## Contributors
 

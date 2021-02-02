@@ -24,7 +24,8 @@ You can use the theme's built-in icons in the navigation bar as follows:
 { text: 'Tags', link: '/tags/', icon: 'reco-tag' }
 ```
 
-本主题有以下内置图标供您选择
+1. The theme support [the Font Awesome free icon](https://fontawesome.com/icons?d=gallery&m=free)
+2. The theme has the following built-in icons for you to choose:
 
 <icon-example></icon-example>
 
