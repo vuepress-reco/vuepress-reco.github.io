@@ -30,8 +30,7 @@ publish: false
 
 ### date
 
-- type: `string`
-- description: The date the article was created, in the format `'2019-08-08'` or `'2019-08-08 08:08:08'`.
+- description: The date the article was created, in the format `2019-08-08` or `2019-08-08 08:08:08`.
 
 ### sidebar
 

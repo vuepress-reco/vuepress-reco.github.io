@@ -30,8 +30,7 @@ publish: false
 
 ### date
 
-- type: `string`
-- description: 文章创建日期，格式 `'2019-08-08'` 或 `'2019-08-08 08:08:08'`。
+- description: 文章创建日期，格式 `2019-08-08` 或 `2019-08-08 08:08:08`。
 
 ### sidebar
 
