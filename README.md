@@ -52,6 +52,7 @@ theme-cli init
 |繁中|`zh-HK`、`zh-MO`、`zh-TW`|
 |日语|`ja-JP`|
 |韩语|`ko-KR`|
+|西班牙语|`es-{A-Z}`|
 |英语|`en-US` 及其他|
 
 ## 更新记录

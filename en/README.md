@@ -66,6 +66,7 @@ yarn install
 |Traditional Chinese|`zh-HK`、`zh-MO`、`zh-TW`|
 |Japanese|`ja-JP`|
 |Korean|`ko-KR`|
+|Spanish|`es-{A-Z}`|
 |English|`en-US` and other|
 
 ## Update record

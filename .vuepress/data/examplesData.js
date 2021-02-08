@@ -18,16 +18,52 @@ export default [
     thumbnail: '//img.lookroot.cn/blog/202005/25/190857-668213.png'
   },
   {
+    name: '摸鱼人', // 站点名称
+    desc: '山行野宿，孑然万里', // 站点描述
+    link: 'https://lssblog.ml', // 站点地址
+    thumbnail: 'https://ae01.alicdn.com/kf/Uceb671c3b05c43f58b26a2632adad568T.jpg' // 站点图片链接
+  },
+  {
+    name: 'Torrk’s Blog',
+    desc: '记录，成为更好的自己。',
+    link: 'https://conimi.com',
+    thumbnail: 'https://conimi.com/files/images/i.jpg'
+  },
+  {
     name: 'keledd’s blog',
     desc: '记录笔记，分享生活',
     link: 'https://www.keledd.cn/',
     thumbnail: 'https://keledd.cn/keledd.png'
   },
   {
+    name: 'WangScaler',
+    desc: '记录开发爬坑的过程.',
+    link: 'http://www.scalerwang.com/blog/',
+    thumbnail: 'http://www.scalerwang.com/blog/logo.png'
+  },
+  {
+    name: '小光头的java日记', // 站点名称
+    desc: '奋发向上,成为更强大的自己', // 站点描述
+    link: 'https://www.javanode.cn', // 站点地址
+    thumbnail: 'https://www.javanode.cn/1.png' // 站点图片链接
+  },
+  {
     name: '山海以南’', // 站点名称
     desc: '不积硅步,无以至千里', // 站点描述
     link: 'https://mu-yan.cn', // 站点地址
     thumbnail: 'https://cdn.jsdelivr.net/gh/Mu-Yan/Mu-Yan.github.io/001.jpg' // 站点图片链接
+  },
+  {
+    name: '饭团也有春天', // 站点名称
+    desc: '没有梦想，也能远方', // 站点描述
+    link: 'http://www.zpzpup.com/blog/', // 站点地址
+    thumbnail: 'http://www.zpzpup.com/assets/image/blog1.png' // 站点图片链接
+  },
+  {
+    name: '檐上有月', // 站点名称
+    desc: 'alk is cheap,show me the code.', // 站点描述
+    link: 'https://rodrick.cn/', // 站点地址
+    thumbnail: 'https://gitee.com/rodrick278/blog/raw/master/docs/.vuepress/public/titlebg.webp' // 站点图片链接
   },
   {
     name: '幸运抽奖插件 (大转盘 / 九宫格)',
@@ -106,6 +142,18 @@ export default [
     desc: '一位胡乱学习者的笔记本',
     link: 'https://yindaheng98.github.io/',
     thumbnail: 'https://yindaheng98.github.io/avatar.svg'
+  },
+  {
+    name: '伊水河的博客', // 站点名称
+    desc: '不愿染是与非，怎料事与愿违', // 站点描述
+    link: 'https://yihe.cool', // 站点地址
+    thumbnail: 'https://yihe.cool/bg.jpg' // 站点图片链接
+  },
+  {
+    name: 'lin',
+    desc: '不为模糊不清的未来担忧，只为清清楚楚的现在努力',
+    link: 'https://www.xulin.vip/', // 站点地址
+    thumbnail: 'https://www.xulin.vip/bg.jpg' // 站点图片链接
   },
   {
     name: '君陌离的博客',
@@ -246,10 +294,10 @@ export default [
     thumbnail: 'https://i.loli.net/2020/04/04/2Fq8jYSb6EkUXeH.png'
   },
   {
-    name: '凯小默的博客',
-    desc: 'THE PHILOSOPHERS HAVE ONLY INTERPRETED THE WORLD IN VARIOUS WAYS;THE POINT HOWEVER IS TO CHANGE IT.',
-    link: 'https://kaimo313.github.io/kxm_blog/',
-    thumbnail: 'https://i.loli.net/2020/04/04/tqFPfXDRrT1VOmZ.png'
+    name: '卡夫卡的岛上书店',
+    desc: 'standing on the shoulders of giants。',
+    link: 'http://kaimo313.gitee.io/blogs/',
+    thumbnail: 'https://img-blog.csdnimg.cn/20210128205359501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2thaW1vMzEz,size_16,color_FFFFFF,t_70'
   },
   {
     name: 'Coding and Fixing',

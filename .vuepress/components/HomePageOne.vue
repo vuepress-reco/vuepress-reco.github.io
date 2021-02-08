@@ -2,31 +2,40 @@
   <article class="home-page-one-wrapper">
     <section class="main">
       <div>
-        <img
-          v-if="$frontmatter.heroImage"
-          :style="heroImageStyle || {}"
-          :src="$withBase($frontmatter.heroImage)"
-          alt="hero" />
+        <ModuleTransition delay="0.04">
+          <img
+            v-if="$parent.recoShowModule && $frontmatter.heroImage && !$parent.firstLoad && $parent.isHasKey"
+            :style="heroImageStyle || {}"
+            :src="$withBase($frontmatter.heroImage)"
+            alt="hero"
+          />
+        </ModuleTransition>
         <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
-        <p class="description">{{ $description }}</p>
-        <div>
-          <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-            <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco?&logo=github">
-          </a>
-          <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-            <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
-          </a>
-          <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-            <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
-          </a>
-          <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
-            <img alt="Npm downloads" src="https://img.shields.io/npm/dt/vuepress-theme-reco?style=flat&logo=npm">
-          </a>
-          <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
-            <img alt="Npm version" src="https://img.shields.io/npm/v/vuepress-theme-reco.svg?style=flat&logo=npm&label=version"/>
-          </a>
-        </div>
-        <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
+        <ModuleTransition delay="0.08">
+          <p v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey" class="description">{{ $description }}</p>
+        </ModuleTransition>
+        <ModuleTransition delay="0.12">
+          <div v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey">
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+              <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco?&logo=github">
+            </a>
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+              <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+            </a>
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+              <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+            </a>
+            <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
+              <img alt="Npm downloads" src="https://img.shields.io/npm/dt/vuepress-theme-reco?style=flat&logo=npm">
+            </a>
+            <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
+              <img alt="Npm version" src="https://img.shields.io/npm/v/vuepress-theme-reco.svg?style=flat&logo=npm&label=version"/>
+            </a>
+          </div>
+        </ModuleTransition>
+        <ModuleTransition delay="0.16">
+          <router-link v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey" class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
+        </ModuleTransition>
         <!-- <img class="banner" src="./images/blog.svg" alt=""> -->
       </div>
     </section>
@@ -70,7 +79,10 @@
 </template>
 
 <script>
+import { ModuleTransition } from '@vuepress-reco/core/lib/components'
 export default {
+  components: { ModuleTransition },
+
   data () {
     return {
       downloads: 0
