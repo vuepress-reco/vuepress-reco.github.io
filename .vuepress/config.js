@@ -30,14 +30,14 @@ module.exports = {
       lang: 'en-US',
       title: "vuepress-theme-reco",
       description: 'A simple and beautiful vuepress Blog & Doc theme.'
-    }    
+    }
   },
   markdown: {
     // lineNumbers: true
   },
   plugins: [
     [
-      '@vuepress/pwa', 
+      '@vuepress/pwa',
       {
         serviceWorker: true,
         updatePopup: {
@@ -90,6 +90,11 @@ module.exports = {
           content: 'QQ群2：1061561395',
           style: 'text-align: center;'
         },
+        {
+          type: 'text',
+          content: '【注意】如果 1.6.5 出现问题，请回退至 1.6.1，等待版本更新。',
+          style: 'color: red; font-size: 12px;'
+        },
         // {
         //   type: 'image',
         //   src: '/rvcode_qq.png'
@@ -105,4 +110,4 @@ module.exports = {
     }],
     '@vuepress-reco/extract-code'
   ]
-}  
+}
