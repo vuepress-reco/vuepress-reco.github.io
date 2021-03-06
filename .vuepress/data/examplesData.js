@@ -60,6 +60,12 @@ export default [
     thumbnail: 'http://www.zpzpup.com/assets/image/blog1.png' // 站点图片链接
   },
   {
+    name: '小诺',
+    desc: '可能是支持数据库最全面的低代码快速开发平台',
+    link: 'https://doc.xiaonuo.vip/',
+    thumbnail: "https://pan.xiaonuo.vip/?explorer/share/file&hash=5671wIIFKjMFfDflnX1eE2tn15OW6SvsBQz00bqzMPgsns19fPNRJFQ&name=xiaonuo_vue.png",
+  },
+  {
     name: '檐上有月', // 站点名称
     desc: 'alk is cheap,show me the code.', // 站点描述
     link: 'https://rodrick.cn/', // 站点地址
