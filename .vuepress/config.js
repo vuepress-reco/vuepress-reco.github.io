@@ -78,7 +78,6 @@ module.exports = {
         {
           type: 'title',
           content: '欢迎加入QQ交流群 🎉🎉🎉',
-          style: 'text-aligin: center;'
         },
         {
           type: 'text',
@@ -92,8 +91,8 @@ module.exports = {
         },
         {
           type: 'text',
-          content: '【注意】如果 1.6.5 出现问题，请回退至 1.6.1，等待版本更新。',
-          style: 'color: red; font-size: 12px;'
+          content: '🎉🎉🎉 reco 主题 2.x 已经进入准备工作，留下你的想法 <a href="https://github.com/vuepress-reco/vuepress-theme-reco-next/discussions/1">Discussions<a/>。',
+          style: 'font-size: 12px;'
         },
         // {
         //   type: 'image',
