@@ -5,7 +5,7 @@ module.exports = {
       items: [
         { 
           text: '主题', items: [
-            { text: '2.x(alpha)', link: '/views/2.x/' },
+            { text: '2.x(alpha)', link: 'http://v2.vuepress-reco.recoluan.com/' },
             { text: '1.x', link: '/views/1.x/' },
             { text: '0.x', link: '/views/0.x/' }
           ],

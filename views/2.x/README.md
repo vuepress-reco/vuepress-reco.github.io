@@ -11,7 +11,7 @@ date: 2021-09-20
 
 **npx**
 
-```
+```bash
 # 初始化，并选择 2.x
 npx @vuepress-reco/theme-cli init
 ```
