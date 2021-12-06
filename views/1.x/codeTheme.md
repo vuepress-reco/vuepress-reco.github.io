@@ -3,6 +3,9 @@ title: 多款代码主题
 date: 2020-07-05
 ---
 
+::: danger 注意
+自 `1.6.10` 废弃。
+:::
 ## 主题样式
 
 请移步 [prismjs](https://prismjs.com/) 官网。

@@ -3,6 +3,10 @@ title: Multiple code themes
 date: 2020-07-05
 ---
 
+::: danger 注意
+自 `1.6.10` 废弃。
+:::
+
 ## Theme style
 
 Go to [prismjs](https://prismjs.com/).
