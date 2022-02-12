@@ -17,7 +17,6 @@
     "@vuepress/plugin-register-components": "1.2.0",
     "vuepress": "^1.8.1",
     "vuepress-plugin-flowchart": "1.4.3",
-    "vuepress-plugin-sitemap": "2.3.0",
     "vuepress-theme-reco": "1.6.11",
     "whatwg-fetch": "3.0.0"
   }

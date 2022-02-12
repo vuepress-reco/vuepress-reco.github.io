@@ -66,9 +66,6 @@ module.exports = {
     ],
     '@vuepress-reco/extract-code',
     'flowchart',
-    ['sitemap', {
-      hostname: 'https://vuepress-theme-reco.recoluan.com'
-    }],
     ['@vuepress-reco/rss', {
       site_url: 'https://vuepress-theme-reco.recoluan.com',
       copyright: ''
