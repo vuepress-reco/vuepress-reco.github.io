@@ -15,9 +15,9 @@
     "@vuepress/plugin-google-analytics": "1.2.0",
     "@vuepress/plugin-pwa": "1.2.0",
     "@vuepress/plugin-register-components": "1.2.0",
-    "vuepress": "^1.8.1",
+    "vuepress": "1.9.7",
     "vuepress-plugin-flowchart": "1.4.3",
-    "vuepress-theme-reco": "1.6.11",
+    "vuepress-theme-reco": "1.6.13",
     "whatwg-fetch": "3.0.0"
   }
 }
