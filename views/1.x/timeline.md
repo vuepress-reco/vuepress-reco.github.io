@@ -7,6 +7,10 @@ date: 2019-04-09
 在 `1.1.0` 版本之后，对时间轴进行了重构，优化配置，用户无需额外添加相关文件，其他配置不变。
 :::
 
+::: tip
+请注意，只有Front Matter中设置了 `categories` 与 `title`，且没有设置 `publush === false` 和 `home: true` 的文章才会在时间轴中显示。
+:::
+
 ## 添加导航按钮
 
 ```javascript
@@ -46,7 +50,7 @@ isComment: false
 ---
 title: 【vue】跨域解决方案之proxyTable
 date: 2017-12-28
-tags:
+categories:
 - vue
 - webpack
 ---

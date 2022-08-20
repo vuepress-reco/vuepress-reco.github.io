@@ -17,7 +17,7 @@ tags:
  - barbecue
  - duck
 keys:
- - '123456'
+ - '32-bit md5 secret key'
 publish: false
 ---
 ```
@@ -46,7 +46,7 @@ publish: false
 
 ### keys
 
-- description: Article access password.
+- description: Article access password, 32-bit md5 secret key.
 
 ### publish
 
