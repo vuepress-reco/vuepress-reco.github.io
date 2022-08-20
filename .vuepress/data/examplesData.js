@@ -18,12 +18,6 @@ export default [
     thumbnail: '//img.lookroot.cn/blog/202005/25/190857-668213.png'
   },
   {
-    name: '摸鱼人', // 站点名称
-    desc: '山行野宿，孑然万里', // 站点描述
-    link: 'https://lssblog.ml', // 站点地址
-    thumbnail: 'https://ae01.alicdn.com/kf/Uceb671c3b05c43f58b26a2632adad568T.jpg' // 站点图片链接
-  },
-  {
     name: 'Torrk’s Blog',
     desc: '记录，成为更好的自己。',
     link: 'https://conimi.com',
@@ -34,18 +28,6 @@ export default [
     desc: '记录笔记，分享生活',
     link: 'https://www.keledd.cn/',
     thumbnail: 'https://keledd.cn/keledd.png'
-  },
-  {
-    name: 'WangScaler',
-    desc: '记录开发爬坑的过程.',
-    link: 'http://www.scalerwang.com/blog/',
-    thumbnail: 'http://www.scalerwang.com/blog/logo.png'
-  },
-  {
-    name: '小光头的java日记', // 站点名称
-    desc: '奋发向上,成为更强大的自己', // 站点描述
-    link: 'https://www.javanode.cn', // 站点地址
-    thumbnail: 'https://www.javanode.cn/1.png' // 站点图片链接
   },
   {
     name: '山海以南’', // 站点名称
@@ -90,12 +72,6 @@ export default [
     thumbnail: 'https://www.chenzqi.cn/logo.png'
   },
   {
-    name: 'SlovinG',
-    desc: '为学应尽毕生力',
-    link: 'https://sloving.gitee.io/sloving/',
-    thumbnail: 'https://s1.ax1x.com/2020/07/15/Uw9TFx.md.png'
-  },
-  {
     name: '极客小祥',
     desc: '永远相信美好的事情即将发生',
     link: 'https://jtxyh.top/',
@@ -120,12 +96,6 @@ export default [
     thumbnail: 'https://zyj_yida.gitee.io/source/img/indexbg/5.jpg?timestamp=1603386765821'
   },
   {
-    name: 'GuoJun Blog',
-    desc: '笑看云卷云舒,静观潮起潮落',
-    link: 'https://guojun.de',
-    thumbnail: 'https://guojun.de/img/logo_p.png'
-  },
-  {
     name: '鹅不食草',
     desc: '就老去吧，孤独别醒来',
     link: 'https://haveyuan.github.io',
@@ -142,18 +112,6 @@ export default [
     desc: '跬步千里，积微成著',
     link: 'https://zihonghuang.gitee.io',
     thumbnail: 'https://zihonghuang.gitee.io/image/bg1.jpg'
-  },
-  {
-    name: 'Yin的笔记本',
-    desc: '一位胡乱学习者的笔记本',
-    link: 'https://yindaheng98.github.io/',
-    thumbnail: 'https://yindaheng98.github.io/avatar.svg'
-  },
-  {
-    name: '伊水河的博客', // 站点名称
-    desc: '不愿染是与非，怎料事与愿违', // 站点描述
-    link: 'https://yihe.cool', // 站点地址
-    thumbnail: 'https://yihe.cool/bg.jpg' // 站点图片链接
   },
   {
     name: 'lin',
@@ -216,34 +174,10 @@ export default [
     thumbnail: 'https://pic.downk.cc/item/5eb8fb6ac2a9a83be5e9d6f2.png'
   },
   {
-    name: `shanks's blog`,
-    desc: '淡泊以明志，宁静而致远',
-    link: 'https://www.mhynet.cn',
-    thumbnail: 'https://cdn.hyuan.site/uploads/2_uE7Yu3pA/11585904087.jpg?imageView2/1/w/1200/h/300/interlace/1'
-  },
-  {
-    name: '有梦想的咸鱼',
-    desc: '我不能克制我记几',
-    link: 'https://blog.liudongyang.top/',
-    thumbnail: 'https://i.loli.net/2020/04/04/hc8xWH4kJyEZeSM.png'
-  },
-  {
-    name: 'Vm Blog',
-    desc: '淡然Vm的个人博客',
-    link: 'https://blog.danran.site/',
-    thumbnail: 'https://i.loli.net/2020/04/04/sMrJaqz1pcS5BGo.png'
-  },
-  {
     name: '404 NOT FOUND',
     desc: '前端杂货铺',
     link: 'https://wang.icey.cc/',
     thumbnail: 'https://i.loli.net/2020/04/04/zByhlLKiQZgcCnU.png'
-  },
-  {
-    name: 'X · M',
-    desc: 'Valar Morghulis ,Valar Dohaeris .',
-    link: 'http://yvonnecheung.cn/',
-    thumbnail: 'https://i.loli.net/2020/04/04/yIeWj8CLKDo7HN4.png'
   },
   {
     name: '凝弧',
@@ -262,18 +196,6 @@ export default [
     desc: '理想成为大牛的小陈同学',
     link: 'https://reinness.com/',
     thumbnail: 'https://i.loli.net/2020/04/04/URgkBnmDcbL6XxT.png'
-  },
-  {
-    name: '月上秦少',
-    desc: '每一个不曾起舞的日子，都是对生命的辜负！',
-    link: 'https://docs.zkkysqs.top/',
-    thumbnail: 'https://i.loli.net/2020/04/04/KY7hDk5rl9Ud2T4.png'
-  },
-  {
-    name: 'originalxzx',
-    desc: 'Do your best, listen to your destiny.',
-    link: 'http://www.originalxzx.top/',
-    thumbnail: 'https://i.loli.net/2020/04/04/7wukjHihY8Bs4KC.png'
   },
   {
     name: '山水有轻音',
@@ -300,24 +222,6 @@ export default [
     thumbnail: 'https://i.loli.net/2020/04/04/2Fq8jYSb6EkUXeH.png'
   },
   {
-    name: '卡夫卡的岛上书店',
-    desc: 'standing on the shoulders of giants。',
-    link: 'http://kaimo313.gitee.io/blogs/',
-    thumbnail: 'https://img-blog.csdnimg.cn/20210128205359501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2thaW1vMzEz,size_16,color_FFFFFF,t_70'
-  },
-  {
-    name: 'Coding and Fixing',
-    desc: '源于生活而高于生活',
-    link: 'https://vxhly.gitee.io/blog/',
-    thumbnail: 'https://i.loli.net/2020/04/04/e5jaYcrhzxXJBNt.png'
-  },
-  {
-    name: '会走路的三百块',
-    desc: '年轻人的博客',
-    link: 'https://castleeee.github.io/',
-    thumbnail: 'https://i.loli.net/2020/04/04/jqv5upVbkEDiTJP.png'
-  },
-  {
     name: 'Life\'s Moment',
     desc: '记录生活，分享感动',
     link: 'https://ty-peng.gitee.io/',
@@ -334,11 +238,5 @@ export default [
     desc: '一款简洁易懂算法博客 & 文档抠细节 & 主题',
     link: 'https://zscnb.gitee.io',
     thumbnail: 'https://zscnb.gitee.io/bg.png'
-  },
-  {
-    name: 'Hexo中文站',
-    desc: 'Hexo最全中文文档站.',
-    link: 'https://hexocn.cn',
-    thumbnail: 'https://i.loli.net/2020/04/11/mcUvHRTZg7qF3Ji.png'
   }
 ]
