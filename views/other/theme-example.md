@@ -7,7 +7,7 @@ isShowComments: true
 
 ::: tip 案例添加方式
 
-请点击 [这里](https://github.com/vuepress-reco/vuepress-reco.github.io/edit/gh-pages-source/.vuepress/data/examplesData.js) 在最上面添加配置信息。
+由于个人精力有限，留言功能暂时关闭，添加案例请点击 [这里](https://github.com/vuepress-reco/vuepress-reco.github.io/edit/gh-pages-source/.vuepress/data/examplesData.js) 在最上面添加配置信息。
 
 **要求：**
 1. 博客内容丰富，拒绝小白；
