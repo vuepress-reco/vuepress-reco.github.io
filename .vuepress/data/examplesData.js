@@ -18,6 +18,30 @@ export default [
     thumbnail: '//img.lookroot.cn/blog/202005/25/190857-668213.png'
   },
   {
+    name: '葵花宝典',
+    desc: '专注前端开发，点一滴都是进步',
+    link: 'https://hejunlan.gitee.io',
+    thumbnail: 'https://hejunlan.gitee.io/home.png'
+  },
+  {
+    name: '星空小屋',
+    desc: '记录成长，探索未来，持续学习',
+    link: 'https://www.xk857.com',
+    thumbnail: 'https://oss.xk857.com/images/20220811/home.png'
+  },
+  {
+    name: '曦杨小破站', // 站点名称
+    desc: '一个前端菜鸡的笔记', // 站点描述
+    link: 'https://xiyang6.gitee.io/', // 站点地址
+    thumbnail: 'https://s1.ax1x.com/2022/07/26/jzTwvt.png' // 站点图片链接
+  },
+  {
+    name: '木木的秘密花园', // 站点名称
+    desc: '记录技术点滴，共勉成长！', // 站点描述
+    link: 'https://www.pikamumu.top', // 站点地址
+    thumbnail: 'https://s2.loli.net/2022/06/22/fhmQcECMqLlHpUT.png' // 站点图片链接
+  },
+  {
     name: 'Torrk’s Blog',
     desc: '记录，成为更好的自己。',
     link: 'https://conimi.com',
@@ -34,6 +58,126 @@ export default [
     desc: '不积硅步,无以至千里', // 站点描述
     link: 'https://mu-yan.cn', // 站点地址
     thumbnail: 'https://cdn.jsdelivr.net/gh/Mu-Yan/Mu-Yan.github.io/001.jpg' // 站点图片链接
+  },
+  {
+    name: '王世庭的博客', // 站点名称
+    desc: '闲人愁多，懒人病多，忙人快活', // 站点描述
+    link: 'https://www.wstee.com', // 站点地址
+    thumbnail: '/blogImage.png' // 站点图片链接
+  },
+  {
+    name: '野猿新知著', // 站点名称
+    desc: '享受编程和技术带来的快乐', // 站点描述
+    link: 'https://www.duanxiaogang.cn', // 站点地址
+    thumbnail: 'https://qiniu.duanxiaogang.cn/home.png'// 站点图片链接
+  },
+  {
+    name: '柚子云 ♥️ Blog', // 站点名称
+    desc: '一枚程序员的自我修养', // 站点描述
+    link: 'https://uzykj.com', // 站点地址
+    thumbnail: 'http://file.uzykj.com/uzykj_home.png' // 站点图片链接
+  },
+  {
+    name: '默存',
+    desc: '没有奇迹，只有你努力的轨迹；没有运气，只有你坚持的勇气。',
+    link: 'https://typ1805.gitee.io/',
+    thumbnail: 'https://typ1805.gitee.io/tansci.png'
+  },
+  {
+    name: '尘墨成',
+    desc: '错把陈醋当成墨，写尽半生纸上酸',
+    link: 'https://www.dustink.cn',
+    thumbnail: 'https://www.dustink.cn/blogHome.jpg'
+  },
+  {
+    name: '花一个无所', // 站点名称
+    desc: 'Golang、分布式存储、微服务、基础架构、源码剖析、思想觉悟', // 站点描述
+    link: 'http://www.alihanniba.com/', // 站点地址
+    thumbnail: 'https://share.alihanniba.com/WechatIMG106.png' // 站点图片链接
+  },
+  {
+    name: '半落沙痕',
+    desc: 'Everything Wins！',
+    link: 'http://www.dracarys.top',
+    thumbnail: 'http://img.dracarys.top/avatar.jpg'
+  },
+  {
+    name: '小紫念沁',
+    desc: '不积跬步,无以至千里.不积小流,无以成江海',
+    thumbnail: 'https://anyfork.gitee.io/blog-docs/images/user.jpg',
+    link: 'https://anyfork.gitee.io/blog-docs/'
+  },
+  {
+    name: 'Felix’s Blog',
+    link: 'http://shj4u.work/',
+    thumbnail: 'http://shj4u.work/imgs/home.png',
+    desc: 'IT 技术点学习、积累（主 Java）'
+  },
+  {
+    name: '远近相安',
+    desc: '过往的，都是我勇气，和继续的源泉',
+    link: 'https://lazerching.github.io/SamerBlog',
+    thumbnail: 'https://raw.githubusercontent.com/LazerChing/SamerBlog/master/thumbnail.png'
+  },
+  {
+    name: '孔德超', // 站点名称
+    desc: '个人博客', // 站点描述
+    link: 'https://resume.yourtools.icu/', // 站点地址
+    thumbnail: '/blogImages/午后南杂.png' // 站点图片链接
+  },
+  {
+    name: '攀登者', // 站点名称
+    desc: 'a small developer.', // 站点描述
+    link: 'https://blog.wangscaler.com/', // 站点地址
+    thumbnail: '/logo.png' // 站点图片链接
+  },
+  {
+    name: '西瓜皮儿',
+    desc: 'enjoy your grow up!',
+    link: 'https://coderhdy.com/',
+    thumbnail: 'https://coderhdy.com/assets/img/snapshot.png'
+  },
+  {
+    name: 'ProChick的小站',
+    desc: '奋斗从未停止，前进永无止境！',
+    link: 'https://www.prochick.top',
+    thumbnail: 'https://www.prochick.top/images/logo.png'
+  },
+  {
+    name: 'ImCaO’s Blog',
+    desc: '当我下定决心奔向你时，不要推开我',
+    link: 'https://www.imcao.c',
+    thumbnail: 'https://imcao.gitee.io/photo/home.jpe'
+  },
+  {
+    name: '会飞的鱼在线文档',
+    desc: '世界从不平等，你有多努力，就有多特殊。',
+    link: 'http://docs.sidama.work',
+    thumbnail: 'https://img-blog.csdnimg.cn/f102b83ccff54a82af6e4346830e8d0a.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAcXFfMzg2NjA1MDky,size_20,color_FFFFFF,t_70,g_se,x_16'
+  },
+  {
+    name: 'Wallace’s Blog',
+    desc: '记录个人修行中的点滴',
+    link: 'https://wallacexu.site',
+    thumbnail: '/appendix/thumbnail.png'
+  },
+  {
+    name: 'Kim’s Blog',
+    desc: '做技术与艺术的创新者',
+    link: 'https://kimyang.cn/',
+    thumbnail: 'https://kimyang.cn/bg.jpg'
+  },
+  {
+    name: '韦世东的技术专栏',
+    desc: '专注于体系化 IT 技术知识分享，内容涵盖Python|Golang|Rust|Kubernetes|高性能|分布式|爬虫|架构|逆向',
+    link: 'https://www.weishidong.com/', // 站点地址
+    thumbnail: 'https://img.weishidong.com/20210313125014.png' // 站点图片链接
+  },
+  {
+    name: '地球反三体组织', // 站点名称
+    desc: '原力与你同在', // 站点描述
+    link: 'http://k-wei.gitee.io/', // 站点地址
+    thumbnail: '//image.woai996.com/picGo/bg-one.png' // 站点图片链接
   },
   {
     name: '饭团也有春天', // 站点名称
@@ -226,6 +370,12 @@ export default [
     desc: '记录生活，分享感动',
     link: 'https://ty-peng.gitee.io/',
     thumbnail: 'https://i.loli.net/2020/04/04/srGnE4HXAIfPJ1N.png'
+  },
+  {
+    name: '俊逸的博客',
+    desc: '一枚喜欢研究新技术的程序猿，主职Java、副职前端，欢迎访问',
+    link: 'https://lijunyi2.github.io/blog/',
+    thumbnail: 'https://lijunyi2.github.io/blog/logo.png'
   },
   {
     name: 'jokervTv 爬坑历程',

@@ -20,7 +20,7 @@
               <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco?&logo=github">
             </a>
             <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-              <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+              <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco-1.x?style=flat&logo=github">
             </a>
             <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
               <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
