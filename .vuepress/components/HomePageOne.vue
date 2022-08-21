@@ -16,14 +16,14 @@
         </ModuleTransition>
         <ModuleTransition delay="0.12">
           <div v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey">
-            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-              <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco?&logo=github">
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco-1.x">
+              <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco-1.x?&logo=github">
             </a>
-            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco-1.x">
               <img alt="GitHub stars" src="https://img.shields.io/github/stars/vuepress-reco/vuepress-theme-reco-1.x?style=flat&logo=github">
             </a>
-            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco">
-              <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco?style=flat&logo=github">
+            <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco-1.x">
+              <img alt="GitHub forks" src="https://img.shields.io/github/forks/vuepress-reco/vuepress-theme-reco-1.x?style=flat&logo=github">
             </a>
             <a target="_black" href="https://www.npmjs.com/package/vuepress-theme-reco">
               <img alt="Npm downloads" src="https://img.shields.io/npm/dt/vuepress-theme-reco?style=flat&logo=npm">

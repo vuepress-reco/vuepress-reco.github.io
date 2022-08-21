@@ -23,7 +23,7 @@ module.exports = {
     { text: '案例', link: '/views/other/theme-example.html', icon: 'reco-category'},
     { text: '订阅', link: 'https://vuepress-theme-reco.recoluan.com/rss.xml', icon: 'reco-rss'},
     { text: '留言板', link: '/views/other/messageBoard.html', icon: 'reco-suggestion'},
-    { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'}
+    { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco-1.x', icon: 'reco-github'}
   ],
   'en': [
     { text: 'Documents', 
@@ -44,6 +44,6 @@ module.exports = {
     { text: 'FAQ', link: '/en/views/other/question', icon: 'reco-faq' },
     { text: 'Examples', link: '/en/views/other/theme-example.html', icon: 'reco-category'},
     { text: 'RSS', link: 'https://vuepress-theme-reco.recoluan.com/rss.xml', icon: 'reco-rss'},
-    { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco', icon: 'reco-github'}
+    { text: 'GitHub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco-1.x', icon: 'reco-github'}
   ]
 }

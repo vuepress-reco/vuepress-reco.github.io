@@ -71,14 +71,14 @@ yarn install
 
 ## Update record
 
-[Record](https://github.com/vuepress-reco/vuepress-theme-reco/blob/master/CHANGELOG.md)
+[Record](https://github.com/vuepress-reco/vuepress-theme-reco-1.x/blob/master/CHANGELOG.md)
 
 ## Contributors
 
-<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-theme-reco/graphs/contributors" target="_black">
+<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-theme-reco-1.x/graphs/contributors" target="_black">
   <img 
     alt="vuepress-theme-reco" 
-    src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-theme-reco?style=for-the-badge&logo=github&label=vuepress-theme-reco" />
+    src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-theme-reco-1.x?style=for-the-badge&logo=github&label=vuepress-theme-reco" />
 </a>
 
 <a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-reco.github.io/graphs/contributors" target="_black">
