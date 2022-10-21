@@ -63,7 +63,7 @@ export default [
     name: '王世庭的博客', // 站点名称
     desc: '闲人愁多，懒人病多，忙人快活', // 站点描述
     link: 'https://www.wstee.com', // 站点地址
-    thumbnail: '/blogImage.png' // 站点图片链接
+    thumbnail: 'https://www.wstee.com/banner.svg' // 站点图片链接
   },
   {
     name: '野猿新知著', // 站点名称
