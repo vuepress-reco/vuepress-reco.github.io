@@ -1,5 +1,11 @@
 export default [
   {
+  name: '小熊学Java', 
+  desc: '分享Java干货、学习资料等，记录自己的点滴', 
+  link: 'https://javaxiaobear.gitee.io/', 
+  thumbnail: 'https://gitee.com/javaxiaobear/javaXiaobear/raw/master/javaxiaobear.png' 
+  },
+  {
     name: '午后南杂',
     desc: 'Enjoy when you can, and endure when you must.',
     link: 'https://www.recoluan.com',
