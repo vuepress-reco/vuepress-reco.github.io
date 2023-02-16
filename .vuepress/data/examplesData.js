@@ -134,7 +134,7 @@ export default [
   {
     name: '攀登者', // 站点名称
     desc: 'a small developer.', // 站点描述
-    link: 'https://blog.wangscaler.com/', // 站点地址
+    link: 'https://blog.dilicili.cn/', // 站点地址
     thumbnail: '/logo.png' // 站点图片链接
   },
   {
