@@ -4,7 +4,7 @@
       <div>
         <ModuleTransition delay="0.04">
           <img
-            v-if="$parent.recoShowModule && $frontmatter.heroImage && !$parent.firstLoad && $parent.isHasKey"
+            v-if="$frontmatter.heroImage && !$parent.firstLoad && $parent.isHasKey"
             :style="heroImageStyle || {}"
             :src="$withBase($frontmatter.heroImage)"
             alt="hero"
@@ -12,10 +12,10 @@
         </ModuleTransition>
         <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
         <ModuleTransition delay="0.08">
-          <p v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey" class="description">{{ $description }}</p>
+          <p v-if="!$parent.firstLoad && $parent.isHasKey" class="description">{{ $description }}</p>
         </ModuleTransition>
         <ModuleTransition delay="0.12">
-          <div v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey">
+          <div v-if="!$parent.firstLoad && $parent.isHasKey">
             <a target="_black" href="https://github.com/vuepress-reco/vuepress-theme-reco-1.x">
               <img alt="GitHub license" src="https://img.shields.io/github/license/vuepress-reco/vuepress-theme-reco-1.x?&logo=github">
             </a>
@@ -34,7 +34,7 @@
           </div>
         </ModuleTransition>
         <ModuleTransition delay="0.16">
-          <router-link v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey" class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
+          <router-link v-if="!$parent.firstLoad && $parent.isHasKey" class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
         </ModuleTransition>
         <!-- <img class="banner" src="./images/blog.svg" alt=""> -->
       </div>
