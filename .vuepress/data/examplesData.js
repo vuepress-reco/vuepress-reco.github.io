@@ -1,5 +1,11 @@
 export default [
   {
+  name: 'XXXWeii', 
+  desc: 'Looking forward to our next meeting with longing', 
+  link: 'https://www.zhangshuqi.com/', 
+  thumbnail: 'https://www.zhangshuqi.com/images/home.png' 
+  },
+  {
   name: '小熊学Java', 
   desc: '分享Java干货、学习资料等，记录自己的点滴', 
   link: 'https://javaxiaobear.gitee.io/', 
