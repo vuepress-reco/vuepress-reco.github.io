@@ -1,0 +1,56 @@
+import{_ as p,r as o,o as c,c as i,b as n,d as s,e,a as t}from"./app-v4RMp1pm.js";const l={},r=t(`<h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2><p>主题内置评论插件 <code>@vuepress-reco/vuepress-plugin-comments</code>，目前支持 <code>Valine、Waline、Giscus</code>；</p><p>如果你想默认不加载评论，而只在某些页面显示评论功能，可以在 <code>commentConfig.options</code> 中设置 <code>hideComments: true</code>，并在需要展示评论的页面设置 <code>hideComments: false</code>。</p><p>如果仅是某篇文章不想设置开启评论功能，可以在 <code>front-matter</code> 设置 <code>hideComments: true</code>。</p><h2 id="option-api" tabindex="-1"><a class="header-anchor" href="#option-api" aria-hidden="true">#</a> Option API</h2><h3 id="valine" tabindex="-1"><a class="header-anchor" href="#valine" aria-hidden="true">#</a> Valine</h3><div class="language-typescript line-numbers-mode" data-ext="ts"><pre class="language-typescript"><code><span class="token comment">// .vuepress/config.ts</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineUserConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress&#39;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> recoTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress-theme-reco&#39;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineUserConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  theme<span class="token operator">:</span> <span class="token function">recoTheme</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    commentConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">&#39;valine&#39;</span><span class="token punctuation">,</span>
+      options<span class="token operator">:</span> <span class="token punctuation">{</span>
+        appId<span class="token operator">:</span> <span class="token string">&#39;...&#39;</span><span class="token punctuation">,</span> <span class="token comment">// your appId</span>
+        appKey<span class="token operator">:</span> <span class="token string">&#39;...&#39;</span><span class="token punctuation">,</span> <span class="token comment">// your appKey</span>
+        hideComments<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 全局隐藏评论，默认 false</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,7),u={href:"https://valine.js.org/configuration.html",target:"_blank",rel:"noopener noreferrer"},d=n("div",{class:"custom-container tip"},[n("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",viewBox:"0 0 24 24"},[n("g",{fill:"none",stroke:"currentColor","stroke-width":"2","stroke-linecap":"round","stroke-linejoin":"round"},[n("circle",{cx:"12",cy:"12",r:"9"}),n("path",{d:"M12 8h.01"}),n("path",{d:"M11 12h1v4h1"})])]),n("p",{class:"custom-container-title"},"TIP"),n("p",null,[s("如果 valine 的获取评论的接口报 "),n("code",null,"404"),s(" 错误的话，不用担心，这是因为你还没有添加评论，只要存在 1 条评论，就不会报错了，这是 "),n("code",null,"leanCloud"),s(" 的请求处理操作而已；")])],-1),k=t(`<h3 id="waline" tabindex="-1"><a class="header-anchor" href="#waline" aria-hidden="true">#</a> Waline</h3><div class="language-typescript line-numbers-mode" data-ext="ts"><pre class="language-typescript"><code><span class="token comment">// .vuepress/config.ts</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineUserConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress&#39;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> recoTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress-theme-reco&#39;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineUserConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  theme<span class="token operator">:</span> <span class="token function">recoTheme</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    commentConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">&#39;waline&#39;</span><span class="token punctuation">,</span>
+      options<span class="token operator">:</span> <span class="token punctuation">{</span>
+        serverURL<span class="token operator">:</span> <span class="token string">&#39;your serverURL&#39;</span><span class="token punctuation">,</span>
+        <span class="token operator">...</span>
+        hideComments<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 全局隐藏评论，默认 false</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),m={href:"https://waline.js.org/guide/get-started.html",target:"_blank",rel:"noopener noreferrer"},v=t(`<h3 id="giscus" tabindex="-1"><a class="header-anchor" href="#giscus" aria-hidden="true">#</a> Giscus</h3><div class="language-typescript line-numbers-mode" data-ext="ts"><pre class="language-typescript"><code><span class="token comment">// .vuepress/config.ts</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineUserConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress&#39;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> recoTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vuepress-theme-reco&#39;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineUserConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  theme<span class="token operator">:</span> <span class="token function">recoTheme</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    commentConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">&#39;giscus&#39;</span><span class="token punctuation">,</span>
+      options<span class="token operator">:</span> <span class="token punctuation">{</span>
+        repo<span class="token operator">:</span> <span class="token string">&#39;reco/blog-comments&#39;</span><span class="token punctuation">,</span>
+        repoId<span class="token operator">:</span> <span class="token string">&#39;R_kgDOxxxxxx&#39;</span><span class="token punctuation">,</span>
+        category<span class="token operator">:</span> <span class="token string">&#39;Announcements&#39;</span><span class="token punctuation">,</span>
+        categoryId<span class="token operator">:</span> <span class="token string">&#39;xxxxx&#39;</span><span class="token punctuation">,</span>
+        mapping<span class="token operator">:</span> <span class="token string">&#39;title&#39;</span><span class="token punctuation">,</span>
+        <span class="token operator">...</span>
+        hideComments<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 全局隐藏评论，默认 false</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),h={href:"https://giscus.app",target:"_blank",rel:"noopener noreferrer"};function b(g,f){const a=o("ExternalLinkIcon");return c(),i("div",null,[r,n("p",null,[s("其他参数参考 "),n("a",u,[s("Valine 官网"),e(a)]),s("。")]),d,k,n("p",null,[s("使用教程及 options 其它参数参考 "),n("a",m,[s("Waline 官网"),e(a)]),s("。")]),v,n("p",null,[s("使用教程及 options 其它参数参考"),n("a",h,[s("Giscus"),e(a)]),s("。")])])}const x=p(l,[["render",b],["__file","comments.html.vue"]]);export{x as default};

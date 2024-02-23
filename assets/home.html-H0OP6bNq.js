@@ -1,0 +1,16 @@
+import{_ as l,r as o,o as i,c as r,e as s,w as a,a as u,b as e,d as n}from"./app-v4RMp1pm.js";const p={},d=u('<h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2><p>某些场景下，文档的首页并不一定是文档根目录的 <code>README.md</code> 文件，这时我们可以在 <code>Frontmatter</code> 中设置 <code>home: true</code> 来置顶首页，并通过 <code>themeConfig.home</code> 来指定首页路径。</p><h2 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h2>',3),m=e("div",{class:"language-yaml line-numbers-mode","data-ext":"yml"},[e("pre",{class:"language-yaml"},[e("code",null,[e("span",{class:"token comment"},"# another-home-path.md"),n(`
+`),e("span",{class:"token punctuation"},"---"),n(`
+`),e("span",{class:"token key atrule"},"title"),e("span",{class:"token punctuation"},":"),n(` 指定首页
+`),e("span",{class:"token key atrule"},"home"),e("span",{class:"token punctuation"},":"),n(),e("span",{class:"token boolean important"},"true"),n(`
+`),e("span",{class:"token punctuation"},"---"),n(`
+`)])]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"})])],-1),k=e("div",{class:"language-typescript line-numbers-mode","data-ext":"ts"},[e("pre",{class:"language-typescript"},[e("code",null,[e("span",{class:"token comment"},"// .vuepress/config.ts"),n(`
+
+`),e("span",{class:"token keyword"},"import"),n(),e("span",{class:"token punctuation"},"{"),n(" defineUserConfig "),e("span",{class:"token punctuation"},"}"),n(),e("span",{class:"token keyword"},"from"),n(),e("span",{class:"token string"},"'vuepress'"),n(`
+`),e("span",{class:"token keyword"},"import"),n(),e("span",{class:"token punctuation"},"{"),n(" recoTheme "),e("span",{class:"token punctuation"},"}"),n(),e("span",{class:"token keyword"},"from"),n(),e("span",{class:"token string"},"'vuepress-theme-reco'"),n(`
+
+`),e("span",{class:"token keyword"},"export"),n(),e("span",{class:"token keyword"},"default"),n(),e("span",{class:"token function"},"defineUserConfig"),e("span",{class:"token punctuation"},"("),e("span",{class:"token punctuation"},"{"),n(`
+  theme`),e("span",{class:"token operator"},":"),n(),e("span",{class:"token function"},"recoTheme"),e("span",{class:"token punctuation"},"("),e("span",{class:"token punctuation"},"{"),n(`
+    home`),e("span",{class:"token operator"},":"),n(),e("span",{class:"token string"},"'/another-home-path'"),n(`
+  `),e("span",{class:"token punctuation"},"}"),e("span",{class:"token punctuation"},")"),n(`
+`),e("span",{class:"token punctuation"},"}"),e("span",{class:"token punctuation"},")"),n(`
+`)])]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"}),e("div",{class:"line-number"})])],-1);function h(v,_){const t=o("CodeGroupItem"),c=o("CodeGroup");return i(),r("div",null,[d,s(c,null,{default:a(()=>[s(t,{title:"指定首页"},{default:a(()=>[m]),_:1}),s(t,{title:"指定首页路径"},{default:a(()=>[k]),_:1})]),_:1})])}const f=l(p,[["render",h],["__file","home.html.vue"]]);export{f as default};

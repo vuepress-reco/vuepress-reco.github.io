@@ -1,0 +1,9 @@
+import{_ as a,r as c,o,c as t,b as e,d as n,e as i,a as r}from"./app-v4RMp1pm.js";const d={},l=e("p",null,"欢迎大家为 reco 主题贡献代码！",-1),p=e("h2",{id:"项目初始化",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#项目初始化","aria-hidden":"true"},"#"),n(" 项目初始化")],-1),m={href:"https://github.com/vuepress-reco/vuepress-theme-reco",target:"_blank",rel:"noopener noreferrer"},u=e("code",null,"pnpm",-1),h=r(`<p>以上准备工作完成以后，进入项目文件夹，并执行以下命令：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 安装</span>
+<span class="token function">pnpm</span> <span class="token function">install</span>
+
+<span class="token comment"># 编译</span>
+<span class="token function">pnpm</span> build
+
+<span class="token comment"># 启动</span>
+<span class="token function">pnpm</span> dev
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这个时候，项目已经启动，你可以 <code>example</code> 中去测试你的功能，要确保你的代码已经经过详细测试，并通过了 <code>pnpm example:build</code> 命令，功能测试完一定要同步文档。</p><h2 id="代码提交规范" tabindex="-1"><a class="header-anchor" href="#代码提交规范" aria-hidden="true">#</a> 代码提交规范</h2><p>提交 commit 请使用 <code>pnpm commit</code> 命令，严格按照规范去提交代码，commit 信息务必使用英文。</p><h2 id="pr-规范" tabindex="-1"><a class="header-anchor" href="#pr-规范" aria-hidden="true">#</a> PR 规范</h2><p>PR 标题简单明了，PR 详情中要详细描述你所提交的内容，必要时要贴图，PR 信息务必使用英文。</p>`,7);function v(_,b){const s=c("ExternalLinkIcon");return o(),t("div",null,[l,p,e("p",null,[n("首先你需要 fork 一份 "),e("a",m,[n("reco 主题仓库"),i(s)]),n("，并 clone 到本地，并确保本地已经安装了 "),u,n("。")]),h])}const k=a(d,[["render",v],["__file","contribute.html.vue"]]);export{k as default};
