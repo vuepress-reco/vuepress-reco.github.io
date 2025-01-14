@@ -1,0 +1,1 @@
+import{_ as c,o as e,c as o}from"./app-BB_ZjxFs.js";const n="/head.png",s={},t={class:"icon-reco",src:n};function _(r,a){return e(),o("img",t)}const f=c(s,[["render",_],["__file","IconReco.vue"]]);export{f as default};
