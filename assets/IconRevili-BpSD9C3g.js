@@ -1,0 +1,1 @@
+import{_ as c,c as e,o}from"./app-F1ZP8K7X.js";const n="/revili.png",s={},r={class:"icon-reco",src:n};function t(_,i){return o(),e("img",r)}const l=c(s,[["render",t],["__file","IconRevili.vue"]]);export{l as default};
