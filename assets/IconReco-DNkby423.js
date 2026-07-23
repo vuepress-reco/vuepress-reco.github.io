@@ -1,0 +1,1 @@
+import{k as e,l as t}from"./runtime-core.esm-bundler-BFRqcTqv.js";import{t as n}from"./plugin-vue_export-helper-BDNMzG2s.js";var r=`/head.png`,i={},a={class:`icon-reco`,src:r};function o(n,r){return e(),t(`img`,a)}var s=n(i,[[`render`,o]]);export{s as default};

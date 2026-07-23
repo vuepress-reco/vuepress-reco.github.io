@@ -1,0 +1,1 @@
+import{h as e,k as t,l as n,o as r,rt as i,wt as a}from"./runtime-core.esm-bundler-BFRqcTqv.js";function o(){return{name:`reco`}}var s={class:`demo-container`},c={style:{}},l=e({__name:`demo`,setup(e){let{name:l}=o();return(e,o)=>(t(),n(`div`,s,[r(`h3`,c,`My name is `+a(i(l))+`.`,1),o[0]||=r(`p`,null,`This is a vue preview demo.`,-1)]))}});export{l as default};

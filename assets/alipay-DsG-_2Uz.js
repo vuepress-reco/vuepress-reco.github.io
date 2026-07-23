@@ -1,0 +1,1 @@
+var e=`/wechat.png`,t=`/alipay.png`;export{e as n,t};
